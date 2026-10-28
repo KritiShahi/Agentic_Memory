@@ -1,0 +1,27 @@
+{
+  "instance_id": "iterative__dvc-5839",
+  "repo": "iterative/dvc",
+  "experiment_id": "E2_episode_quality",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-2cb4f679a201b9e8f1159c1585d852fb_354",
+    "ep_recov_chatcmpl-9de660764b1cf0e76d7ce93178cbecc0_348",
+    "ep_recov_chatcmpl-0207ed054455a3121474a9ec8aeef756_369"
+  ],
+  "prompt_tokens": 1846,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 650,
+  "total_tokens": 5942,
+  "latency_ms": 16251.900042000003,
+  "cost_usd": 0.000529,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E2_episode_quality/iterative__dvc-5839.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E2_episode_quality/iterative__dvc-5839_seed_42"
+}

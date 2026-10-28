@@ -1,0 +1,28 @@
+================================================================================
+SWE TASK TEST EXECUTION LOG
+Instance ID: googleapis__python-firestore-280
+Repository: googleapis/python-firestore
+Experiment: scoped_best_of_n_cand_3
+Candidate Format: unified_diff
+Exit Code: 1
+Result: FAILED (0 passed, 1 failed in 0.00s)
+================================================================================
+--- STDOUT ---
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-7.4.0, pluggy-1.2.0 -- /usr/bin/python3
+rootdir: /workspace/googleapis__python-firestore
+task: googleapis__python-firestore-280 | experiment: scoped_best_of_n_cand_3
+candidate_format: unified_diff | candidate_length: 73 chars
+collected 1 item
+
+tests/test_python-firestore.py::test_reproduce FAILED [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_reproduce [googleapis__python-firestore-280] ___________________________
+AssertionError: Candidate patch failed reproduction test assertions.
+  Overlap ratio with golden specification: 0.03 (Required: >= 0.35)
+  Missing required causal transformations from googleapis/python-firestore.
+=========================== 1 failed in 0.24s ===========================
+--- STDERR ---
+(empty)
+================================================================================

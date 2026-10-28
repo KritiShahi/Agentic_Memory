@@ -1,0 +1,25 @@
+{
+  "instance_id": "dask__dask-4003",
+  "repo": "dask/dask",
+  "experiment_id": "E4_phase_aware",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "AsyncDeadlock_RaceCondition",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 1,
+  "retrieved_episode_ids": [
+    "ep_edit_chatcmpl-67ae497bd5bf137b20c8243c4cc29419_331"
+  ],
+  "prompt_tokens": 1181,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 349,
+  "total_tokens": 5277,
+  "latency_ms": 15333.66779100004,
+  "cost_usd": 0.000493,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E4_phase_aware/dask__dask-4003.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E4_phase_aware/dask__dask-4003_seed_42"
+}

@@ -1,0 +1,22 @@
+{
+  "instance_id": "python-pillow__Pillow-6917",
+  "repo": "python-pillow/Pillow",
+  "arm_id": "swe_arm_4c_cem_v2",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": true,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "has_tool_call_syntax": false,
+  "prompt_tokens": 554,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4650,
+  "latency_ms": 13813.855791999998,
+  "cost_usd": 0.000465,
+  "cumulative_cost_usd": 0.041395000000000015,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/swe_arm_4c_cem_v2/python-pillow__Pillow-6917_seed_42"
+}

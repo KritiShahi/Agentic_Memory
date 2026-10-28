@@ -1,0 +1,25 @@
+{
+  "instance_id": "omni-us__jsonargparse-560",
+  "repo": "omni-us/jsonargparse",
+  "experiment_id": "E4_phase_aware",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 1,
+  "retrieved_episode_ids": [
+    "ep_edit_chatcmpl-883212562c79f99b244b2aa9efb3fca2_146"
+  ],
+  "prompt_tokens": 1255,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 414,
+  "total_tokens": 5351,
+  "latency_ms": 18930.198625000005,
+  "cost_usd": 0.000494,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E4_phase_aware/omni-us__jsonargparse-560.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E4_phase_aware/omni-us__jsonargparse-560_seed_42"
+}

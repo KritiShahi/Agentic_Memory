@@ -1,0 +1,18 @@
+{
+  "instance_id": "pydicom__pydicom-811",
+  "repo": "pydicom/pydicom",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 650,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4746,
+  "latency_ms": 20285.719459000007,
+  "cost_usd": 0.000475,
+  "cumulative_cost_usd": 0.027412000000000006,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_0_no_memory/pydicom__pydicom-811_seed_42"
+}

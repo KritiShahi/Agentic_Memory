@@ -1,0 +1,21 @@
+{
+  "instance_id": "dask__dask-4003",
+  "repo": "dask/dask",
+  "resolved": false,
+  "trap_avoided": true,
+  "turns_used": 12,
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "patch_diff": "--- a/dask/multiprocessing.py\n+++ b/dask/multiprocessing.py\n@@ -1,5 +1,5 @@\n+            warn(_CONTEXT_UNSUPPORTED, UserWarning)\n+        return multiprocessing\n+    context_name = config.get(\"multiprocessing.context\", None)\n+    # The default context on OSX was switched from \"fork\" to \"spawn\" in\n+    # Python 3.8. We keep \"fork\" as the default here for backwards\n+    # compatibility and to avoid raising a RuntimeError when using the\n+    # multiprocessing scheduler in a Python script that is not in a\n+    # if __name__ == \"__main__\" block\n+    if context_name is None and sys.platform == \"darwin\":\n+        context_name = \"fork\"\n+    return multiprocessing.get_context(context_name)\n+\n+\n\n--- a/dask/tests/test_multiprocessing.py\n+++ b/dask/tests/test_multiprocessing.py\n@@ -1,5 +1,5 @@\n+\n+    If default context is changed this test will need to change too.\n+    \"\"\"\n+    default_context = None if sys.platform != \"darwin\" else \"fork\"\n+    assert get_context() is multiprocessing.get_context(default_context)\n+    with dask.config.set({\"multiprocessing.context\": \"forkserver\"}):\n+        assert get_context() is multiprocessing.get_context(\"forkserver\")\n+    with dask.config.set({\"multiprocessing.context\": \"spawn\"}):",
+  "reproducer_code": "",
+  "localized_context": {
+    "target_files": [],
+    "target_functions": []
+  },
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/multi_turn_loop/dask__dask-4003.log"
+}

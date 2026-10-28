@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "primary_file": "test2.py",
+  "target_line": 10,
+  "target_function": "",
+  "localized_snippet": "",
+  "candidate_files": [
+    "test2.py",
+    "assert_eq.py",
+    "array.py",
+    "array/utils.py",
+    "numpy.py"
+  ],
+  "scores": {
+    "test2.py": 10.0,
+    "assert_eq.py": 4.0,
+    "array.py": 4.0,
+    "array/utils.py": 4.0,
+    "numpy.py": 4.0
+  },
+  "hypotheses_evidence": {
+    "traceback_frames_found": 1,
+    "symbols_searched": [
+      "unify_chunks",
+      "from_array",
+      "ValueError",
+      "computing",
+      "Traceback"
+    ],
+    "module_paths_found": 4
+  }
+}

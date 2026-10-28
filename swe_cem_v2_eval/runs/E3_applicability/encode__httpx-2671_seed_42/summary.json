@@ -1,0 +1,23 @@
+{
+  "instance_id": "encode__httpx-2671",
+  "repo": "encode/httpx",
+  "experiment_id": "E3_applicability",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "prompt_tokens": 521,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4617,
+  "latency_ms": 10972.398417000022,
+  "cost_usd": 0.000462,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E3_applicability/encode__httpx-2671.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E3_applicability/encode__httpx-2671_seed_42"
+}

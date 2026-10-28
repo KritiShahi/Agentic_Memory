@@ -1,0 +1,23 @@
+{
+  "instance_id": "sqlfluff__sqlfluff-3220",
+  "repo": "sqlfluff/sqlfluff",
+  "experiment_id": "E3_applicability",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "prompt_tokens": 411,
+  "completion_tokens": 1983,
+  "memory_injected_tokens": 0,
+  "total_tokens": 2394,
+  "latency_ms": 7379.915833999974,
+  "cost_usd": 0.000239,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E3_applicability/sqlfluff__sqlfluff-3220.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E3_applicability/sqlfluff__sqlfluff-3220_seed_42"
+}

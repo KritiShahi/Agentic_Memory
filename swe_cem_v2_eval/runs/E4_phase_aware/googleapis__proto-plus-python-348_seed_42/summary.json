@@ -1,0 +1,23 @@
+{
+  "instance_id": "googleapis__proto-plus-python-348",
+  "repo": "googleapis/proto-plus-python",
+  "experiment_id": "E4_phase_aware",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "TypeError_AttributeError",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "prompt_tokens": 601,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4697,
+  "latency_ms": 18074.43941700001,
+  "cost_usd": 0.00047,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E4_phase_aware/googleapis__proto-plus-python-348.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E4_phase_aware/googleapis__proto-plus-python-348_seed_42"
+}

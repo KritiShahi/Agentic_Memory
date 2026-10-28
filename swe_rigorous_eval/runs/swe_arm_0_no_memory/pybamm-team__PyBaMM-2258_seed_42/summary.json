@@ -1,0 +1,18 @@
+{
+  "instance_id": "pybamm-team__PyBaMM-2258",
+  "repo": "pybamm-team/PyBaMM",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "prompt_tokens": 134,
+  "completion_tokens": 1652,
+  "memory_injected_tokens": 0,
+  "total_tokens": 1786,
+  "latency_ms": 10134.622292000018,
+  "cost_usd": 0.000179,
+  "cumulative_cost_usd": 0.052840000000000026,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_0_no_memory/pybamm-team__PyBaMM-2258_seed_42"
+}

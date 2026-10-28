@@ -1,0 +1,19 @@
+{
+  "instance_id": "iterative__datachain-206",
+  "repo": "iterative/datachain",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 2363,
+  "completion_tokens": 129,
+  "memory_injected_tokens": 803,
+  "total_tokens": 2492,
+  "latency_ms": 1857.9935839999848,
+  "cost_usd": 0.000169,
+  "cumulative_cost_usd": 0.17966800000000022,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/iterative__datachain-206_seed_42"
+}

@@ -1,0 +1,16 @@
+{
+  "instance_id": "RemDelaporteMathurin__FESTIM-567",
+  "repo": "RemDelaporteMathurin/FESTIM",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 336,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4432,
+  "latency_ms": 24998.541416999997,
+  "cost_usd": 0.000443,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/pi_baseline/runs/swe_rebench/swe_arm_0_no_memory/RemDelaporteMathurin__FESTIM-567_seed_42"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "encode__httpx-861",
+  "repo": "encode/httpx",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 383,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4479,
+  "latency_ms": 8442.028333999986,
+  "cost_usd": 0.000448,
+  "cumulative_cost_usd": 0.04167700000000002,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_0_no_memory/encode__httpx-861_seed_42"
+}

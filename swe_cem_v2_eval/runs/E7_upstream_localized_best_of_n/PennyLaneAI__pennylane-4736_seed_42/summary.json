@@ -1,0 +1,23 @@
+{
+  "instance_id": "PennyLaneAI__pennylane-4736",
+  "repo": "PennyLaneAI/pennylane",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/PennyLaneAI__pennylane-4736.log",
+  "localization_success": true,
+  "primary_file": "home/erick.ochoalopez/Code/cataliist/bug.py",
+  "target_line": 8,
+  "candidates_evaluated": 4,
+  "passing_candidates_count": 0,
+  "best_candidate_idx": 1,
+  "best_score": -90.28,
+  "prompt_tokens": 2709,
+  "completion_tokens": 13203,
+  "total_tokens": 15912,
+  "cost_usd": 0.0016,
+  "latency_ms": 44984.66
+}

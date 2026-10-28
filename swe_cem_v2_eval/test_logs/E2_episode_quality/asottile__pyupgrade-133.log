@@ -1,0 +1,28 @@
+================================================================================
+SWE TASK TEST EXECUTION LOG
+Instance ID: asottile__pyupgrade-133
+Repository: asottile/pyupgrade
+Experiment: E2_episode_quality
+Candidate Format: python_code_block
+Exit Code: 1
+Result: FAILED (0 passed, 1 failed in 0.00s)
+================================================================================
+--- STDOUT ---
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-7.4.0, pluggy-1.2.0 -- /usr/bin/python3
+rootdir: /workspace/asottile__pyupgrade
+task: asottile__pyupgrade-133 | experiment: E2_episode_quality
+candidate_format: python_code_block | candidate_length: 11656 chars
+collected 1 item
+
+tests/test_pyupgrade.py::test_reproduce FAILED [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_reproduce [asottile__pyupgrade-133] ___________________________
+AssertionError: Candidate patch failed reproduction test assertions.
+  Overlap ratio with golden specification: 0.13 (Required: >= 0.35)
+  Missing required causal transformations from asottile/pyupgrade.
+=========================== 1 failed in 0.24s ===========================
+--- STDERR ---
+(empty)
+================================================================================

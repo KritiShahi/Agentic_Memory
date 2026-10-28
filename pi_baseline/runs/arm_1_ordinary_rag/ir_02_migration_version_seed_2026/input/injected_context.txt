@@ -1,0 +1,6 @@
+=== RELEVANT CONTEXT ===
+[ir_02_migration_version_doc_1] SDK v3.0 introduced experimental client.stream_records() with socket buffering.
+[ir_02_migration_version_doc_0] SDK v3.1 deprecated client.stream_records() in favor of client.iter_records() to enable async chunking.
+[ir_02_migration_version_doc_2] SDK v4.0 removed client.stream_records() entirely; users must migrate to client.iter_records().
+[ir_02_migration_version_doc_3] client.fetch_all() remains unchanged across SDK v2.0 through v4.0.
+=== END CONTEXT ===

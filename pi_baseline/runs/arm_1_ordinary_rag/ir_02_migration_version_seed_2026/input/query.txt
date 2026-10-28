@@ -1,0 +1,1 @@
+Which method superseded client.stream_records() and in which SDK release was it introduced?

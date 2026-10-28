@@ -1,0 +1,24 @@
+{
+  "instance_id": "pydicom__pydicom-1228",
+  "repo": "pydicom/pydicom",
+  "arm_id": "swe_arm_4c_cem_v2",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": true,
+  "retrieved_episodes_count": 1,
+  "retrieved_episode_ids": [
+    "ep_edit_chatcmpl-9e8e17d0d9885b3b251104756f43a5c8_379"
+  ],
+  "has_tool_call_syntax": false,
+  "prompt_tokens": 1036,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 362,
+  "total_tokens": 5132,
+  "latency_ms": 10654.197041000032,
+  "cost_usd": 0.000477,
+  "cumulative_cost_usd": 0.06303400000000002,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/swe_arm_4c_cem_v2/pydicom__pydicom-1228_seed_42"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "dask__dask-4903",
+  "repo": "dask/dask",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "prompt_tokens": 445,
+  "completion_tokens": 844,
+  "memory_injected_tokens": 0,
+  "total_tokens": 1289,
+  "latency_ms": 2938.122958000008,
+  "cost_usd": 0.000129,
+  "cumulative_cost_usd": 0.026937000000000006,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_0_no_memory/dask__dask-4903_seed_42"
+}

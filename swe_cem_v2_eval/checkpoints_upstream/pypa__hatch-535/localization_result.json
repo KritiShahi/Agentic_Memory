@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "primary_file": "plugins/hatch.py",
+  "target_line": 1,
+  "target_function": "",
+  "localized_snippet": "",
+  "candidate_files": [
+    "plugins/hatch.py",
+    "src/hatch/cli/run.py",
+    "src/hatch/env/matrix.py",
+    "src/hatch/env/internal.py"
+  ],
+  "scores": {
+    "plugins/hatch.py": 7.0,
+    "src/hatch/cli/run.py": 7.0,
+    "src/hatch/env/matrix.py": 7.0,
+    "src/hatch/env/internal.py": 7.0
+  },
+  "hypotheses_evidence": {
+    "traceback_frames_found": 0,
+    "symbols_searched": [
+      "filtering",
+      "variables",
+      "variable",
+      "break",
+      "pass"
+    ],
+    "module_paths_found": 0
+  }
+}

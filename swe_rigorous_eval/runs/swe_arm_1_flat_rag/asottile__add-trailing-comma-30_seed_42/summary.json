@@ -1,0 +1,18 @@
+{
+  "instance_id": "asottile__add-trailing-comma-30",
+  "repo": "asottile/add-trailing-comma",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 345,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 60,
+  "total_tokens": 4441,
+  "latency_ms": 16077.090165999976,
+  "cost_usd": 0.000438,
+  "cumulative_cost_usd": 0.15481300000000017,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/asottile__add-trailing-comma-30_seed_42"
+}

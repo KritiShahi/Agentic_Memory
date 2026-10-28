@@ -1,0 +1,26 @@
+================================================================================
+SWE TASK TEST EXECUTION LOG
+Instance ID: reata__sqllineage-510
+Repository: reata/sqllineage
+Experiment: E1_baseline
+Candidate Format: raw_text
+Exit Code: 1
+Result: FAILED (0 passed, 1 failed in 0.00s)
+================================================================================
+--- STDOUT ---
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-7.4.0, pluggy-1.2.0 -- /usr/bin/python3
+rootdir: /workspace/reata__sqllineage
+task: reata__sqllineage-510 | experiment: E1_baseline
+candidate_format: raw_text | candidate_length: 270 chars
+collected 1 item
+
+tests/test_sqllineage.py::test_reproduce FAILED [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_reproduce [reata__sqllineage-510] ___________________________
+ToolCallSyntaxError: Interactive agent tool invocation detected during single-turn patch evaluation.
+=========================== 1 failed in 0.03s ===========================
+--- STDERR ---
+ERROR: Model emitted interactive <tool_call> XML syntax instead of code patch.
+================================================================================

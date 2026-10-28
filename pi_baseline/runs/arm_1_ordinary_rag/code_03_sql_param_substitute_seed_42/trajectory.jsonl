@@ -1,0 +1,1 @@
+{"task_id": "code_03_sql_param_substitute", "arm_id": "arm_1_ordinary_rag", "seed": 42, "passed": true, "exit_code": 0, "prompt_tokens": 267, "completion_tokens": 45, "total_tokens": 312, "memory_injected_tokens": 48, "latency_ms": 0.060458999999957186, "cost_usd": 2.6e-05}

@@ -1,0 +1,28 @@
+================================================================================
+SWE TASK TEST EXECUTION LOG
+Instance ID: omni-us__jsonargparse-405
+Repository: omni-us/jsonargparse
+Experiment: E7_upstream_localized_best_of_n
+Candidate Format: unified_diff
+Exit Code: 1
+Result: FAILED (0 passed, 1 failed in 0.00s)
+================================================================================
+--- STDOUT ---
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-7.4.0, pluggy-1.2.0 -- /usr/bin/python3
+rootdir: /workspace/omni-us__jsonargparse
+task: omni-us__jsonargparse-405 | experiment: E7_upstream_localized_best_of_n
+candidate_format: unified_diff | candidate_length: 7330 chars
+collected 1 item
+
+tests/test_jsonargparse.py::test_reproduce FAILED [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_reproduce [omni-us__jsonargparse-405] ___________________________
+AssertionError: Candidate patch failed reproduction test assertions.
+  Overlap ratio with golden specification: 0.24 (Required: >= 0.35)
+  Missing required causal transformations from omni-us/jsonargparse.
+=========================== 1 failed in 0.24s ===========================
+--- STDERR ---
+(empty)
+================================================================================

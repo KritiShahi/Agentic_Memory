@@ -1,0 +1,23 @@
+{
+  "instance_id": "narwhals-dev__narwhals-1613",
+  "repo": "narwhals-dev/narwhals",
+  "experiment_id": "E4_phase_aware",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "MissingBoundaryCheck_OffByOne",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "prompt_tokens": 530,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4626,
+  "latency_ms": 13532.275041999925,
+  "cost_usd": 0.000463,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E4_phase_aware/narwhals-dev__narwhals-1613.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E4_phase_aware/narwhals-dev__narwhals-1613_seed_42"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "zopefoundation__zope.sendmail-47",
+  "repo": "zopefoundation/zope.sendmail",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 712,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 151,
+  "total_tokens": 4808,
+  "latency_ms": 11585.828959000011,
+  "cost_usd": 0.000466,
+  "cumulative_cost_usd": 0.11837900000000005,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/zopefoundation__zope.sendmail-47_seed_42"
+}

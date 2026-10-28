@@ -1,0 +1,66 @@
+{
+  "E1_baseline": {
+    "total_tasks": 200,
+    "passed_tasks": 13,
+    "pass_rate_pct": 6.5,
+    "tar_rate_pct": 100.0,
+    "tool_call_dropouts": 131,
+    "avg_completion_tokens": 497.1,
+    "total_spend_usd": 0.06
+  },
+  "E2_episode_quality": {
+    "total_tasks": 200,
+    "passed_tasks": 60,
+    "pass_rate_pct": 30.0,
+    "tar_rate_pct": 100.0,
+    "tool_call_dropouts": 0,
+    "avg_completion_tokens": 3545.9,
+    "total_spend_usd": 0.091
+  },
+  "E3_applicability": {
+    "total_tasks": 200,
+    "passed_tasks": 65,
+    "pass_rate_pct": 32.5,
+    "tar_rate_pct": 100.0,
+    "tool_call_dropouts": 0,
+    "avg_completion_tokens": 3435.8,
+    "total_spend_usd": 0.0782
+  },
+  "E4_phase_aware": {
+    "total_tasks": 200,
+    "passed_tasks": 58,
+    "pass_rate_pct": 29.0,
+    "tar_rate_pct": 100.0,
+    "tool_call_dropouts": 0,
+    "avg_completion_tokens": 3542.8,
+    "total_spend_usd": 0.0815
+  },
+  "E5_selective_interception": {
+    "total_tasks": 200,
+    "passed_tasks": 67,
+    "pass_rate_pct": 33.5,
+    "tar_rate_pct": 100.0,
+    "tool_call_dropouts": 0,
+    "avg_completion_tokens": 3476.9,
+    "total_spend_usd": 0.0896
+  },
+  "E6_combined_v2": {
+    "total_tasks": 200,
+    "passed_tasks": 69,
+    "pass_rate_pct": 34.5,
+    "tar_rate_pct": 100.0,
+    "tool_call_dropouts": 0,
+    "avg_completion_tokens": 1516.8,
+    "total_spend_usd": 0.08
+  },
+  "E7_upstream_localized_best_of_n": {
+    "total_tasks": 200,
+    "passed_tasks": 126,
+    "pass_rate_pct": 63.0,
+    "localization_rate_pct": 57.0,
+    "tar_rate_pct": 100.0,
+    "tool_call_dropouts": 0,
+    "avg_completion_tokens": 8397.6,
+    "total_spend_usd": 0.1916
+  }
+}

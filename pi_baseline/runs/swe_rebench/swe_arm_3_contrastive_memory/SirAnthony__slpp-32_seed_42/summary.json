@@ -1,0 +1,17 @@
+{
+  "instance_id": "SirAnthony__slpp-32",
+  "repo": "SirAnthony/slpp",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 3,
+  "prompt_tokens": 2289,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 1007,
+  "total_tokens": 6385,
+  "latency_ms": 26512.389041999995,
+  "cost_usd": 0.000538,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/pi_baseline/runs/swe_rebench/swe_arm_3_contrastive_memory/SirAnthony__slpp-32_seed_42"
+}

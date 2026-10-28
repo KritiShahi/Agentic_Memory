@@ -1,0 +1,9 @@
+{
+  "task_id": "code_05_semver_regex_extract",
+  "domain": "coding",
+  "title": "Fix Semantic Version Regex Extractor",
+  "instruction": "Fix parse_semver in version_parser.py to correctly parse MAJOR.MINOR.PATCH with optional pre-release tag like -alpha.1 or -rc.2.",
+  "initial_code": "import re\ndef parse_semver(v_str):\n    m = re.match(r'^(\\d+)\\.(\\d+)\\.(\\d+)$', v_str) # Bug: fails on pre-release tags\n    if not m:\n        return None\n    return {'major': int(m.group(1)), 'minor': int(m.group(2)), 'patch': int(m.group(3)), 'tag': None}\n",
+  "test_code": "from version_parser import parse_semver\n\ndef test_basic_semver():\n    assert parse_semver('1.2.3') == {'major': 1, 'minor': 2, 'patch': 3, 'tag': None}\n\ndef test_prerelease_semver():\n    res = parse_semver('2.0.1-rc.1')\n    assert res == {'major': 2, 'minor': 0, 'patch': 1, 'tag': 'rc.1'}\n",
+  "solution_patch": "import re\ndef parse_semver(v_str):\n    m = re.match(r'^(\\d+)\\.(\\d+)\\.(\\d+)(?:-([a-zA-Z0-9_.-]+))?$', v_str)\n    if not m:\n        return None\n    return {'major': int(m.group(1)), 'minor': int(m.group(2)), 'patch': int(m.group(3)), 'tag': m.group(4)}\n"
+}

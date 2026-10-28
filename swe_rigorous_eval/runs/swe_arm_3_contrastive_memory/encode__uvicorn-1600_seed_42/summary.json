@@ -1,0 +1,19 @@
+{
+  "instance_id": "encode__uvicorn-1600",
+  "repo": "encode/uvicorn",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 1998,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 764,
+  "total_tokens": 6094,
+  "latency_ms": 11897.275792000017,
+  "cost_usd": 0.000533,
+  "cumulative_cost_usd": 0.20156500000000024,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/encode__uvicorn-1600_seed_42"
+}

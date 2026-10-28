@@ -1,0 +1,27 @@
+{
+  "instance_id": "python-pillow__Pillow-3698",
+  "repo": "python-pillow/Pillow",
+  "experiment_id": "E5_selective_interception",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-7ab0e81a5d2a8cbb9dcef3423d229f3c_395",
+    "ep_recov_chatcmpl-3c6c327dd391dc30bc84bddd71686cb6_278",
+    "ep_recov_chatcmpl-164410cf0ce64c8b0ebd4880798633bb_424"
+  ],
+  "prompt_tokens": 1649,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 652,
+  "total_tokens": 5745,
+  "latency_ms": 19010.055749999992,
+  "cost_usd": 0.000509,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E5_selective_interception/python-pillow__Pillow-3698.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E5_selective_interception/python-pillow__Pillow-3698_seed_42"
+}

@@ -1,0 +1,23 @@
+{
+  "instance_id": "encode__uvicorn-1782",
+  "repo": "encode/uvicorn",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/encode__uvicorn-1782.log",
+  "localization_success": true,
+  "primary_file": "protocols/http/h11_impl.py",
+  "target_line": 474,
+  "candidates_evaluated": 1,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 0,
+  "best_score": 60.0,
+  "prompt_tokens": 491,
+  "completion_tokens": 173,
+  "total_tokens": 664,
+  "cost_usd": 0.0001,
+  "latency_ms": 1239.86
+}

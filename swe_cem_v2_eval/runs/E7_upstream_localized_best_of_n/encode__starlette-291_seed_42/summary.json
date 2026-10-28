@@ -1,0 +1,23 @@
+{
+  "instance_id": "encode__starlette-291",
+  "repo": "encode/starlette",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/encode__starlette-291.log",
+  "localization_success": true,
+  "primary_file": "TestClient.py",
+  "target_line": 1,
+  "candidates_evaluated": 4,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 3,
+  "best_score": 61.5,
+  "prompt_tokens": 2149,
+  "completion_tokens": 12501,
+  "total_tokens": 14650,
+  "cost_usd": 0.0015,
+  "latency_ms": 34717.89
+}

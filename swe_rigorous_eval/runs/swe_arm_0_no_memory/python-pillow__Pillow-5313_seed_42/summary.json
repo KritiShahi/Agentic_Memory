@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-pillow__Pillow-5313",
+  "repo": "python-pillow/Pillow",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 601,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4697,
+  "latency_ms": 7714.278333000003,
+  "cost_usd": 0.00047,
+  "cumulative_cost_usd": 0.005129000000000001,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_0_no_memory/python-pillow__Pillow-5313_seed_42"
+}

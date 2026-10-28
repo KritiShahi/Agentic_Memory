@@ -1,0 +1,19 @@
+{
+  "instance_id": "asottile__add-trailing-comma-30",
+  "repo": "asottile/add-trailing-comma",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 1801,
+  "completion_tokens": 85,
+  "memory_injected_tokens": 760,
+  "total_tokens": 1886,
+  "latency_ms": 686.9658749999985,
+  "cost_usd": 0.000113,
+  "cumulative_cost_usd": 0.19995800000000025,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/asottile__add-trailing-comma-30_seed_42"
+}

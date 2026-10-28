@@ -1,0 +1,19 @@
+{
+  "instance_id": "reata__sqllineage-41",
+  "repo": "reata/sqllineage",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 1773,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 758,
+  "total_tokens": 5869,
+  "latency_ms": 12862.518792000003,
+  "cost_usd": 0.000511,
+  "cumulative_cost_usd": 0.19057200000000027,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/reata__sqllineage-41_seed_42"
+}

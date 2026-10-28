@@ -1,0 +1,19 @@
+{
+  "instance_id": "asottile__setup-cfg-fmt-41",
+  "repo": "asottile/setup-cfg-fmt",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 1768,
+  "completion_tokens": 115,
+  "memory_injected_tokens": 783,
+  "total_tokens": 1883,
+  "latency_ms": 1162.0739169999865,
+  "cost_usd": 0.00011,
+  "cumulative_cost_usd": 0.17349400000000018,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/asottile__setup-cfg-fmt-41_seed_42"
+}

@@ -1,0 +1,22 @@
+{
+  "instance_id": "encode__uvicorn-1600",
+  "repo": "encode/uvicorn",
+  "arm_id": "swe_arm_4c_cem_v2",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "AsyncDeadlock_RaceCondition",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "has_tool_call_syntax": false,
+  "prompt_tokens": 418,
+  "completion_tokens": 2722,
+  "memory_injected_tokens": 0,
+  "total_tokens": 3140,
+  "latency_ms": 9527.310250000028,
+  "cost_usd": 0.000314,
+  "cumulative_cost_usd": 0.06890700000000002,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/swe_arm_4c_cem_v2/encode__uvicorn-1600_seed_42"
+}

@@ -1,0 +1,7 @@
+{
+  "gold_answer": "service-telemetry and service-kafka-proxy (port 9092)",
+  "hop_chain": [
+    "telemetry uses 9092",
+    "kafka-proxy uses 9092 -> collision"
+  ]
+}

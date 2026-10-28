@@ -1,0 +1,23 @@
+{
+  "instance_id": "marshmallow-code__apispec-539",
+  "repo": "marshmallow-code/apispec",
+  "experiment_id": "E3_applicability",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "prompt_tokens": 145,
+  "completion_tokens": 3107,
+  "memory_injected_tokens": 0,
+  "total_tokens": 3252,
+  "latency_ms": 13624.157208999975,
+  "cost_usd": 0.000325,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E3_applicability/marshmallow-code__apispec-539.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E3_applicability/marshmallow-code__apispec-539_seed_42"
+}

@@ -1,0 +1,23 @@
+{
+  "instance_id": "pypa__hatch-422",
+  "repo": "pypa/hatch",
+  "experiment_id": "E4_phase_aware",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "prompt_tokens": 360,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4456,
+  "latency_ms": 29137.804915999935,
+  "cost_usd": 0.000446,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E4_phase_aware/pypa__hatch-422.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E4_phase_aware/pypa__hatch-422_seed_42"
+}

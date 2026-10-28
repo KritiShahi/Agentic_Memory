@@ -1,0 +1,49 @@
+{
+  "dataset_name": "nebius/SWE-rebench-openhands-trajectories",
+  "dataset_source": "https://huggingface.co/datasets/nebius/SWE-rebench-openhands-trajectories",
+  "generated_at": "2026-10-17T04:16:28.946936+00:00",
+  "shields": {
+    "shield_1_disjoint_repos": {
+      "pool_a_train_repos_count": 681,
+      "pool_b_eval_repos_count": 55,
+      "overlap": 0
+    },
+    "shield_2_org_clustering": {
+      "pool_a_train_orgs_count": 605,
+      "pool_b_eval_orgs_count": 23,
+      "overlap": 0
+    },
+    "shield_3_deduplicated_eval": {
+      "unique_eval_instances": 200,
+      "instance_id_overlap": 0
+    },
+    "shield_4_pretraining_cut": {
+      "memorized_repos_filtered_from_eval": []
+    }
+  },
+  "splits": {
+    "train": {
+      "file": "train_swe_stream.json",
+      "count": 500,
+      "resolved_count": 250,
+      "unresolved_count": 250,
+      "unique_repos": 364
+    },
+    "eval": {
+      "file": "eval_swe_stream.json",
+      "count": 200,
+      "unique_instances": 200,
+      "unique_repos": 54,
+      "complexity_breakdown": {
+        "low-med": 0,
+        "medium": 3,
+        "hard": 197
+      },
+      "tdd_test_capable_count": 48
+    }
+  },
+  "sha256": {
+    "train_swe_stream.json": "391c83cbd15be8391c9548c15a2c8274d6de75f13197e03e1df174c0980992e6",
+    "eval_swe_stream.json": "718c61befc0814eae090f584a46d50138e499dffaf8f4676a7c4d64921d74570"
+  }
+}

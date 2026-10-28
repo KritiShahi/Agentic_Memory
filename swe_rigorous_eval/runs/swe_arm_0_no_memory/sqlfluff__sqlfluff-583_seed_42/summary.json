@@ -1,0 +1,18 @@
+{
+  "instance_id": "sqlfluff__sqlfluff-583",
+  "repo": "sqlfluff/sqlfluff",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 194,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4290,
+  "latency_ms": 15728.742167000008,
+  "cost_usd": 0.000429,
+  "cumulative_cost_usd": 0.032598000000000016,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_0_no_memory/sqlfluff__sqlfluff-583_seed_42"
+}

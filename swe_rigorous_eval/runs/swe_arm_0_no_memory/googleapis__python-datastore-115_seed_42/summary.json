@@ -1,0 +1,18 @@
+{
+  "instance_id": "googleapis__python-datastore-115",
+  "repo": "googleapis/python-datastore",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "prompt_tokens": 419,
+  "completion_tokens": 534,
+  "memory_injected_tokens": 0,
+  "total_tokens": 953,
+  "latency_ms": 1968.7127919999998,
+  "cost_usd": 9.5e-05,
+  "cumulative_cost_usd": 0.001605,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_0_no_memory/googleapis__python-datastore-115_seed_42"
+}

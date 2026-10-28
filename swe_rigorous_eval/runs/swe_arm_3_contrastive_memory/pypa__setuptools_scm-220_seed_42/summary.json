@@ -1,0 +1,19 @@
+{
+  "instance_id": "pypa__setuptools_scm-220",
+  "repo": "pypa/setuptools_scm",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 2117,
+  "completion_tokens": 203,
+  "memory_injected_tokens": 797,
+  "total_tokens": 2320,
+  "latency_ms": 1408.2833749999963,
+  "cost_usd": 0.000152,
+  "cumulative_cost_usd": 0.1747330000000002,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/pypa__setuptools_scm-220_seed_42"
+}

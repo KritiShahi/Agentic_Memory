@@ -1,0 +1,23 @@
+{
+  "instance_id": "joke2k__faker-1043",
+  "repo": "joke2k/faker",
+  "experiment_id": "E4_phase_aware",
+  "seed": 42,
+  "complexity": "medium",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "prompt_tokens": 219,
+  "completion_tokens": 553,
+  "memory_injected_tokens": 0,
+  "total_tokens": 772,
+  "latency_ms": 6132.573417000003,
+  "cost_usd": 7.7e-05,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E4_phase_aware/joke2k__faker-1043.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E4_phase_aware/joke2k__faker-1043_seed_42"
+}

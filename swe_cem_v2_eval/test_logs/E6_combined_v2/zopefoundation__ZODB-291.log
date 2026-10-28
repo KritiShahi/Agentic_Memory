@@ -1,0 +1,28 @@
+================================================================================
+SWE TASK TEST EXECUTION LOG
+Instance ID: zopefoundation__ZODB-291
+Repository: zopefoundation/ZODB
+Experiment: E6_combined_v2
+Candidate Format: python_code_block
+Exit Code: 1
+Result: FAILED (0 passed, 1 failed in 0.00s)
+================================================================================
+--- STDOUT ---
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-7.4.0, pluggy-1.2.0 -- /usr/bin/python3
+rootdir: /workspace/zopefoundation__ZODB
+task: zopefoundation__ZODB-291 | experiment: E6_combined_v2
+candidate_format: python_code_block | candidate_length: 8337 chars
+collected 1 item
+
+tests/test_ZODB.py::test_reproduce FAILED [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_reproduce [zopefoundation__ZODB-291] ___________________________
+AssertionError: Candidate patch failed reproduction test assertions.
+  Overlap ratio with golden specification: 0.12 (Required: >= 0.35)
+  Missing required causal transformations from zopefoundation/ZODB.
+=========================== 1 failed in 0.24s ===========================
+--- STDERR ---
+(empty)
+================================================================================

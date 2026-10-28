@@ -1,0 +1,27 @@
+{
+  "instance_id": "pytorch__ignite-525",
+  "repo": "pytorch/ignite",
+  "experiment_id": "E5_selective_interception",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-da1caf2190058c1c01ceca3cf8996ecb_402",
+    "ep_recov_chatcmpl-493db44d43fc61c311334af404ed2594_243",
+    "ep_recov_chatcmpl-f23b1c67498d77c4471939d406c87021_231"
+  ],
+  "prompt_tokens": 1406,
+  "completion_tokens": 1073,
+  "memory_injected_tokens": 633,
+  "total_tokens": 2479,
+  "latency_ms": 4827.616083000066,
+  "cost_usd": 0.000185,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E5_selective_interception/pytorch__ignite-525.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E5_selective_interception/pytorch__ignite-525_seed_42"
+}

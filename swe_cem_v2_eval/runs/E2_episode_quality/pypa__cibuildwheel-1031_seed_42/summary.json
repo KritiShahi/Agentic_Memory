@@ -1,0 +1,27 @@
+{
+  "instance_id": "pypa__cibuildwheel-1031",
+  "repo": "pypa/cibuildwheel",
+  "experiment_id": "E2_episode_quality",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-71bd830dd0695ad8b18c83b02c2656e9_420",
+    "ep_recov_chatcmpl-6e8e9e4c220d6efe7ebe9d46fa49b9fa_460",
+    "ep_recov_chatcmpl-3d3d80fe348f5fc7567bb7093be25421_28"
+  ],
+  "prompt_tokens": 1388,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 626,
+  "total_tokens": 5484,
+  "latency_ms": 13356.897875,
+  "cost_usd": 0.000486,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E2_episode_quality/pypa__cibuildwheel-1031.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E2_episode_quality/pypa__cibuildwheel-1031_seed_42"
+}

@@ -1,0 +1,19 @@
+{
+  "instance_id": "googleapis__python-firestore-254",
+  "repo": "googleapis/python-firestore",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 2183,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 775,
+  "total_tokens": 6279,
+  "latency_ms": 6293.356250000044,
+  "cost_usd": 0.00055,
+  "cumulative_cost_usd": 0.20050800000000024,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/googleapis__python-firestore-254_seed_42"
+}

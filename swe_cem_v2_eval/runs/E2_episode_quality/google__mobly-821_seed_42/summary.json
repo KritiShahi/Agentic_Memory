@@ -1,0 +1,27 @@
+{
+  "instance_id": "google__mobly-821",
+  "repo": "google/mobly",
+  "experiment_id": "E2_episode_quality",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-500e7180066f77e125a0d1fbfb5e2a10_213",
+    "ep_recov_chatcmpl-3c6c327dd391dc30bc84bddd71686cb6_278",
+    "ep_recov_chatcmpl-164410cf0ce64c8b0ebd4880798633bb_424"
+  ],
+  "prompt_tokens": 1418,
+  "completion_tokens": 1230,
+  "memory_injected_tokens": 653,
+  "total_tokens": 2648,
+  "latency_ms": 4683.427041000015,
+  "cost_usd": 0.0002,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E2_episode_quality/google__mobly-821.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E2_episode_quality/google__mobly-821_seed_42"
+}

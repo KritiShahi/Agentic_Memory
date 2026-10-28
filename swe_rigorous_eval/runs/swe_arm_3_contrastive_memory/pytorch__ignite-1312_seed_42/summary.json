@@ -1,0 +1,19 @@
+{
+  "instance_id": "pytorch__ignite-1312",
+  "repo": "pytorch/ignite",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 1834,
+  "completion_tokens": 40,
+  "memory_injected_tokens": 787,
+  "total_tokens": 1874,
+  "latency_ms": 736.9953330000385,
+  "cost_usd": 0.000109,
+  "cumulative_cost_usd": 0.18558700000000022,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/pytorch__ignite-1312_seed_42"
+}

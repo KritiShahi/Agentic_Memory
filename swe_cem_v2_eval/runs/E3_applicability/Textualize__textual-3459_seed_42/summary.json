@@ -1,0 +1,26 @@
+{
+  "instance_id": "Textualize__textual-3459",
+  "repo": "Textualize/textual",
+  "experiment_id": "E3_applicability",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 2,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-86479007b575d29e4929e943707c826d_374",
+    "ep_recov_chatcmpl-e01f2e276f6c4503cde907fa4db2608b_459"
+  ],
+  "prompt_tokens": 1481,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 461,
+  "total_tokens": 5577,
+  "latency_ms": 12607.622542000001,
+  "cost_usd": 0.000512,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E3_applicability/Textualize__textual-3459.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E3_applicability/Textualize__textual-3459_seed_42"
+}

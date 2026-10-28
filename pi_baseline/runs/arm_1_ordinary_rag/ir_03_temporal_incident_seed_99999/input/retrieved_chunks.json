@@ -1,0 +1,98 @@
+[
+  {
+    "chunk_id": "ir_03_temporal_incident_doc_0_chunk_0",
+    "doc_id": "ir_03_temporal_incident_doc_0",
+    "text": "Incident INC-8402 (2026-04-12 14:20 UTC): Payments service experienced 504 Gateway Timeouts following Deployment #142.",
+    "tokens": [
+      "incident",
+      "inc",
+      "8402",
+      "2026",
+      "04",
+      "12",
+      "14",
+      "20",
+      "utc",
+      "payments",
+      "service",
+      "experienced",
+      "504",
+      "gateway",
+      "timeouts",
+      "following",
+      "deployment",
+      "142"
+    ]
+  },
+  {
+    "chunk_id": "ir_03_temporal_incident_doc_3_chunk_3",
+    "doc_id": "ir_03_temporal_incident_doc_3",
+    "text": "Rollback commit e5029a deployed at 15:00 UTC resolved the timeouts by restoring default socket timeouts.",
+    "tokens": [
+      "rollback",
+      "commit",
+      "e5029a",
+      "deployed",
+      "at",
+      "15",
+      "00",
+      "utc",
+      "resolved",
+      "the",
+      "timeouts",
+      "by",
+      "restoring",
+      "default",
+      "socket",
+      "timeouts"
+    ]
+  },
+  {
+    "chunk_id": "ir_03_temporal_incident_doc_2_chunk_2",
+    "doc_id": "ir_03_temporal_incident_doc_2",
+    "text": "Deployment #142 deployed commit d4e91b (enable connection pooling with 5s timeout) at 2026-04-12 14:10 UTC.",
+    "tokens": [
+      "deployment",
+      "142",
+      "deployed",
+      "commit",
+      "d4e91b",
+      "enable",
+      "connection",
+      "pooling",
+      "with",
+      "5s",
+      "timeout",
+      "at",
+      "2026",
+      "04",
+      "12",
+      "14",
+      "10",
+      "utc"
+    ]
+  },
+  {
+    "chunk_id": "ir_03_temporal_incident_doc_1_chunk_1",
+    "doc_id": "ir_03_temporal_incident_doc_1",
+    "text": "Deployment #141 deployed commit a8f12c (refactor headers) at 2026-04-12 09:00 UTC without errors.",
+    "tokens": [
+      "deployment",
+      "141",
+      "deployed",
+      "commit",
+      "a8f12c",
+      "refactor",
+      "headers",
+      "at",
+      "2026",
+      "04",
+      "12",
+      "09",
+      "00",
+      "utc",
+      "without",
+      "errors"
+    ]
+  }
+]

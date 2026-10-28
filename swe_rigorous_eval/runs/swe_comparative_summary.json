@@ -1,0 +1,47 @@
+{
+  "total_evaluated_tasks": 200,
+  "cumulative_api_spend_usd": 0.20605,
+  "safety_budget_usd": 1.0,
+  "budget_status": "WITHIN_LIMITS",
+  "arms": {
+    "swe_arm_0_no_memory": {
+      "total_tasks": 200,
+      "passed_tasks": 56,
+      "pass_rate_pct": 28.0,
+      "trap_avoidance_rate_pct": 28.0,
+      "intercepted_traps_count": 0,
+      "avg_prompt_tokens": 392.3,
+      "avg_memory_tokens": 0.0,
+      "avg_completion_tokens": 3405.8,
+      "avg_total_tokens": 3798.0,
+      "avg_latency_ms": 10686.5,
+      "total_cost_usd": 0.07597
+    },
+    "swe_arm_1_flat_rag": {
+      "total_tasks": 200,
+      "passed_tasks": 66,
+      "pass_rate_pct": 33.0,
+      "trap_avoidance_rate_pct": 33.5,
+      "intercepted_traps_count": 0,
+      "avg_prompt_tokens": 888.4,
+      "avg_memory_tokens": 151.4,
+      "avg_completion_tokens": 3244.3,
+      "avg_total_tokens": 4132.7,
+      "avg_latency_ms": 9541.2,
+      "total_cost_usd": 0.07963
+    },
+    "swe_arm_3_contrastive_memory": {
+      "total_tasks": 200,
+      "passed_tasks": 60,
+      "pass_rate_pct": 30.0,
+      "trap_avoidance_rate_pct": 100.0,
+      "intercepted_traps_count": 14,
+      "avg_prompt_tokens": 1996.5,
+      "avg_memory_tokens": 756.2,
+      "avg_completion_tokens": 1281.8,
+      "avg_total_tokens": 3278.3,
+      "avg_latency_ms": 4338.4,
+      "total_cost_usd": 0.05045
+    }
+  }
+}

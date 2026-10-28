@@ -1,0 +1,18 @@
+{
+  "instance_id": "googleapis__proto-plus-python-348",
+  "repo": "googleapis/proto-plus-python",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 576,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4672,
+  "latency_ms": 11060.848999999962,
+  "cost_usd": 0.000467,
+  "cumulative_cost_usd": 0.04223400000000002,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_0_no_memory/googleapis__proto-plus-python-348_seed_42"
+}

@@ -1,0 +1,27 @@
+{
+  "instance_id": "pypa__pip-11860",
+  "repo": "pypa/pip",
+  "experiment_id": "E5_selective_interception",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-643240e1a09c2507f426cb3eb2af7325_431",
+    "ep_recov_chatcmpl-e45e0d4c383e7fe024afd07aece8bc0f_119",
+    "ep_recov_chatcmpl-a84b91dfe9ab3940c332ab5ba5d2e15f_195"
+  ],
+  "prompt_tokens": 1463,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 629,
+  "total_tokens": 5559,
+  "latency_ms": 15767.907707999939,
+  "cost_usd": 0.000493,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E5_selective_interception/pypa__pip-11860.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E5_selective_interception/pypa__pip-11860_seed_42"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "google__latexify_py-195",
+  "repo": "google/latexify_py",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 287,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4383,
+  "latency_ms": 15456.735457999997,
+  "cost_usd": 0.000438,
+  "cumulative_cost_usd": 0.011749000000000002,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_0_no_memory/google__latexify_py-195_seed_42"
+}

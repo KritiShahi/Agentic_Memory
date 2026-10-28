@@ -1,0 +1,13 @@
+{
+  "instance_id": "streamlink__streamlink-2765",
+  "resolved": true,
+  "resolved_by": "STAGE1_MULTI_TURN",
+  "early_exit": true,
+  "warm_started": false,
+  "turns_used": 12,
+  "patch_diff": "--- a/tests/test_cmdline_title.py\n+++ b/tests/test_cmdline_title.py\n@@ -1,5 +1,5 @@\n+\n+    def test_open_player_with_title_mpv(self):\n+        self._test_args([\"streamlink\", \"-p\", \"/usr/bin/mpv\", \"--title\", \"{title}\", \"http://test.se\", \"test\"],\n+                        [\"/usr/bin/mpv\", \"--title\", 'Test Title', \"-\"])\n+\n+\n+@unittest.skipIf(not is_win32, \"test only applicable on Windows\")\n\n--- a/src/streamlink_cli/output.py\n+++ b/src/streamlink_cli/output.py\n@@ -1,5 +1,5 @@\n+            if self.player_name == \"mpv\":\n+                # see https://mpv.io/manual/stable/#property-expansion, allow escaping with \\$, respect mpv's $>\n+                self.title = self._mpv_title_escape(self.title)\n+                extra_args.extend([\"--title\", self.title])\n+\n+            # potplayer\n+            if self.player_name == \"potplayer\":",
+  "cost_usd": 0.0,
+  "standalone_sum_cost_usd": 0.008,
+  "savings_usd": 0.008,
+  "savings_pct": 100.0
+}

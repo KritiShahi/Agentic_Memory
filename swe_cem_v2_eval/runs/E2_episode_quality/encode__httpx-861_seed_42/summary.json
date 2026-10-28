@@ -1,0 +1,27 @@
+{
+  "instance_id": "encode__httpx-861",
+  "repo": "encode/httpx",
+  "experiment_id": "E2_episode_quality",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "MissingBoundaryCheck_OffByOne",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-da1caf2190058c1c01ceca3cf8996ecb_402",
+    "ep_recov_chatcmpl-2cb4f679a201b9e8f1159c1585d852fb_354",
+    "ep_recov_chatcmpl-e45e0d4c383e7fe024afd07aece8bc0f_119"
+  ],
+  "prompt_tokens": 1650,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 632,
+  "total_tokens": 5746,
+  "latency_ms": 10081.986208999979,
+  "cost_usd": 0.000511,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E2_episode_quality/encode__httpx-861.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E2_episode_quality/encode__httpx-861_seed_42"
+}

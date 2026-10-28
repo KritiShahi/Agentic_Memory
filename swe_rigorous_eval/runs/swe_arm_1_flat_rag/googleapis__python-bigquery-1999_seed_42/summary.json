@@ -1,0 +1,18 @@
+{
+  "instance_id": "googleapis__python-bigquery-1999",
+  "repo": "googleapis/python-bigquery",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "prompt_tokens": 1312,
+  "completion_tokens": 907,
+  "memory_injected_tokens": 158,
+  "total_tokens": 2219,
+  "latency_ms": 2621.571208999999,
+  "cost_usd": 0.000206,
+  "cumulative_cost_usd": 0.09844900000000006,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/googleapis__python-bigquery-1999_seed_42"
+}

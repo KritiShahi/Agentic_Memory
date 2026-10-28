@@ -1,0 +1,27 @@
+{
+  "instance_id": "asottile__pyupgrade-195",
+  "repo": "asottile/pyupgrade",
+  "experiment_id": "E2_episode_quality",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-749090fdb157f0d44d3ef1dfbb516758_409",
+    "ep_recov_chatcmpl-c74b1e43d697805e043c273c83134aa0_61",
+    "ep_recov_chatcmpl-da1caf2190058c1c01ceca3cf8996ecb_402"
+  ],
+  "prompt_tokens": 1803,
+  "completion_tokens": 1171,
+  "memory_injected_tokens": 639,
+  "total_tokens": 2974,
+  "latency_ms": 4331.079416000022,
+  "cost_usd": 0.000234,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E2_episode_quality/asottile__pyupgrade-195.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E2_episode_quality/asottile__pyupgrade-195_seed_42"
+}

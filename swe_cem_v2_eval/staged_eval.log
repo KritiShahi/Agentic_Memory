@@ -1,0 +1,42 @@
+
+=======================================================
+Starting Staged Multi-Turn & Best-of-N Evaluation Suite
+Total Tasks: 10 | Stages: ['stage1', 'stage2', 'combined'] | Workers: 4
+Safety Budget Ceiling: $1.0000 USD
+=======================================================
+
+--- Running Execution Stage: STAGE1 ---
+[1/10] STAGE1 -> omni-us__jsonargparse-564: FAILED (Cost: $0.0000)
+[2/10] STAGE1 -> googleapis__python-bigquery-1930: RESOLVED (Cost: $0.0000)
+[3/10] STAGE1 -> streamlink__streamlink-2765: RESOLVED (Cost: $0.0000)
+[4/10] STAGE1 -> pybamm-team__PyBaMM-4072: FAILED (Cost: $0.0000)
+[5/10] STAGE1 -> pypa__hatch-535: FAILED (Cost: $0.0000)
+[6/10] STAGE1 -> pydicom__pydicom-1694: FAILED (Cost: $0.0000)
+[7/10] STAGE1 -> streamlink__streamlink-3677: FAILED (Cost: $0.0000)
+[8/10] STAGE1 -> dask__dask-5975: FAILED (Cost: $0.0000)
+[9/10] STAGE1 -> streamlink__streamlink-2102: RESOLVED (Cost: $0.0000)
+[10/10] STAGE1 -> dask__dask-4003: FAILED (Cost: $0.0000)
+--- Running Execution Stage: STAGE2 ---
+[1/10] STAGE2 -> omni-us__jsonargparse-564: FAILED (Cost: $0.0000)
+[2/10] STAGE2 -> streamlink__streamlink-2765: FAILED (Cost: $0.0000)
+[3/10] STAGE2 -> googleapis__python-bigquery-1930: FAILED (Cost: $0.0000)
+[4/10] STAGE2 -> pybamm-team__PyBaMM-4072: FAILED (Cost: $0.0000)
+[5/10] STAGE2 -> streamlink__streamlink-3677: FAILED (Cost: $0.0000)
+[6/10] STAGE2 -> pydicom__pydicom-1694: FAILED (Cost: $0.0000)
+[7/10] STAGE2 -> streamlink__streamlink-2102: FAILED (Cost: $0.0000)
+[8/10] STAGE2 -> pypa__hatch-535: FAILED (Cost: $0.0000)
+[9/10] STAGE2 -> dask__dask-5975: FAILED (Cost: $0.0000)
+[10/10] STAGE2 -> dask__dask-4003: FAILED (Cost: $0.0000)
+--- Running Execution Stage: COMBINED ---
+[1/10] COMBINED -> streamlink__streamlink-2765: RESOLVED (Cost: $0.0000)
+[2/10] COMBINED -> googleapis__python-bigquery-1930: RESOLVED (Cost: $0.0000)
+[3/10] COMBINED -> streamlink__streamlink-2102: RESOLVED (Cost: $0.0000)
+[4/10] COMBINED -> omni-us__jsonargparse-564: FAILED (Cost: $0.0000)
+[5/10] COMBINED -> pybamm-team__PyBaMM-4072: FAILED (Cost: $0.0000)
+[6/10] COMBINED -> pypa__hatch-535: FAILED (Cost: $0.0000)
+[7/10] COMBINED -> streamlink__streamlink-3677: FAILED (Cost: $0.0000)
+[8/10] COMBINED -> pydicom__pydicom-1694: FAILED (Cost: $0.0000)
+[9/10] COMBINED -> dask__dask-4003: FAILED (Cost: $0.0000)
+[10/10] COMBINED -> dask__dask-5975: FAILED (Cost: $0.0000)
+
+Saved comprehensive staged summary to /Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/staged_multi_turn_best_of_n_summary.json

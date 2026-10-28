@@ -1,0 +1,9 @@
+{
+  "task_id": "code_01_binary_search_partition",
+  "domain": "coding",
+  "title": "Fix Off-By-One in Binary Range Partitioner",
+  "instruction": "Fix the binary range partitioning function in partitioner.py. The upper bound slice calculation includes an extra element causing index out of range when end == len(array). Run pytest to verify.",
+  "initial_code": "def partition_range(arr, start, end):\n    if start > end:\n        return []\n    mid = (start + end) // 2\n    # Bug: end + 1 slices past the intended partition\n    return arr[start:mid], arr[mid:end + 1]\n",
+  "test_code": "import pytest\nfrom partitioner import partition_range\n\ndef test_partition_even():\n    arr = [0, 1, 2, 3, 4, 5]\n    left, right = partition_range(arr, 0, 5)\n    assert left == [0, 1] and right == [2, 3, 4, 5]\n\ndef test_partition_boundary():\n    arr = [10, 20, 30]\n    left, right = partition_range(arr, 0, 2)\n    assert len(left) + len(right) == 3\n    assert right[-1] == 30\n",
+  "solution_patch": "def partition_range(arr, start, end):\n    if start > end:\n        return []\n    mid = (start + end) // 2\n    return arr[start:mid], arr[mid:end + 1 if end + 1 <= len(arr) else len(arr)]\n"
+}

@@ -1,0 +1,23 @@
+{
+  "instance_id": "omni-us__jsonargparse-562",
+  "repo": "omni-us/jsonargparse",
+  "experiment_id": "E3_applicability",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "prompt_tokens": 485,
+  "completion_tokens": 2052,
+  "memory_injected_tokens": 0,
+  "total_tokens": 2537,
+  "latency_ms": 7008.3688330000205,
+  "cost_usd": 0.000254,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E3_applicability/omni-us__jsonargparse-562.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E3_applicability/omni-us__jsonargparse-562_seed_42"
+}

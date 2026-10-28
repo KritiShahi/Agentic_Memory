@@ -1,0 +1,7 @@
+{
+  "gold_answer": "Liam Chen",
+  "hop_chain": [
+    "AuthCore v2.4 -> fast-proto",
+    "fast-proto maintainer transfer -> Liam Chen"
+  ]
+}

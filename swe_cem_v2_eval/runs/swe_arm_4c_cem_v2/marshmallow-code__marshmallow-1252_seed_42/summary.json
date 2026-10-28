@@ -1,0 +1,24 @@
+{
+  "instance_id": "marshmallow-code__marshmallow-1252",
+  "repo": "marshmallow-code/marshmallow",
+  "arm_id": "swe_arm_4c_cem_v2",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": true,
+  "retrieved_episodes_count": 1,
+  "retrieved_episode_ids": [
+    "ep_edit_chatcmpl-43dabf3e97eced268ffd41728e0d9e8e_154"
+  ],
+  "has_tool_call_syntax": false,
+  "prompt_tokens": 1028,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 351,
+  "total_tokens": 5124,
+  "latency_ms": 13930.501540999998,
+  "cost_usd": 0.000477,
+  "cumulative_cost_usd": 0.020962,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/swe_arm_4c_cem_v2/marshmallow-code__marshmallow-1252_seed_42"
+}

@@ -1,0 +1,24 @@
+{
+  "instance_id": "zopefoundation__ZODB-291",
+  "repo": "zopefoundation/ZODB",
+  "arm_id": "swe_arm_4c_cem_v2",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "AsyncDeadlock_RaceCondition",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": true,
+  "retrieved_episodes_count": 1,
+  "retrieved_episode_ids": [
+    "ep_edit_chatcmpl-33b3017f5bb20fe6ec8794553e72f619_322"
+  ],
+  "has_tool_call_syntax": false,
+  "prompt_tokens": 1177,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 344,
+  "total_tokens": 5273,
+  "latency_ms": 13055.293458999984,
+  "cost_usd": 0.000493,
+  "cumulative_cost_usd": 0.05627900000000001,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/swe_arm_4c_cem_v2/zopefoundation__ZODB-291_seed_42"
+}

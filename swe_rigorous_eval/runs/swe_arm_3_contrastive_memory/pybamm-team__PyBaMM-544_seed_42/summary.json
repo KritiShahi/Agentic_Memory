@@ -1,0 +1,19 @@
+{
+  "instance_id": "pybamm-team__PyBaMM-544",
+  "repo": "pybamm-team/PyBaMM",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 1,
+  "prompt_tokens": 1042,
+  "completion_tokens": 790,
+  "memory_injected_tokens": 446,
+  "total_tokens": 1832,
+  "latency_ms": 4181.317417000002,
+  "cost_usd": 0.000139,
+  "cumulative_cost_usd": 0.19191600000000025,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/pybamm-team__PyBaMM-544_seed_42"
+}

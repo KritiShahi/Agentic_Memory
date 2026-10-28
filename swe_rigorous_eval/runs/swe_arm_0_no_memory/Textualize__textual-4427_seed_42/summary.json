@@ -1,0 +1,18 @@
+{
+  "instance_id": "Textualize__textual-4427",
+  "repo": "Textualize/textual",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "prompt_tokens": 500,
+  "completion_tokens": 401,
+  "memory_injected_tokens": 0,
+  "total_tokens": 901,
+  "latency_ms": 1864.8642499999823,
+  "cost_usd": 9e-05,
+  "cumulative_cost_usd": 0.04176700000000002,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_0_no_memory/Textualize__textual-4427_seed_42"
+}

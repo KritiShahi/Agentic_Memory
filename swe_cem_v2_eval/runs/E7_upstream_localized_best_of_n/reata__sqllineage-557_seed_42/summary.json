@@ -1,0 +1,23 @@
+{
+  "instance_id": "reata__sqllineage-557",
+  "repo": "reata/sqllineage",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/reata__sqllineage-557.log",
+  "localization_success": false,
+  "primary_file": "",
+  "target_line": 1,
+  "candidates_evaluated": 4,
+  "passing_candidates_count": 0,
+  "best_candidate_idx": 2,
+  "best_score": -90.0,
+  "prompt_tokens": 1101,
+  "completion_tokens": 16384,
+  "total_tokens": 17485,
+  "cost_usd": 0.0017,
+  "latency_ms": 53545.01
+}

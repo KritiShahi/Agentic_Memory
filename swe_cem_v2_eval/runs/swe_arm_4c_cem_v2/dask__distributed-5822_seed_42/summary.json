@@ -1,0 +1,24 @@
+{
+  "instance_id": "dask__distributed-5822",
+  "repo": "dask/distributed",
+  "arm_id": "swe_arm_4c_cem_v2",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": true,
+  "retrieved_episodes_count": 1,
+  "retrieved_episode_ids": [
+    "ep_edit_chatcmpl-6388abfb8700e650a1f6beda052592b0_2"
+  ],
+  "has_tool_call_syntax": false,
+  "prompt_tokens": 1375,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 381,
+  "total_tokens": 5471,
+  "latency_ms": 11112.808666000035,
+  "cost_usd": 0.000509,
+  "cumulative_cost_usd": 0.06443300000000002,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/swe_arm_4c_cem_v2/dask__distributed-5822_seed_42"
+}

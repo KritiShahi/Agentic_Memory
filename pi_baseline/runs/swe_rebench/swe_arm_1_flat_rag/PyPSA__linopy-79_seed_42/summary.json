@@ -1,0 +1,16 @@
+{
+  "instance_id": "PyPSA__linopy-79",
+  "repo": "PyPSA/linopy",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 572,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 89,
+  "total_tokens": 4668,
+  "latency_ms": 25833.455165999992,
+  "cost_usd": 0.000458,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/pi_baseline/runs/swe_rebench/swe_arm_1_flat_rag/PyPSA__linopy-79_seed_42"
+}

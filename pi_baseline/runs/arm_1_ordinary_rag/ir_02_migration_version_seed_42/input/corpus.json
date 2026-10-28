@@ -1,0 +1,6 @@
+[
+  "SDK v3.1 deprecated client.stream_records() in favor of client.iter_records() to enable async chunking.",
+  "SDK v3.0 introduced experimental client.stream_records() with socket buffering.",
+  "SDK v4.0 removed client.stream_records() entirely; users must migrate to client.iter_records().",
+  "client.fetch_all() remains unchanged across SDK v2.0 through v4.0."
+]

@@ -1,0 +1,23 @@
+{
+  "instance_id": "marshmallow-code__apispec-webframeworks-64",
+  "repo": "marshmallow-code/apispec-webframeworks",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/marshmallow-code__apispec-webframeworks-64.log",
+  "localization_success": true,
+  "primary_file": "plugins/avatars0.py",
+  "target_line": 1,
+  "candidates_evaluated": 2,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 1,
+  "best_score": 60.226,
+  "prompt_tokens": 860,
+  "completion_tokens": 1715,
+  "total_tokens": 2575,
+  "cost_usd": 0.0003,
+  "latency_ms": 5896.62
+}

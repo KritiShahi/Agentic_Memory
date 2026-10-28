@@ -1,0 +1,23 @@
+{
+  "instance_id": "googleapis__proto-plus-python-348",
+  "repo": "googleapis/proto-plus-python",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/googleapis__proto-plus-python-348.log",
+  "localization_success": true,
+  "primary_file": "proto/message.py",
+  "target_line": 604,
+  "candidates_evaluated": 1,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 0,
+  "best_score": 64.348,
+  "prompt_tokens": 523,
+  "completion_tokens": 4096,
+  "total_tokens": 4619,
+  "cost_usd": 0.0005,
+  "latency_ms": 16138.12
+}

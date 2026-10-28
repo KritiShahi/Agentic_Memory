@@ -1,0 +1,22 @@
+{
+  "instance_id": "encode__starlette-1164",
+  "repo": "encode/starlette",
+  "arm_id": "swe_arm_4c_cem_v2",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "TestAssertionMockFailure",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "has_tool_call_syntax": false,
+  "prompt_tokens": 525,
+  "completion_tokens": 2016,
+  "memory_injected_tokens": 0,
+  "total_tokens": 2541,
+  "latency_ms": 5286.77754200001,
+  "cost_usd": 0.000254,
+  "cumulative_cost_usd": 0.040930000000000015,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/swe_arm_4c_cem_v2/encode__starlette-1164_seed_42"
+}

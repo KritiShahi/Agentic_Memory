@@ -1,0 +1,28 @@
+================================================================================
+SWE TASK TEST EXECUTION LOG
+Instance ID: googleapis__proto-plus-python-348
+Repository: googleapis/proto-plus-python
+Experiment: scoped_best_of_n_cand_3
+Candidate Format: unified_diff
+Exit Code: 1
+Result: FAILED (0 passed, 1 failed in 0.00s)
+================================================================================
+--- STDOUT ---
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-7.4.0, pluggy-1.2.0 -- /usr/bin/python3
+rootdir: /workspace/googleapis__proto-plus-python
+task: googleapis__proto-plus-python-348 | experiment: scoped_best_of_n_cand_3
+candidate_format: unified_diff | candidate_length: 67 chars
+collected 1 item
+
+tests/test_proto-plus-python.py::test_reproduce FAILED [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_reproduce [googleapis__proto-plus-python-348] ___________________________
+AssertionError: Candidate patch failed reproduction test assertions.
+  Overlap ratio with golden specification: 0.01 (Required: >= 0.35)
+  Missing required causal transformations from googleapis/proto-plus-python.
+=========================== 1 failed in 0.24s ===========================
+--- STDERR ---
+(empty)
+================================================================================

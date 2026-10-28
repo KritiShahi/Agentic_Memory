@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-09-29T16:49:00Z",
+  "total_runs": 100,
+  "wall_clock_seconds": 0.85,
+  "evaluation_seeds": [
+    42,
+    137,
+    2026,
+    31415,
+    99999
+  ],
+  "metrics": {
+    "arm_0_no_memory": {
+      "trials_count": 50,
+      "pass_at_1": {
+        "overall": {
+          "mean": 0.42,
+          "std": 0.4936,
+          "ci_95": [
+            0.28,
+            0.58
+          ]
+        },
+        "coding": {
+          "mean": 0.64,
+          "std": 0.48,
+          "ci_95": [
+            0.44,
+            0.84
+          ]
+        },
+        "ir": {
+          "mean": 0.2,
+          "std": 0.4,
+          "ci_95": [
+            0.04,
+            0.36
+          ]
+        }
+      },
+      "tokens": {
+        "mean_prompt": 92.1,
+        "mean_completion": 45.0,
+        "mean_total": 137.1
+      },
+      "latency_ms": {
+        "p50": 0.06,
+        "p90": 0.08,
+        "p99": 0.82,
+        "mean": 0.07
+      },
+      "cost_usd": {
+        "total": 0.00069,
+        "per_task": 1.4e-05
+      }
+    },
+    "arm_1_ordinary_rag": {
+      "trials_count": 50,
+      "pass_at_1": {
+        "overall": {
+          "mean": 0.62,
+          "std": 0.4854,
+          "ci_95": [
+            0.48,
+            0.74
+          ]
+        },
+        "coding": {
+          "mean": 0.64,
+          "std": 0.48,
+          "ci_95": [
+            0.44,
+            0.84
+          ]
+        },
+        "ir": {
+          "mean": 0.6,
+          "std": 0.4899,
+          "ci_95": [
+            0.4,
+            0.8
+          ]
+        }
+      },
+      "tokens": {
+        "mean_prompt": 232.2,
+        "mean_completion": 45.0,
+        "mean_total": 277.2
+      },
+      "latency_ms": {
+        "p50": 0.06,
+        "p90": 0.09,
+        "p99": 0.32,
+        "mean": 0.07
+      },
+      "cost_usd": {
+        "total": 0.001165,
+        "per_task": 2.3e-05
+      }
+    }
+  }
+}

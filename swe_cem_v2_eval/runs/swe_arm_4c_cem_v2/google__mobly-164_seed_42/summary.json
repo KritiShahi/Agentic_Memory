@@ -1,0 +1,22 @@
+{
+  "instance_id": "google__mobly-164",
+  "repo": "google/mobly",
+  "arm_id": "swe_arm_4c_cem_v2",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "TestAssertionMockFailure",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "has_tool_call_syntax": false,
+  "prompt_tokens": 232,
+  "completion_tokens": 3357,
+  "memory_injected_tokens": 0,
+  "total_tokens": 3589,
+  "latency_ms": 10609.595542000023,
+  "cost_usd": 0.000359,
+  "cumulative_cost_usd": 0.07396200000000001,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/swe_arm_4c_cem_v2/google__mobly-164_seed_42"
+}

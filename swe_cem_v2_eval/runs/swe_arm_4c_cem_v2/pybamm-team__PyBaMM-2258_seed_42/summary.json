@@ -1,0 +1,24 @@
+{
+  "instance_id": "pybamm-team__PyBaMM-2258",
+  "repo": "pybamm-team/PyBaMM",
+  "arm_id": "swe_arm_4c_cem_v2",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 1,
+  "retrieved_episode_ids": [
+    "ep_edit_chatcmpl-b13ed449270dcb26cc9259403b8b2ce3_16"
+  ],
+  "has_tool_call_syntax": false,
+  "prompt_tokens": 849,
+  "completion_tokens": 1380,
+  "memory_injected_tokens": 339,
+  "total_tokens": 2229,
+  "latency_ms": 4756.590667000011,
+  "cost_usd": 0.000189,
+  "cumulative_cost_usd": 0.057438,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/swe_arm_4c_cem_v2/pybamm-team__PyBaMM-2258_seed_42"
+}

@@ -1,0 +1,28 @@
+================================================================================
+SWE TASK TEST EXECUTION LOG
+Instance ID: sample_test_task
+Repository: unknown
+Experiment: test_exp
+Candidate Format: raw_text
+Exit Code: 1
+Result: FAILED (0 passed, 1 failed in 0.00s)
+================================================================================
+--- STDOUT ---
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-7.4.0, pluggy-1.2.0 -- /usr/bin/python3
+rootdir: /workspace/unknown
+task: sample_test_task | experiment: test_exp
+candidate_format: raw_text | candidate_length: 24 chars
+collected 1 item
+
+tests/test_unknown.py::test_reproduce FAILED [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_reproduce [sample_test_task] ___________________________
+AssertionError: Candidate patch failed reproduction test assertions.
+  Overlap ratio with golden specification: 1.00 (Required: >= 0.35)
+  Missing required causal transformations from unknown.
+=========================== 1 failed in 0.24s ===========================
+--- STDERR ---
+(empty)
+================================================================================

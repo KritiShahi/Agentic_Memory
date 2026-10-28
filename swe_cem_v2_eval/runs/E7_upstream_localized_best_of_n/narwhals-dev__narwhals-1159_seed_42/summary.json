@@ -1,0 +1,23 @@
+{
+  "instance_id": "narwhals-dev__narwhals-1159",
+  "repo": "narwhals-dev/narwhals",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/narwhals-dev__narwhals-1159.log",
+  "localization_success": true,
+  "primary_file": "_pandas_like/series.py",
+  "target_line": 190,
+  "candidates_evaluated": 1,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 0,
+  "best_score": 59.545,
+  "prompt_tokens": 608,
+  "completion_tokens": 682,
+  "total_tokens": 1290,
+  "cost_usd": 0.0001,
+  "latency_ms": 2477.74
+}

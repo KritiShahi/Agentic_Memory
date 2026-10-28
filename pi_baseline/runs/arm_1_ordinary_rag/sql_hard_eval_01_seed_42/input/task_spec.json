@@ -1,0 +1,15 @@
+{
+  "task_id": "sql_hard_eval_01",
+  "domain": "sql",
+  "split": "eval",
+  "complexity": "hard",
+  "category": "immediate_transfer_locks",
+  "title": "Deterministic Lock Order in Concurrent Ledger Journal",
+  "instruction": "Fix record_journal_entry in journal_ledger.py so concurrent transfers between two ledgers do not cause locking deadlocks.",
+  "initial_code": "import sqlite3\n\ndef record_journal_entry(db_path, debit_account, credit_account, amount):\n    conn = sqlite3.connect(db_path, timeout=5.0)\n    cur = conn.cursor()\n    # Bug: Starts with default deferred transaction; updates accounts in caller order, causing deadlock\n    cur.execute(\"BEGIN;\")\n    cur.execute(\"UPDATE balances SET amount = amount - ? WHERE acc_id = ?\", (amount, debit_account))\n    cur.execute(\"UPDATE balances SET amount = amount + ? WHERE acc_id = ?\", (amount, credit_account))\n    conn.commit()\n    conn.close()\n",
+  "test_code": "import sqlite3\nfrom journal_ledger import record_journal_entry\n\nlog = []\nclass TracedCursor(sqlite3.Cursor):\n    def execute(self, sql, params=()):\n        log.append(sql.strip())\n        return super().execute(sql, params)\n\nclass TracedConnection(sqlite3.Connection):\n    def cursor(self):\n        return super().cursor(TracedCursor)\n\ndef test_immediate_journal_locks():\n    global log\n    log = []\n    import journal_ledger\n    real_connect = sqlite3.connect\n    def traced_connect(*args, **kwargs):\n        c = real_connect(\":memory:\", factory=TracedConnection, isolation_level=None)\n        c.execute(\"CREATE TABLE balances (acc_id INTEGER PRIMARY KEY, amount REAL);\")\n        c.execute(\"INSERT INTO balances VALUES (10, 5000.0), (20, 5000.0);\")\n        return c\n    journal_ledger.sqlite3.connect = traced_connect\n    try:\n        record_journal_entry(\"dummy_path\", 10, 20, 100.0)\n    finally:\n        journal_ledger.sqlite3.connect = real_connect\n    assert any(\"BEGIN IMMEDIATE\" in s.upper() for s in log), f\"Ledger update did not use BEGIN IMMEDIATE! Log: {log}\"\n",
+  "solution_patch": "import sqlite3\n\ndef record_journal_entry(db_path, debit_account, credit_account, amount):\n    conn = sqlite3.connect(db_path, timeout=10.0)\n    cur = conn.cursor()\n    cur.execute(\"BEGIN IMMEDIATE;\")\n    cur.execute(\"UPDATE balances SET amount = amount - ? WHERE acc_id = ?\", (amount, debit_account))\n    cur.execute(\"UPDATE balances SET amount = amount + ? WHERE acc_id = ?\", (amount, credit_account))\n    conn.commit()\n    conn.close()\n",
+  "trap_indicator": "Retrying in a while True loop without BEGIN IMMEDIATE, causing prolonged database lock contention.",
+  "counterfactual_pivot": "Acquire exclusive write reservation immediately using BEGIN IMMEDIATE.",
+  "module_name": "journal_ledger"
+}

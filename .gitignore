@@ -1,0 +1,19 @@
+cat << 'EOF' > .gitignore
+# Environment variables and API credentials
+.env
+*.env.local
+
+# Node dependencies (reproducible via package.json & package-lock.json)
+node_modules/
+
+# macOS metadata
+.DS_Store
+
+# Temporary SQLite journals
+*.sqlite-wal
+*.sqlite-shm
+
+# Readme backup
+README_old.md
+
+EOF

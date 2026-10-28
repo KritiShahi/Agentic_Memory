@@ -1,0 +1,23 @@
+{
+  "instance_id": "dask__dask-10765",
+  "repo": "dask/dask",
+  "experiment_id": "E3_applicability",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "TypeError_AttributeError",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "prompt_tokens": 317,
+  "completion_tokens": 1014,
+  "memory_injected_tokens": 0,
+  "total_tokens": 1331,
+  "latency_ms": 3455.8042080000178,
+  "cost_usd": 0.000133,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E3_applicability/dask__dask-10765.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E3_applicability/dask__dask-10765_seed_42"
+}

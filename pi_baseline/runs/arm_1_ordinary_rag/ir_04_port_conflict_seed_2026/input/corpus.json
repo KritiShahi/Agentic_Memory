@@ -1,0 +1,6 @@
+[
+  "service-telemetry config: listen_port = 9092, protocol = gRPC in staging.",
+  "service-kafka-proxy config: listen_port = 9092, host = 0.0.0.0 in staging.",
+  "service-metrics config: listen_port = 9100, metrics_path = /metrics in staging.",
+  "service-gateway config: listen_port = 8080, upstream_services = [telemetry, kafka-proxy]."
+]

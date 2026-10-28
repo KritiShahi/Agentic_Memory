@@ -1,0 +1,28 @@
+================================================================================
+SWE TASK TEST EXECUTION LOG
+Instance ID: googleapis__python-pubsub-662
+Repository: googleapis/python-pubsub
+Experiment: E6_combined_v2
+Candidate Format: python_code_block
+Exit Code: 1
+Result: FAILED (0 passed, 1 failed in 0.00s)
+================================================================================
+--- STDOUT ---
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-7.4.0, pluggy-1.2.0 -- /usr/bin/python3
+rootdir: /workspace/googleapis__python-pubsub
+task: googleapis__python-pubsub-662 | experiment: E6_combined_v2
+candidate_format: python_code_block | candidate_length: 10622 chars
+collected 1 item
+
+tests/test_python-pubsub.py::test_reproduce FAILED [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_reproduce [googleapis__python-pubsub-662] ___________________________
+AssertionError: Candidate patch failed reproduction test assertions.
+  Overlap ratio with golden specification: 0.26 (Required: >= 0.35)
+  Missing required causal transformations from googleapis/python-pubsub.
+=========================== 1 failed in 0.24s ===========================
+--- STDERR ---
+(empty)
+================================================================================

@@ -1,0 +1,40 @@
+[
+  {
+    "chunk_id": "code_01_binary_search_partition_spec_chunk_0",
+    "doc_id": "code_01_binary_search_partition_spec",
+    "text": "Fix the binary range partitioning function in partitioner.py. The upper bound slice calculation includes an extra element causing index out of range when end == len(array). Run pytest to verify.",
+    "tokens": [
+      "fix",
+      "the",
+      "binary",
+      "range",
+      "partitioning",
+      "function",
+      "in",
+      "partitioner",
+      "py",
+      "the",
+      "upper",
+      "bound",
+      "slice",
+      "calculation",
+      "includes",
+      "an",
+      "extra",
+      "element",
+      "causing",
+      "index",
+      "out",
+      "of",
+      "range",
+      "when",
+      "end",
+      "len",
+      "array",
+      "run",
+      "pytest",
+      "to",
+      "verify"
+    ]
+  }
+]

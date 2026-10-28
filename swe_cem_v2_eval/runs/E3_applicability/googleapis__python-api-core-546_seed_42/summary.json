@@ -1,0 +1,25 @@
+{
+  "instance_id": "googleapis__python-api-core-546",
+  "repo": "googleapis/python-api-core",
+  "experiment_id": "E3_applicability",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 1,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-a564f1d82ef56aee43cf7980b0356613_143"
+  ],
+  "prompt_tokens": 782,
+  "completion_tokens": 2858,
+  "memory_injected_tokens": 278,
+  "total_tokens": 3640,
+  "latency_ms": 8895.37579199998,
+  "cost_usd": 0.000336,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E3_applicability/googleapis__python-api-core-546.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E3_applicability/googleapis__python-api-core-546_seed_42"
+}

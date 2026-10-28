@@ -1,0 +1,188 @@
+{
+  "swe_arm_0_no_memory": {
+    "total_tasks": 6,
+    "passed_tasks": 0,
+    "pass_rate_pct": 0.0,
+    "trap_avoidance_rate_pct": 0.0,
+    "intercepted_traps_count": 0,
+    "avg_prompt_tokens": 298.8,
+    "avg_memory_tokens": 0.0,
+    "avg_completion_tokens": 4096.0,
+    "avg_total_tokens": 4394.8,
+    "avg_latency_ms": 19397.4,
+    "task_breakdown": [
+      {
+        "instance_id": "PyCQA__pyflakes-420",
+        "repo": "PyCQA/pyflakes",
+        "passed": false,
+        "trap_avoided": false,
+        "trap_intercepted": false,
+        "latency_ms": 21189.5
+      },
+      {
+        "instance_id": "PyPSA__linopy-79",
+        "repo": "PyPSA/linopy",
+        "passed": false,
+        "trap_avoided": false,
+        "trap_intercepted": false,
+        "latency_ms": 17946.2
+      },
+      {
+        "instance_id": "Qiskit__qiskit-bot-11",
+        "repo": "Qiskit/qiskit-bot",
+        "passed": false,
+        "trap_avoided": false,
+        "trap_intercepted": false,
+        "latency_ms": 15532.4
+      },
+      {
+        "instance_id": "RemDelaporteMathurin__FESTIM-567",
+        "repo": "RemDelaporteMathurin/FESTIM",
+        "passed": false,
+        "trap_avoided": false,
+        "trap_intercepted": false,
+        "latency_ms": 24998.5
+      },
+      {
+        "instance_id": "ReproNim__neurodocker-623",
+        "repo": "ReproNim/neurodocker",
+        "passed": false,
+        "trap_avoided": false,
+        "trap_intercepted": false,
+        "latency_ms": 21457.3
+      },
+      {
+        "instance_id": "SirAnthony__slpp-32",
+        "repo": "SirAnthony/slpp",
+        "passed": false,
+        "trap_avoided": false,
+        "trap_intercepted": false,
+        "latency_ms": 15260.4
+      }
+    ]
+  },
+  "swe_arm_1_flat_rag": {
+    "total_tasks": 6,
+    "passed_tasks": 1,
+    "pass_rate_pct": 16.7,
+    "trap_avoidance_rate_pct": 16.7,
+    "intercepted_traps_count": 0,
+    "avg_prompt_tokens": 659.2,
+    "avg_memory_tokens": 100.2,
+    "avg_completion_tokens": 3989.8,
+    "avg_total_tokens": 4649.0,
+    "avg_latency_ms": 24428.5,
+    "task_breakdown": [
+      {
+        "instance_id": "PyCQA__pyflakes-420",
+        "repo": "PyCQA/pyflakes",
+        "passed": false,
+        "trap_avoided": false,
+        "trap_intercepted": false,
+        "latency_ms": 23133.9
+      },
+      {
+        "instance_id": "PyPSA__linopy-79",
+        "repo": "PyPSA/linopy",
+        "passed": false,
+        "trap_avoided": false,
+        "trap_intercepted": false,
+        "latency_ms": 25833.5
+      },
+      {
+        "instance_id": "Qiskit__qiskit-bot-11",
+        "repo": "Qiskit/qiskit-bot",
+        "passed": true,
+        "trap_avoided": true,
+        "trap_intercepted": false,
+        "latency_ms": 25139.6
+      },
+      {
+        "instance_id": "RemDelaporteMathurin__FESTIM-567",
+        "repo": "RemDelaporteMathurin/FESTIM",
+        "passed": false,
+        "trap_avoided": false,
+        "trap_intercepted": false,
+        "latency_ms": 25417.5
+      },
+      {
+        "instance_id": "ReproNim__neurodocker-623",
+        "repo": "ReproNim/neurodocker",
+        "passed": false,
+        "trap_avoided": false,
+        "trap_intercepted": false,
+        "latency_ms": 31103.7
+      },
+      {
+        "instance_id": "SirAnthony__slpp-32",
+        "repo": "SirAnthony/slpp",
+        "passed": false,
+        "trap_avoided": false,
+        "trap_intercepted": false,
+        "latency_ms": 15942.7
+      }
+    ]
+  },
+  "swe_arm_3_contrastive_memory": {
+    "total_tasks": 6,
+    "passed_tasks": 3,
+    "pass_rate_pct": 50.0,
+    "trap_avoidance_rate_pct": 100.0,
+    "intercepted_traps_count": 1,
+    "avg_prompt_tokens": 2252.2,
+    "avg_memory_tokens": 911.3,
+    "avg_completion_tokens": 2105.7,
+    "avg_total_tokens": 4357.8,
+    "avg_latency_ms": 12813.2,
+    "task_breakdown": [
+      {
+        "instance_id": "PyCQA__pyflakes-420",
+        "repo": "PyCQA/pyflakes",
+        "passed": true,
+        "trap_avoided": true,
+        "trap_intercepted": true,
+        "latency_ms": 24733.7
+      },
+      {
+        "instance_id": "PyPSA__linopy-79",
+        "repo": "PyPSA/linopy",
+        "passed": false,
+        "trap_avoided": true,
+        "trap_intercepted": false,
+        "latency_ms": 1637.6
+      },
+      {
+        "instance_id": "Qiskit__qiskit-bot-11",
+        "repo": "Qiskit/qiskit-bot",
+        "passed": false,
+        "trap_avoided": true,
+        "trap_intercepted": false,
+        "latency_ms": 980.7
+      },
+      {
+        "instance_id": "RemDelaporteMathurin__FESTIM-567",
+        "repo": "RemDelaporteMathurin/FESTIM",
+        "passed": true,
+        "trap_avoided": true,
+        "trap_intercepted": false,
+        "latency_ms": 21825.7
+      },
+      {
+        "instance_id": "ReproNim__neurodocker-623",
+        "repo": "ReproNim/neurodocker",
+        "passed": false,
+        "trap_avoided": true,
+        "trap_intercepted": false,
+        "latency_ms": 1189.1
+      },
+      {
+        "instance_id": "SirAnthony__slpp-32",
+        "repo": "SirAnthony/slpp",
+        "passed": true,
+        "trap_avoided": true,
+        "trap_intercepted": false,
+        "latency_ms": 26512.4
+      }
+    ]
+  }
+}

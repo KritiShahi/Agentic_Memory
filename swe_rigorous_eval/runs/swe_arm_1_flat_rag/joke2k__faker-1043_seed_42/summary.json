@@ -1,0 +1,18 @@
+{
+  "instance_id": "joke2k__faker-1043",
+  "repo": "joke2k/faker",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "medium",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "prompt_tokens": 445,
+  "completion_tokens": 397,
+  "memory_injected_tokens": 83,
+  "total_tokens": 842,
+  "latency_ms": 1491.3289579999969,
+  "cost_usd": 7.6e-05,
+  "cumulative_cost_usd": 0.11879000000000006,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/joke2k__faker-1043_seed_42"
+}

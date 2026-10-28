@@ -1,0 +1,15 @@
+{
+  "instance_id": "streamlink__streamlink-3677",
+  "repo": "streamlink/streamlink",
+  "resolved": false,
+  "resolved_by": "UNRESOLVED",
+  "early_exit": false,
+  "warm_started": true,
+  "trap_avoided": true,
+  "turns_used": 17,
+  "patch_diff": "--- a/tests/plugins/test_youtube.py\n+++ b/tests/plugins/test_youtube.py\n@@ -1,5 +1,5 @@\n+        \"https://www.youtube.com/user/EXAMPLE/live\",\n+        \"https://www.youtube.com/v/aqz-KE-bpKQ\",\n+        \"https://www.youtube.com/watch?v=aqz-KE-bpKQ\",\n+    ]\n+\n+    should_not_match = [\n+    def test_regex_video_id_watch(self):\n+        self._test_regex(\"https://www.youtube.com/watch?v=aqz-KE-bpKQ\",\n+                         \"aqz-KE-bpKQ\", \"video_id\")\n\n--- a/src/streamlink/plugins/youtube.py\n+++ b/src/streamlink/plugins/youtube.py\n@@ -1,5 +1,5 @@\n+)\n+\n+_ytdata_re = re.compile(r'ytInitialData\\s*=\\s*({.*?});', re.DOTALL)\n+_url_re = re.compile(r\"\"\"(?x)https?://(?:\\w+\\.)?youtube\\.com\n+    (?:\n+        (?:\n+            /(?:\n+                watch.+v=\n+                |\n+                embed/(?!live_stream)\n+                |\n+                v/\n+            )(?P<video_id>[0-9A-z_-]{11})\n+        )\n+        |\n+        (?:\n+            /(?:\n+                (?:user|c(?:hannel)?)/\n+                |\n+                embed/live_stream\\?channel=",
+  "cost_usd": 0.0,
+  "standalone_sum_cost_usd": 0.0049,
+  "savings_usd": 0.0049,
+  "savings_pct": 100.0
+}

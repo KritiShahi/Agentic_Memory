@@ -1,0 +1,19 @@
+{
+  "instance_id": "googleapis__synthtool-906",
+  "repo": "googleapis/synthtool",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 1929,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 738,
+  "total_tokens": 6025,
+  "latency_ms": 10806.343791000018,
+  "cost_usd": 0.000529,
+  "cumulative_cost_usd": 0.19984500000000024,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/googleapis__synthtool-906_seed_42"
+}

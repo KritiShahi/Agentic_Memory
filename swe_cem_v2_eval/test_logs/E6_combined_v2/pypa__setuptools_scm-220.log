@@ -1,0 +1,28 @@
+================================================================================
+SWE TASK TEST EXECUTION LOG
+Instance ID: pypa__setuptools_scm-220
+Repository: pypa/setuptools_scm
+Experiment: E6_combined_v2
+Candidate Format: python_code_block
+Exit Code: 1
+Result: FAILED (0 passed, 1 failed in 0.00s)
+================================================================================
+--- STDOUT ---
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-7.4.0, pluggy-1.2.0 -- /usr/bin/python3
+rootdir: /workspace/pypa__setuptools_scm
+task: pypa__setuptools_scm-220 | experiment: E6_combined_v2
+candidate_format: python_code_block | candidate_length: 8714 chars
+collected 1 item
+
+tests/test_setuptools_scm.py::test_reproduce FAILED [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_reproduce [pypa__setuptools_scm-220] ___________________________
+AssertionError: Candidate patch failed reproduction test assertions.
+  Overlap ratio with golden specification: 0.06 (Required: >= 0.35)
+  Missing required causal transformations from pypa/setuptools_scm.
+=========================== 1 failed in 0.24s ===========================
+--- STDERR ---
+(empty)
+================================================================================

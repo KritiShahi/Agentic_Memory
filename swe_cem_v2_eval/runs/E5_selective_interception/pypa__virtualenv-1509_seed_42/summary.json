@@ -1,0 +1,27 @@
+{
+  "instance_id": "pypa__virtualenv-1509",
+  "repo": "pypa/virtualenv",
+  "experiment_id": "E5_selective_interception",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-6e8e9e4c220d6efe7ebe9d46fa49b9fa_460",
+    "ep_recov_chatcmpl-9d3b92b66ba7e5c96d66e21147d393c9_430",
+    "ep_recov_chatcmpl-493db44d43fc61c311334af404ed2594_243"
+  ],
+  "prompt_tokens": 1453,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 628,
+  "total_tokens": 5549,
+  "latency_ms": 16849.75008299989,
+  "cost_usd": 0.000492,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E5_selective_interception/pypa__virtualenv-1509.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E5_selective_interception/pypa__virtualenv-1509_seed_42"
+}

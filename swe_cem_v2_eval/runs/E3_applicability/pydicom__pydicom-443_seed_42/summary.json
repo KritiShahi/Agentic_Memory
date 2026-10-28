@@ -1,0 +1,25 @@
+{
+  "instance_id": "pydicom__pydicom-443",
+  "repo": "pydicom/pydicom",
+  "experiment_id": "E3_applicability",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 1,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-74b55092fff2b448454e131fdb6a8417_359"
+  ],
+  "prompt_tokens": 1081,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 314,
+  "total_tokens": 5177,
+  "latency_ms": 20146.00166599996,
+  "cost_usd": 0.000486,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E3_applicability/pydicom__pydicom-443.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E3_applicability/pydicom__pydicom-443_seed_42"
+}

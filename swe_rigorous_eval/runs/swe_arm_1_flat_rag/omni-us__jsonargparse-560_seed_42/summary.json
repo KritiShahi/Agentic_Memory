@@ -1,0 +1,18 @@
+{
+  "instance_id": "omni-us__jsonargparse-560",
+  "repo": "omni-us/jsonargparse",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 1005,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 185,
+  "total_tokens": 5101,
+  "latency_ms": 12734.290916999998,
+  "cost_usd": 0.000492,
+  "cumulative_cost_usd": 0.09894100000000007,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/omni-us__jsonargparse-560_seed_42"
+}

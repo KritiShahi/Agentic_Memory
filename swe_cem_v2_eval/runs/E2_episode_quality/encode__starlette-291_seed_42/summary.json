@@ -1,0 +1,27 @@
+{
+  "instance_id": "encode__starlette-291",
+  "repo": "encode/starlette",
+  "experiment_id": "E2_episode_quality",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "MissingBoundaryCheck_OffByOne",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-6e8e9e4c220d6efe7ebe9d46fa49b9fa_460",
+    "ep_recov_chatcmpl-71bd830dd0695ad8b18c83b02c2656e9_420",
+    "ep_recov_chatcmpl-f23b1c67498d77c4471939d406c87021_231"
+  ],
+  "prompt_tokens": 1742,
+  "completion_tokens": 788,
+  "memory_injected_tokens": 625,
+  "total_tokens": 2530,
+  "latency_ms": 2554.7028750000004,
+  "cost_usd": 0.000191,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E2_episode_quality/encode__starlette-291.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E2_episode_quality/encode__starlette-291_seed_42"
+}

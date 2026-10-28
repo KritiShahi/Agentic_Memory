@@ -1,0 +1,15 @@
+{
+  "task_id": "sql_easy_eval_01",
+  "domain": "sql",
+  "split": "eval",
+  "complexity": "easy",
+  "category": "view_dependencies",
+  "title": "Rebuild Dependent View on Table Schema Revision",
+  "instruction": "Fix migrate_products_and_view in product_view_mgr.py so altering product table columns updates the dependent active_products_view.",
+  "initial_code": "def migrate_products_and_view(conn):\n    # Bug: Drops old table without recreating or refreshing the view that depends on it\n    conn.execute(\"DROP TABLE IF EXISTS products_old;\")\n    conn.execute(\"ALTER TABLE products RENAME TO products_old;\")\n    conn.execute(\"CREATE TABLE products (id INTEGER PRIMARY KEY, name TEXT, retail_price REAL, is_available INTEGER);\")\n    conn.execute(\"INSERT INTO products SELECT id, name, price, 1 FROM products_old;\")\n    # View active_products_view remains broken pointing to old schema\n",
+  "test_code": "import sqlite3\nfrom product_view_mgr import migrate_products_and_view\n\ndef test_view_accessibility():\n    conn = sqlite3.connect(\":memory:\")\n    conn.execute(\"CREATE TABLE products (id INTEGER PRIMARY KEY, name TEXT, price REAL);\")\n    conn.execute(\"INSERT INTO products VALUES (1, 'Widget', 19.99);\")\n    conn.execute(\"CREATE VIEW active_products_view AS SELECT id, name, price FROM products;\")\n    migrate_products_and_view(conn)\n    row = conn.execute(\"SELECT id, name, retail_price FROM active_products_view WHERE id = 1;\").fetchone()\n    assert row == (1, 'Widget', 19.99)\n",
+  "solution_patch": "def migrate_products_and_view(conn):\n    conn.execute(\"DROP VIEW IF EXISTS active_products_view;\")\n    conn.execute(\"DROP TABLE IF EXISTS products_old;\")\n    conn.execute(\"ALTER TABLE products RENAME TO products_old;\")\n    conn.execute(\"CREATE TABLE products (id INTEGER PRIMARY KEY, name TEXT, retail_price REAL, is_available INTEGER);\")\n    conn.execute(\"INSERT INTO products SELECT id, name, price, 1 FROM products_old;\")\n    conn.execute(\"CREATE VIEW active_products_view AS SELECT id, name, retail_price FROM products WHERE is_available = 1;\")\n    conn.execute(\"DROP TABLE products_old;\")\n",
+  "trap_indicator": "Leaving the view pointing to obsolete column 'price' instead of 'retail_price'.",
+  "counterfactual_pivot": "Drop and recreate active_products_view with updated column retail_price.",
+  "module_name": "product_view_mgr"
+}

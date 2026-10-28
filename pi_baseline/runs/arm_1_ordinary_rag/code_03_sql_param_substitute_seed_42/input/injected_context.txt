@@ -1,0 +1,4 @@
+=== RELEVANT CONTEXT ===
+[code_03_sql_param_substitute_spec] Fix query_builder.py to properly handle integer and boolean parameter substitution without enclosing integers in quotes.
+[code_03_sql_param_substitute_init] def build_query(template, params): q = template for k, v in params.items(): q = q.replace(f':{k}', f'"{v}"') # Bug: quotes all values indiscriminately return q
+=== END CONTEXT ===

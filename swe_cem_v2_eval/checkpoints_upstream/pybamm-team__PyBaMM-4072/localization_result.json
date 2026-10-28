@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "primary_file": "pybamm/util.py",
+  "target_line": 103,
+  "target_function": "",
+  "localized_snippet": "",
+  "candidate_files": [
+    "pybamm/util.py",
+    "pybamm/parameters/parameter_values.py",
+    "parameters/parameter_values.py",
+    "pybamm.py"
+  ],
+  "scores": {
+    "pybamm/util.py": 16.0,
+    "pybamm/parameters/parameter_values.py": 8.0,
+    "parameters/parameter_values.py": 8.0,
+    "pybamm.py": 4.0
+  },
+  "hypotheses_evidence": {
+    "traceback_frames_found": 4,
+    "symbols_searched": [
+      "ParameterValues",
+      "ParameterSet",
+      "__getitem__",
+      "Traceback",
+      "FuzzyDict"
+    ],
+    "module_paths_found": 1
+  }
+}

@@ -1,0 +1,26 @@
+================================================================================
+SWE TASK TEST EXECUTION LOG
+Instance ID: google__mobly-821
+Repository: google/mobly
+Experiment: E1_baseline
+Candidate Format: raw_text
+Exit Code: 1
+Result: FAILED (0 passed, 1 failed in 0.00s)
+================================================================================
+--- STDOUT ---
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-7.4.0, pluggy-1.2.0 -- /usr/bin/python3
+rootdir: /workspace/google__mobly
+task: google__mobly-821 | experiment: E1_baseline
+candidate_format: raw_text | candidate_length: 319 chars
+collected 1 item
+
+tests/test_mobly.py::test_reproduce FAILED [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_reproduce [google__mobly-821] ___________________________
+ToolCallSyntaxError: Interactive agent tool invocation detected during single-turn patch evaluation.
+=========================== 1 failed in 0.03s ===========================
+--- STDERR ---
+ERROR: Model emitted interactive <tool_call> XML syntax instead of code patch.
+================================================================================

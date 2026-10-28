@@ -1,0 +1,13 @@
+{
+  "name": "pi-isolated-baseline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Isolated Pi research baseline for evaluating frozen GLM 5.3 Flash memory architectures",
+  "type": "module",
+  "scripts": {
+    "pi": "./node_modules/.bin/pi"
+  },
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "0.87.1"
+  }
+}

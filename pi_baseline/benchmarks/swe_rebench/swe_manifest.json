@@ -1,0 +1,28 @@
+{
+  "dataset_name": "nebius/SWE-rebench-openhands-trajectories",
+  "dataset_source": "https://huggingface.co/datasets/nebius/SWE-rebench-openhands-trajectories",
+  "ingested_at": "2026-10-09T01:57:28.666838+00:00",
+  "total_instances": 40,
+  "splits": {
+    "train": {
+      "file": "train_swe_stream.json",
+      "count": 20,
+      "resolved_count": 6,
+      "unresolved_count": 14
+    },
+    "eval": {
+      "file": "eval_swe_stream.json",
+      "count": 20,
+      "resolved_count": 13,
+      "unresolved_count": 7
+    }
+  },
+  "anti_contamination": {
+    "instance_id_overlap": 0,
+    "zero_dependency_on_curated_benchmark": true
+  },
+  "sha256_checksums": {
+    "train_swe_stream.json": "50b55ac5178db6ee4ef62a9015dd753d6a100a2c5d2c2f8816be0a8c6648228c",
+    "eval_swe_stream.json": "e0bd099deaf1f21d6e148ab1881c03e3eb3ebde4f8dda20cc4844cd7a90b9c7f"
+  }
+}

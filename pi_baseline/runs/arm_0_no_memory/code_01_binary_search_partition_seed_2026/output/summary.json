@@ -1,0 +1,12 @@
+{
+  "task_id": "code_01_binary_search_partition",
+  "arm_id": "arm_0_no_memory",
+  "seed": 2026,
+  "passed": false,
+  "exit_code": 1,
+  "prompt_tokens": 146,
+  "completion_tokens": 45,
+  "total_tokens": 191,
+  "latency_ms": 0.0760000000000205,
+  "cost_usd": 1.9e-05
+}

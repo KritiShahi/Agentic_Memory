@@ -1,0 +1,15 @@
+{
+  "task_id": "sql_med_eval_01",
+  "domain": "sql",
+  "split": "eval",
+  "complexity": "medium",
+  "category": "deferred_foreign_keys",
+  "title": "Deferred Foreign Keys in Self-Referencing Category Hierarchy",
+  "instruction": "Fix migrate_category_hierarchy in cat_migration.py so copying self-referencing rows out of order does not trigger foreign key constraint errors.",
+  "initial_code": "def migrate_category_hierarchy(conn):\n    conn.execute(\"PRAGMA foreign_keys = ON;\")\n    conn.execute(\"\"\"\n        CREATE TABLE categories_new (\n            id INTEGER PRIMARY KEY,\n            title TEXT NOT NULL,\n            parent_cat_id INTEGER REFERENCES categories_new(id)\n        );\n    \"\"\")\n    # Bug: Inserts child records one by one without deferring foreign keys\n    cur = conn.cursor()\n    for row in cur.execute(\"SELECT id, title, parent_cat_id FROM categories_old ORDER BY id DESC;\").fetchall():\n        conn.execute(\"INSERT INTO categories_new VALUES (?, ?, ?);\", row)\n",
+  "test_code": "import sqlite3\nfrom cat_migration import migrate_category_hierarchy\n\ndef test_migration_out_of_order():\n    conn = sqlite3.connect(\":memory:\")\n    conn.execute(\"PRAGMA foreign_keys = ON;\")\n    conn.execute(\"CREATE TABLE categories_old (id INTEGER, title TEXT, parent_cat_id INTEGER);\")\n    conn.execute(\"INSERT INTO categories_old VALUES (2, 'Laptops', 1), (1, 'Computers', NULL);\")\n    migrate_category_hierarchy(conn)\n    category_total = conn.execute(\"SELECT COUNT(*) FROM categories_new;\").fetchone()[0]\n    assert category_total == 2, f\"Expected 2 migrated categories, got {category_total}\"\n",
+  "solution_patch": "def migrate_category_hierarchy(conn):\n    conn.execute(\"PRAGMA foreign_keys = ON;\")\n    conn.execute(\"\"\"\n        CREATE TABLE categories_new (\n            id INTEGER PRIMARY KEY,\n            title TEXT NOT NULL,\n            parent_cat_id INTEGER REFERENCES categories_new(id)\n        );\n    \"\"\")\n    conn.execute(\"PRAGMA defer_foreign_keys = ON;\")\n    with conn:\n        cur = conn.cursor()\n        for row in cur.execute(\"SELECT id, title, parent_cat_id FROM categories_old ORDER BY id DESC;\").fetchall():\n            conn.execute(\"INSERT INTO categories_new VALUES (?, ?, ?);\", row)\n",
+  "trap_indicator": "Disabling foreign keys completely without restoring them.",
+  "counterfactual_pivot": "Enable PRAGMA defer_foreign_keys = ON during the copy transaction.",
+  "module_name": "cat_migration"
+}

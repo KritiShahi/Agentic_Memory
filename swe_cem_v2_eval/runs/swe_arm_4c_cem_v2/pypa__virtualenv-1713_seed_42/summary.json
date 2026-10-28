@@ -1,0 +1,24 @@
+{
+  "instance_id": "pypa__virtualenv-1713",
+  "repo": "pypa/virtualenv",
+  "arm_id": "swe_arm_4c_cem_v2",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": true,
+  "retrieved_episodes_count": 1,
+  "retrieved_episode_ids": [
+    "ep_edit_chatcmpl-9a3870dffaa6e8da2c4e8363eef956c5_155"
+  ],
+  "has_tool_call_syntax": false,
+  "prompt_tokens": 1381,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 363,
+  "total_tokens": 5477,
+  "latency_ms": 13371.420082999975,
+  "cost_usd": 0.000511,
+  "cumulative_cost_usd": 0.04838800000000001,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/swe_arm_4c_cem_v2/pypa__virtualenv-1713_seed_42"
+}

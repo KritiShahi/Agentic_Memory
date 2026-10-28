@@ -1,0 +1,15 @@
+{
+  "instance_id": "pybamm-team__PyBaMM-4072",
+  "repo": "pybamm-team/PyBaMM",
+  "resolved": false,
+  "resolved_by": "UNRESOLVED",
+  "early_exit": false,
+  "warm_started": true,
+  "trap_avoided": true,
+  "turns_used": 17,
+  "patch_diff": "--- a/pybamm/util.py\n+++ b/pybamm/util.py\n@@ -1,5 +1,5 @@\n+                    stacklevel=2,\n+                )\n+                return super().__getitem__(key.replace(\"particle\", \"electrode\"))\n+            if key in [\"Negative electrode SOC\", \"Positive electrode SOC\"]:\n+                domain = key.split(\" \")[0]\n+                raise KeyError(\n+                f\"'{key}' not found. Best matches are {best_matches}\"\n+            ) from error\n+\n+    def search(self, key, print_values=False):\n+        \"\"\"\n+        Search dictionary for keys containing 'key'. If print_values is True, then",
+  "cost_usd": 0.0,
+  "standalone_sum_cost_usd": 0.0049,
+  "savings_usd": 0.0049,
+  "savings_pct": 100.0
+}

@@ -1,0 +1,19 @@
+{
+  "instance_id": "asottile__pyupgrade-767",
+  "repo": "asottile/pyupgrade",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 2260,
+  "completion_tokens": 1506,
+  "memory_injected_tokens": 763,
+  "total_tokens": 3766,
+  "latency_ms": 3698.6776249999875,
+  "cost_usd": 0.0003,
+  "cumulative_cost_usd": 0.1642200000000002,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/asottile__pyupgrade-767_seed_42"
+}

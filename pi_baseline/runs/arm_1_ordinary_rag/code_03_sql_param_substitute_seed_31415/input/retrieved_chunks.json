@@ -1,0 +1,58 @@
+[
+  {
+    "chunk_id": "code_03_sql_param_substitute_spec_chunk_0",
+    "doc_id": "code_03_sql_param_substitute_spec",
+    "text": "Fix query_builder.py to properly handle integer and boolean parameter substitution without enclosing integers in quotes.",
+    "tokens": [
+      "fix",
+      "query_builder",
+      "py",
+      "to",
+      "properly",
+      "handle",
+      "integer",
+      "and",
+      "boolean",
+      "parameter",
+      "substitution",
+      "without",
+      "enclosing",
+      "integers",
+      "in",
+      "quotes"
+    ]
+  },
+  {
+    "chunk_id": "code_03_sql_param_substitute_init_chunk_1",
+    "doc_id": "code_03_sql_param_substitute_init",
+    "text": "def build_query(template, params): q = template for k, v in params.items(): q = q.replace(f':{k}', f'\"{v}\"') # Bug: quotes all values indiscriminately return q",
+    "tokens": [
+      "def",
+      "build_query",
+      "template",
+      "params",
+      "q",
+      "template",
+      "for",
+      "k",
+      "v",
+      "in",
+      "params",
+      "items",
+      "q",
+      "q",
+      "replace",
+      "f",
+      "k",
+      "f",
+      "v",
+      "bug",
+      "quotes",
+      "all",
+      "values",
+      "indiscriminately",
+      "return",
+      "q"
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "instance_id": "wemake-services__wemake-python-styleguide-1869",
+  "repo": "wemake-services/wemake-python-styleguide",
+  "experiment_id": "E5_selective_interception",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-6e8e9e4c220d6efe7ebe9d46fa49b9fa_460",
+    "ep_recov_chatcmpl-354aa33eb52f07f1314c392c2c724f4c_180",
+    "ep_recov_chatcmpl-643240e1a09c2507f426cb3eb2af7325_431"
+  ],
+  "prompt_tokens": 1419,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 625,
+  "total_tokens": 5515,
+  "latency_ms": 16436.858625000015,
+  "cost_usd": 0.000489,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E5_selective_interception/wemake-services__wemake-python-styleguide-1869.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E5_selective_interception/wemake-services__wemake-python-styleguide-1869_seed_42"
+}

@@ -1,0 +1,5 @@
+=== RELEVANT CONTEXT ===
+[ir_04_port_conflict_doc_0] service-telemetry config: listen_port = 9092, protocol = gRPC in staging.
+[ir_04_port_conflict_doc_2] service-metrics config: listen_port = 9100, metrics_path = /metrics in staging.
+[ir_04_port_conflict_doc_1] service-kafka-proxy config: listen_port = 9092, host = 0.0.0.0 in staging.
+=== END CONTEXT ===

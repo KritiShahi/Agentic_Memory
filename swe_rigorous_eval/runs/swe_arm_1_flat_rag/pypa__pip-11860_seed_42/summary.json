@@ -1,0 +1,18 @@
+{
+  "instance_id": "pypa__pip-11860",
+  "repo": "pypa/pip",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 470,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 94,
+  "total_tokens": 4566,
+  "latency_ms": 12359.077249999984,
+  "cost_usd": 0.000447,
+  "cumulative_cost_usd": 0.14776800000000015,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/pypa__pip-11860_seed_42"
+}

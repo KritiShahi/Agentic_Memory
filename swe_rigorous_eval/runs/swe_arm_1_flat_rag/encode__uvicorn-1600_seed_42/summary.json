@@ -1,0 +1,18 @@
+{
+  "instance_id": "encode__uvicorn-1600",
+  "repo": "encode/uvicorn",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "prompt_tokens": 909,
+  "completion_tokens": 2665,
+  "memory_injected_tokens": 159,
+  "total_tokens": 3574,
+  "latency_ms": 9003.643667000006,
+  "cost_usd": 0.000342,
+  "cumulative_cost_usd": 0.14702400000000015,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/encode__uvicorn-1600_seed_42"
+}

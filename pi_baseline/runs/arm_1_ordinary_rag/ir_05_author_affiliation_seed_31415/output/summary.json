@@ -1,0 +1,13 @@
+{
+  "task_id": "ir_05_author_affiliation",
+  "arm_id": "arm_1_ordinary_rag",
+  "seed": 31415,
+  "passed": false,
+  "prompt_tokens": 163,
+  "completion_tokens": 45,
+  "total_tokens": 208,
+  "memory_injected_tokens": 36,
+  "latency_ms": 0.07362499999996608,
+  "cost_usd": 1.7e-05,
+  "model_response": "[Simulated GLM 5.3 Flash Response | Seed=31415] Execution step verified."
+}

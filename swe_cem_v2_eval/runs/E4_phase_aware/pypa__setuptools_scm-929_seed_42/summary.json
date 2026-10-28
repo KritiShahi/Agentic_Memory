@@ -1,0 +1,27 @@
+{
+  "instance_id": "pypa__setuptools_scm-929",
+  "repo": "pypa/setuptools_scm",
+  "experiment_id": "E4_phase_aware",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "Import_DependencyError",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_edit_chatcmpl-9a3870dffaa6e8da2c4e8363eef956c5_155",
+    "ep_edit_chatcmpl-69a3e35bbc32a9dd3b15a6509086e80d_70",
+    "ep_edit_chatcmpl-3746b10fb0cd0255ea49018b1d3716a9_240"
+  ],
+  "prompt_tokens": 2253,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 799,
+  "total_tokens": 6349,
+  "latency_ms": 16745.395333000033,
+  "cost_usd": 0.000555,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E4_phase_aware/pypa__setuptools_scm-929.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E4_phase_aware/pypa__setuptools_scm-929_seed_42"
+}

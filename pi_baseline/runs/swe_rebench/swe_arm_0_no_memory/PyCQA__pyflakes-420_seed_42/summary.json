@@ -1,0 +1,16 @@
+{
+  "instance_id": "PyCQA__pyflakes-420",
+  "repo": "PyCQA/pyflakes",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 535,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4631,
+  "latency_ms": 21189.474166,
+  "cost_usd": 0.000463,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/pi_baseline/runs/swe_rebench/swe_arm_0_no_memory/PyCQA__pyflakes-420_seed_42"
+}

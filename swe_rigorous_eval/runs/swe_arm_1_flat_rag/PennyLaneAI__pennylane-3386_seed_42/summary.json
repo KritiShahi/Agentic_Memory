@@ -1,0 +1,18 @@
+{
+  "instance_id": "PennyLaneAI__pennylane-3386",
+  "repo": "PennyLaneAI/pennylane",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 1501,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 202,
+  "total_tokens": 5597,
+  "latency_ms": 6797.323040999999,
+  "cost_usd": 0.00054,
+  "cumulative_cost_usd": 0.15535300000000019,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/PennyLaneAI__pennylane-3386_seed_42"
+}

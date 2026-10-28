@@ -1,0 +1,23 @@
+{
+  "instance_id": "pypa__setuptools_scm-186",
+  "repo": "pypa/setuptools_scm",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/pypa__setuptools_scm-186.log",
+  "localization_success": true,
+  "primary_file": "plugins/git-scm.py",
+  "target_line": 1,
+  "candidates_evaluated": 2,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 1,
+  "best_score": 59.075,
+  "prompt_tokens": 648,
+  "completion_tokens": 8092,
+  "total_tokens": 8740,
+  "cost_usd": 0.0009,
+  "latency_ms": 20914.88
+}

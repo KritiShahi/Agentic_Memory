@@ -1,0 +1,18 @@
+{
+  "instance_id": "streamlink__streamlink-6242",
+  "repo": "streamlink/streamlink",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 936,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 126,
+  "total_tokens": 5032,
+  "latency_ms": 10083.054041999996,
+  "cost_usd": 0.000491,
+  "cumulative_cost_usd": 0.10106900000000008,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/streamlink__streamlink-6242_seed_42"
+}

@@ -1,0 +1,28 @@
+================================================================================
+SWE TASK TEST EXECUTION LOG
+Instance ID: sqlfluff__sqlfluff-3066
+Repository: sqlfluff/sqlfluff
+Experiment: E5_selective_interception
+Candidate Format: python_code_block
+Exit Code: 1
+Result: FAILED (0 passed, 1 failed in 0.00s)
+================================================================================
+--- STDOUT ---
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-7.4.0, pluggy-1.2.0 -- /usr/bin/python3
+rootdir: /workspace/sqlfluff__sqlfluff
+task: sqlfluff__sqlfluff-3066 | experiment: E5_selective_interception
+candidate_format: python_code_block | candidate_length: 9680 chars
+collected 1 item
+
+tests/test_sqlfluff.py::test_reproduce FAILED [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_reproduce [sqlfluff__sqlfluff-3066] ___________________________
+AssertionError: Candidate patch failed reproduction test assertions.
+  Overlap ratio with golden specification: 0.09 (Required: >= 0.35)
+  Missing required causal transformations from sqlfluff/sqlfluff.
+=========================== 1 failed in 0.24s ===========================
+--- STDERR ---
+(empty)
+================================================================================

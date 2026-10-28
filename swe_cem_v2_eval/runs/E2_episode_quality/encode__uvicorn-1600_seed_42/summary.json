@@ -1,0 +1,27 @@
+{
+  "instance_id": "encode__uvicorn-1600",
+  "repo": "encode/uvicorn",
+  "experiment_id": "E2_episode_quality",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "AsyncDeadlock_RaceCondition",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-6e8e9e4c220d6efe7ebe9d46fa49b9fa_460",
+    "ep_recov_chatcmpl-da1caf2190058c1c01ceca3cf8996ecb_402",
+    "ep_recov_chatcmpl-9d3b92b66ba7e5c96d66e21147d393c9_430"
+  ],
+  "prompt_tokens": 1640,
+  "completion_tokens": 3450,
+  "memory_injected_tokens": 626,
+  "total_tokens": 5090,
+  "latency_ms": 11580.680124999959,
+  "cost_usd": 0.000446,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E2_episode_quality/encode__uvicorn-1600.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E2_episode_quality/encode__uvicorn-1600_seed_42"
+}

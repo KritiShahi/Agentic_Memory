@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "primary_file": "plugins/twitch.py",
+  "target_line": 1,
+  "target_function": "",
+  "localized_snippet": "",
+  "candidate_files": [
+    "plugins/twitch.py",
+    "streamlink/plugins/twitch.py",
+    "plugins/vod-secure.py",
+    "streamlink/output/player.py",
+    "streamlink/output/mpv.py"
+  ],
+  "scores": {
+    "plugins/twitch.py": 35.0,
+    "streamlink/plugins/twitch.py": 7.0,
+    "plugins/vod-secure.py": 7.0,
+    "streamlink/output/player.py": 7.0,
+    "streamlink/output/mpv.py": 7.0
+  },
+  "hypotheses_evidence": {
+    "traceback_frames_found": 0,
+    "symbols_searched": [
+      "WindowsPE",
+      "Websocket",
+      "Requests",
+      "dashes",
+      "Socks"
+    ],
+    "module_paths_found": 0
+  }
+}

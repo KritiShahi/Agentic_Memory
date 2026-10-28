@@ -1,0 +1,27 @@
+{
+  "instance_id": "sqlfluff__sqlfluff-719",
+  "repo": "sqlfluff/sqlfluff",
+  "experiment_id": "E2_episode_quality",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-c74b1e43d697805e043c273c83134aa0_61",
+    "ep_recov_chatcmpl-6cc2d477db2185359546bcf890086a1e_372",
+    "ep_recov_chatcmpl-28177b7e0a83c8419008479558640dcd_251"
+  ],
+  "prompt_tokens": 1732,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 638,
+  "total_tokens": 5828,
+  "latency_ms": 19783.71791700002,
+  "cost_usd": 0.000519,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E2_episode_quality/sqlfluff__sqlfluff-719.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E2_episode_quality/sqlfluff__sqlfluff-719_seed_42"
+}

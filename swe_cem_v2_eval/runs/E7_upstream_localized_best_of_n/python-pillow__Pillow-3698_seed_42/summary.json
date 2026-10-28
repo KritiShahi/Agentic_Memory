@@ -1,0 +1,23 @@
+{
+  "instance_id": "python-pillow__Pillow-3698",
+  "repo": "python-pillow/Pillow",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/python-pillow__Pillow-3698.log",
+  "localization_success": true,
+  "primary_file": "PIL/Image.py",
+  "target_line": 1,
+  "candidates_evaluated": 2,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 1,
+  "best_score": 58.848,
+  "prompt_tokens": 926,
+  "completion_tokens": 6198,
+  "total_tokens": 7124,
+  "cost_usd": 0.0007,
+  "latency_ms": 17026.55
+}

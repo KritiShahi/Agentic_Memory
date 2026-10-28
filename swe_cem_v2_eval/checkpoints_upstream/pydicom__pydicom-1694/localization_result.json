@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "primary_file": "dicom.py",
+  "target_line": 143,
+  "target_function": "create_dict",
+  "localized_snippet": "",
+  "candidate_files": [
+    "dicom.py",
+    "dataset.py",
+    "values.py",
+    "valuerep.py"
+  ],
+  "scores": {
+    "dicom.py": 10.0,
+    "dataset.py": 8.0,
+    "values.py": 8.0,
+    "valuerep.py": 8.0
+  },
+  "hypotheses_evidence": {
+    "traceback_frames_found": 4,
+    "symbols_searched": [
+      "suppress_invalid_tags",
+      "DataElement_from_raw",
+      "convert_value",
+      "to_json_dict",
+      "MultiString"
+    ],
+    "module_paths_found": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "instance_id": "google__mobly-328",
+  "repo": "google/mobly",
+  "experiment_id": "E4_phase_aware",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "prompt_tokens": 172,
+  "completion_tokens": 3831,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4003,
+  "latency_ms": 12487.247959,
+  "cost_usd": 0.0004,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E4_phase_aware/google__mobly-328.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E4_phase_aware/google__mobly-328_seed_42"
+}

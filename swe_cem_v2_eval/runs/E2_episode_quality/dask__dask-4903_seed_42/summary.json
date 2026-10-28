@@ -1,0 +1,27 @@
+{
+  "instance_id": "dask__dask-4903",
+  "repo": "dask/dask",
+  "experiment_id": "E2_episode_quality",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "MissingBoundaryCheck_OffByOne",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-6e8e9e4c220d6efe7ebe9d46fa49b9fa_460",
+    "ep_recov_chatcmpl-2e08346cef93bafdbc2cabefbb916394_434",
+    "ep_recov_chatcmpl-3d3d80fe348f5fc7567bb7093be25421_28"
+  ],
+  "prompt_tokens": 1683,
+  "completion_tokens": 988,
+  "memory_injected_tokens": 624,
+  "total_tokens": 2671,
+  "latency_ms": 6705.261250000007,
+  "cost_usd": 0.000205,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E2_episode_quality/dask__dask-4903.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E2_episode_quality/dask__dask-4903_seed_42"
+}

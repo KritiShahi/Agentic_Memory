@@ -1,0 +1,18 @@
+{
+  "instance_id": "narwhals-dev__narwhals-1679",
+  "repo": "narwhals-dev/narwhals",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 392,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4488,
+  "latency_ms": 11716.881707999988,
+  "cost_usd": 0.000449,
+  "cumulative_cost_usd": 0.02908400000000001,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_0_no_memory/narwhals-dev__narwhals-1679_seed_42"
+}

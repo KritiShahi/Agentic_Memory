@@ -1,0 +1,18 @@
+{
+  "instance_id": "google__mobly-821",
+  "repo": "google/mobly",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "prompt_tokens": 124,
+  "completion_tokens": 2534,
+  "memory_injected_tokens": 0,
+  "total_tokens": 2658,
+  "latency_ms": 6260.785916999965,
+  "cost_usd": 0.000266,
+  "cumulative_cost_usd": 0.06567900000000002,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_0_no_memory/google__mobly-821_seed_42"
+}

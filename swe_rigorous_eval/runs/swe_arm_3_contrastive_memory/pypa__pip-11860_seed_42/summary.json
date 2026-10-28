@@ -1,0 +1,19 @@
+{
+  "instance_id": "pypa__pip-11860",
+  "repo": "pypa/pip",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 1804,
+  "completion_tokens": 561,
+  "memory_injected_tokens": 757,
+  "total_tokens": 2365,
+  "latency_ms": 2350.4427500000133,
+  "cost_usd": 0.000161,
+  "cumulative_cost_usd": 0.19726900000000028,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/pypa__pip-11860_seed_42"
+}

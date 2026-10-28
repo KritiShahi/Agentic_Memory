@@ -1,0 +1,18 @@
+{
+  "instance_id": "marshmallow-code__apispec-539",
+  "repo": "marshmallow-code/apispec",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "prompt_tokens": 120,
+  "completion_tokens": 1494,
+  "memory_injected_tokens": 0,
+  "total_tokens": 1614,
+  "latency_ms": 4025.6160000000136,
+  "cost_usd": 0.000161,
+  "cumulative_cost_usd": 0.028200000000000006,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_0_no_memory/marshmallow-code__apispec-539_seed_42"
+}

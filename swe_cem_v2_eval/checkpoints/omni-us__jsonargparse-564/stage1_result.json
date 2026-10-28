@@ -1,0 +1,21 @@
+{
+  "instance_id": "omni-us__jsonargparse-564",
+  "repo": "omni-us/jsonargparse",
+  "resolved": false,
+  "trap_avoided": true,
+  "turns_used": 12,
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "patch_diff": "--- a/jsonargparse/_typehints.py\n+++ b/jsonargparse/_typehints.py\n@@ -1,5 +1,5 @@\n+        if skip_args:\n+            kwargs.setdefault(\"skip\", set()).add(skip_args)\n+        parser = parent_parser.get()\n+        parser = type(parser)(exit_on_error=False, logger=parser.logger)\n+        remove_actions(parser, (ActionConfigFile, _ActionPrintConfig))\n+        if inspect.isclass(val_class):\n+            parser.add_class_arguments(val_class, **kwargs)",
+  "reproducer_code": "",
+  "localized_context": {
+    "target_files": [],
+    "target_functions": []
+  },
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/multi_turn_loop/omni-us__jsonargparse-564.log"
+}

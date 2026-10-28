@@ -1,0 +1,18 @@
+{
+  "instance_id": "google__flax-3731",
+  "repo": "google/flax",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "prompt_tokens": 491,
+  "completion_tokens": 986,
+  "memory_injected_tokens": 102,
+  "total_tokens": 1477,
+  "latency_ms": 4119.75262499999,
+  "cost_usd": 0.000138,
+  "cumulative_cost_usd": 0.13936900000000013,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/google__flax-3731_seed_42"
+}

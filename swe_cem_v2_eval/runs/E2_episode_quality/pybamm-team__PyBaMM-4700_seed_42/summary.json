@@ -1,0 +1,25 @@
+{
+  "instance_id": "pybamm-team__PyBaMM-4700",
+  "repo": "pybamm-team/PyBaMM",
+  "experiment_id": "E2_episode_quality",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 1,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-b13ed449270dcb26cc9259403b8b2ce3_16"
+  ],
+  "prompt_tokens": 866,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 266,
+  "total_tokens": 4962,
+  "latency_ms": 12418.472207999997,
+  "cost_usd": 0.00047,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E2_episode_quality/pybamm-team__PyBaMM-4700.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E2_episode_quality/pybamm-team__PyBaMM-4700_seed_42"
+}

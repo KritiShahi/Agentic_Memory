@@ -1,0 +1,13 @@
+{
+  "instance_id": "joke2k__faker-1937",
+  "repo": "joke2k/faker",
+  "experiment_id": "E6_combined_v2",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": true,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E6_combined_v2/joke2k__faker-1937.log",
+  "completion_tokens": 333,
+  "cost_usd": 0.0004
+}

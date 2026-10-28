@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "primary_file": "plugins/okru.py",
+  "target_line": 1,
+  "target_function": "",
+  "localized_snippet": "",
+  "candidate_files": [
+    "plugins/okru.py",
+    "streamlink/plugins/okru.py",
+    "plugins/raw.py",
+    "plugins/streamlink.py",
+    "plugins/gist.py"
+  ],
+  "scores": {
+    "plugins/okru.py": 49.0,
+    "streamlink/plugins/okru.py": 49.0,
+    "plugins/raw.py": 14.0,
+    "plugins/streamlink.py": 7.0,
+    "plugins/gist.py": 7.0
+  },
+  "hypotheses_evidence": {
+    "traceback_frames_found": 0,
+    "symbols_searched": [
+      "CONTRIBUTING",
+      "Websocket",
+      "TEMPLATE",
+      "REQUIRED",
+      "Requests"
+    ],
+    "module_paths_found": 0
+  }
+}

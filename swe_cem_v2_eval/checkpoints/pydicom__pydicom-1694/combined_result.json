@@ -1,0 +1,15 @@
+{
+  "instance_id": "pydicom__pydicom-1694",
+  "repo": "pydicom/pydicom",
+  "resolved": false,
+  "resolved_by": "UNRESOLVED",
+  "early_exit": false,
+  "warm_started": true,
+  "trap_avoided": true,
+  "turns_used": 17,
+  "patch_diff": "--- a/pydicom/dataset.py\n+++ b/pydicom/dataset.py\n@@ -1,5 +1,5 @@\n+        json_dataset = {}\n+        for key in self.keys():\n+            json_key = '{:08X}'.format(key)\n+            data_element = self[key]\n+            try:\n+                json_dataset[json_key] = data_element.to_json_dict(\n+                    bulk_data_element_handler=bulk_data_element_handler,\n+                    bulk_data_threshold=bulk_data_threshold",
+  "cost_usd": 0.0,
+  "standalone_sum_cost_usd": 0.0049,
+  "savings_usd": 0.0049,
+  "savings_pct": 100.0
+}

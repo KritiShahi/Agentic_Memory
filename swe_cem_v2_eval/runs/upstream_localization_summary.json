@@ -1,0 +1,149 @@
+{
+  "total_evaluated_tasks": 10,
+  "fault_localization": {
+    "localized_count": 10,
+    "localization_rate": 100.0
+  },
+  "condition_comparison": {
+    "baseline_unlocalized_best_of_n": {
+      "passed_count": 0,
+      "pass_rate": 0.0,
+      "tar_rate": 100.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_per_task": 0.0
+    },
+    "upstream_localized_scoped_best_of_n": {
+      "passed_count": 0,
+      "pass_rate": 0.0,
+      "tar_rate": 100.0,
+      "total_cost_usd": 0.0,
+      "avg_cost_per_task": 0.0
+    }
+  },
+  "performance_delta": {
+    "absolute_pass_lift": 0.0,
+    "relative_pass_multiplier": 0.0
+  },
+  "task_breakdown": [
+    {
+      "instance_id": "googleapis__python-bigquery-1930",
+      "repo": "googleapis/python-bigquery",
+      "localization_success": true,
+      "primary_file": "main.py",
+      "baseline_resolved": false,
+      "scoped_resolved": false,
+      "baseline_passing_candidates": 0,
+      "scoped_passing_candidates": 0,
+      "baseline_cost_usd": 0.0,
+      "scoped_cost_usd": 0.0
+    },
+    {
+      "instance_id": "omni-us__jsonargparse-564",
+      "repo": "omni-us/jsonargparse",
+      "localization_success": true,
+      "primary_file": "ActionConfigFile.py",
+      "baseline_resolved": false,
+      "scoped_resolved": false,
+      "baseline_passing_candidates": 0,
+      "scoped_passing_candidates": 0,
+      "baseline_cost_usd": 0.0,
+      "scoped_cost_usd": 0.0
+    },
+    {
+      "instance_id": "pybamm-team__PyBaMM-4072",
+      "repo": "pybamm-team/PyBaMM",
+      "localization_success": true,
+      "primary_file": "pybamm/util.py",
+      "baseline_resolved": false,
+      "scoped_resolved": false,
+      "baseline_passing_candidates": 0,
+      "scoped_passing_candidates": 0,
+      "baseline_cost_usd": 0.0,
+      "scoped_cost_usd": 0.0
+    },
+    {
+      "instance_id": "streamlink__streamlink-2765",
+      "repo": "streamlink/streamlink",
+      "localization_success": true,
+      "primary_file": "plugins/twitch.py",
+      "baseline_resolved": false,
+      "scoped_resolved": false,
+      "baseline_passing_candidates": 0,
+      "scoped_passing_candidates": 0,
+      "baseline_cost_usd": 0.0,
+      "scoped_cost_usd": 0.0
+    },
+    {
+      "instance_id": "pydicom__pydicom-1694",
+      "repo": "pydicom/pydicom",
+      "localization_success": true,
+      "primary_file": "dicom.py",
+      "baseline_resolved": false,
+      "scoped_resolved": false,
+      "baseline_passing_candidates": 0,
+      "scoped_passing_candidates": 0,
+      "baseline_cost_usd": 0.0,
+      "scoped_cost_usd": 0.0
+    },
+    {
+      "instance_id": "streamlink__streamlink-2102",
+      "repo": "streamlink/streamlink",
+      "localization_success": true,
+      "primary_file": "plugins/okru.py",
+      "baseline_resolved": false,
+      "scoped_resolved": false,
+      "baseline_passing_candidates": 0,
+      "scoped_passing_candidates": 0,
+      "baseline_cost_usd": 0.0,
+      "scoped_cost_usd": 0.0
+    },
+    {
+      "instance_id": "streamlink__streamlink-3677",
+      "repo": "streamlink/streamlink",
+      "localization_success": true,
+      "primary_file": "plugins/youtube.py",
+      "baseline_resolved": false,
+      "scoped_resolved": false,
+      "baseline_passing_candidates": 0,
+      "scoped_passing_candidates": 0,
+      "baseline_cost_usd": 0.0,
+      "scoped_cost_usd": 0.0
+    },
+    {
+      "instance_id": "pypa__hatch-535",
+      "repo": "pypa/hatch",
+      "localization_success": true,
+      "primary_file": "plugins/hatch.py",
+      "baseline_resolved": false,
+      "scoped_resolved": false,
+      "baseline_passing_candidates": 0,
+      "scoped_passing_candidates": 0,
+      "baseline_cost_usd": 0.0,
+      "scoped_cost_usd": 0.0
+    },
+    {
+      "instance_id": "dask__dask-5975",
+      "repo": "dask/dask",
+      "localization_success": true,
+      "primary_file": "test2.py",
+      "baseline_resolved": false,
+      "scoped_resolved": false,
+      "baseline_passing_candidates": 0,
+      "scoped_passing_candidates": 0,
+      "baseline_cost_usd": 0.0,
+      "scoped_cost_usd": 0.0
+    },
+    {
+      "instance_id": "dask__dask-4003",
+      "repo": "dask/dask",
+      "localization_success": true,
+      "primary_file": "multiprocessing.py",
+      "baseline_resolved": false,
+      "scoped_resolved": false,
+      "baseline_passing_candidates": 0,
+      "scoped_passing_candidates": 0,
+      "baseline_cost_usd": 0.0,
+      "scoped_cost_usd": 0.0
+    }
+  ]
+}

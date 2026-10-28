@@ -1,0 +1,33 @@
+{
+  "multi_turn_loop_standalone": {
+    "total_tasks": 10,
+    "passed_tasks": 3,
+    "pass_rate": 30.0,
+    "tar_rate": 100.0,
+    "total_cost_usd": 0.0,
+    "avg_cost_per_task": 0.0
+  },
+  "best_of_n_search_standalone": {
+    "total_tasks": 10,
+    "passed_tasks": 0,
+    "pass_rate": 0.0,
+    "tar_rate": 100.0,
+    "total_cost_usd": 0.0,
+    "avg_cost_per_task": 0.0
+  },
+  "combined_system": {
+    "total_tasks": 10,
+    "passed_tasks": 3,
+    "pass_rate": 30.0,
+    "tar_rate": 100.0,
+    "total_cost_usd": 0.0,
+    "avg_cost_per_task": 0.0,
+    "early_exits": 3,
+    "early_exit_rate": 30.0,
+    "warm_starts": 7,
+    "warm_start_rate": 70.0,
+    "standalone_sum_cost_usd": 0.0583,
+    "net_cost_savings_usd": 0.0583,
+    "cost_savings_percentage": 100.0
+  }
+}

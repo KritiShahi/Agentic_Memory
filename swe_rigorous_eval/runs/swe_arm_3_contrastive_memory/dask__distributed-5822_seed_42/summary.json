@@ -1,0 +1,19 @@
+{
+  "instance_id": "dask__distributed-5822",
+  "repo": "dask/distributed",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 2283,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 788,
+  "total_tokens": 6379,
+  "latency_ms": 12769.656124999983,
+  "cost_usd": 0.000559,
+  "cumulative_cost_usd": 0.19880400000000026,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/dask__distributed-5822_seed_42"
+}

@@ -1,0 +1,23 @@
+{
+  "instance_id": "marshmallow-code__marshmallow-1252",
+  "repo": "marshmallow-code/marshmallow",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/marshmallow-code__marshmallow-1252.log",
+  "localization_success": false,
+  "primary_file": "",
+  "target_line": 1,
+  "candidates_evaluated": 4,
+  "passing_candidates_count": 0,
+  "best_candidate_idx": 0,
+  "best_score": -92.0,
+  "prompt_tokens": 1713,
+  "completion_tokens": 16384,
+  "total_tokens": 18097,
+  "cost_usd": 0.0018,
+  "latency_ms": 33729.03
+}

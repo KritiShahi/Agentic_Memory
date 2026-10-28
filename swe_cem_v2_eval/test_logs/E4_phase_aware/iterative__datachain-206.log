@@ -1,0 +1,28 @@
+================================================================================
+SWE TASK TEST EXECUTION LOG
+Instance ID: iterative__datachain-206
+Repository: iterative/datachain
+Experiment: E4_phase_aware
+Candidate Format: python_code_block
+Exit Code: 1
+Result: FAILED (0 passed, 1 failed in 0.00s)
+================================================================================
+--- STDOUT ---
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-7.4.0, pluggy-1.2.0 -- /usr/bin/python3
+rootdir: /workspace/iterative__datachain
+task: iterative__datachain-206 | experiment: E4_phase_aware
+candidate_format: python_code_block | candidate_length: 5854 chars
+collected 1 item
+
+tests/test_datachain.py::test_reproduce FAILED [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_reproduce [iterative__datachain-206] ___________________________
+AssertionError: Candidate patch failed reproduction test assertions.
+  Overlap ratio with golden specification: 0.34 (Required: >= 0.35)
+  Missing required causal transformations from iterative/datachain.
+=========================== 1 failed in 0.24s ===========================
+--- STDERR ---
+(empty)
+================================================================================

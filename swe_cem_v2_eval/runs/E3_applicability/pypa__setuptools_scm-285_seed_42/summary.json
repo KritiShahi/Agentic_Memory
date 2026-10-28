@@ -1,0 +1,25 @@
+{
+  "instance_id": "pypa__setuptools_scm-285",
+  "repo": "pypa/setuptools_scm",
+  "experiment_id": "E3_applicability",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "MissingBoundaryCheck_OffByOne",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 1,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-29cf0967326441ec08a680a411cc7b33_184"
+  ],
+  "prompt_tokens": 1272,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 312,
+  "total_tokens": 5368,
+  "latency_ms": 14533.81191699998,
+  "cost_usd": 0.000506,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E3_applicability/pypa__setuptools_scm-285.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E3_applicability/pypa__setuptools_scm-285_seed_42"
+}

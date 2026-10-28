@@ -1,0 +1,23 @@
+{
+  "instance_id": "asottile__pyupgrade-767",
+  "repo": "asottile/pyupgrade",
+  "experiment_id": "E4_phase_aware",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "prompt_tokens": 655,
+  "completion_tokens": 2039,
+  "memory_injected_tokens": 0,
+  "total_tokens": 2694,
+  "latency_ms": 7497.727124999983,
+  "cost_usd": 0.000269,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E4_phase_aware/asottile__pyupgrade-767.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E4_phase_aware/asottile__pyupgrade-767_seed_42"
+}

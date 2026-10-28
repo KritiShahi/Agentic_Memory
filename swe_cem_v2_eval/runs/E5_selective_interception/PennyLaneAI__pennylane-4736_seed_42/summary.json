@@ -1,0 +1,27 @@
+{
+  "instance_id": "PennyLaneAI__pennylane-4736",
+  "repo": "PennyLaneAI/pennylane",
+  "experiment_id": "E5_selective_interception",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "AsyncDeadlock_RaceCondition",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-b79063f46bf822b02d65dc178ef970bb_439",
+    "ep_recov_chatcmpl-6e8e9e4c220d6efe7ebe9d46fa49b9fa_460",
+    "ep_recov_chatcmpl-2e08346cef93bafdbc2cabefbb916394_434"
+  ],
+  "prompt_tokens": 1889,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 623,
+  "total_tokens": 5985,
+  "latency_ms": 22042.476665999857,
+  "cost_usd": 0.000536,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E5_selective_interception/PennyLaneAI__pennylane-4736.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E5_selective_interception/PennyLaneAI__pennylane-4736_seed_42"
+}

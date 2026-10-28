@@ -1,0 +1,18 @@
+{
+  "instance_id": "pypa__hatch-535",
+  "repo": "pypa/hatch",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 763,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 129,
+  "total_tokens": 4859,
+  "latency_ms": 12462.437249999994,
+  "cost_usd": 0.000473,
+  "cumulative_cost_usd": 0.07595800000000004,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/pypa__hatch-535_seed_42"
+}

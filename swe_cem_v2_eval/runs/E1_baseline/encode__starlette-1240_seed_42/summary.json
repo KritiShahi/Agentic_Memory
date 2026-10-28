@@ -1,0 +1,13 @@
+{
+  "instance_id": "encode__starlette-1240",
+  "repo": "encode/starlette",
+  "experiment_id": "E1_baseline",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E1_baseline/encode__starlette-1240.log",
+  "completion_tokens": 1189,
+  "cost_usd": 0.0003
+}

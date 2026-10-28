@@ -1,0 +1,18 @@
+{
+  "instance_id": "wemake-services__wemake-python-styleguide-2343",
+  "repo": "wemake-services/wemake-python-styleguide",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 1466,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 217,
+  "total_tokens": 5562,
+  "latency_ms": 14258.651332999996,
+  "cost_usd": 0.000535,
+  "cumulative_cost_usd": 0.10431000000000008,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/wemake-services__wemake-python-styleguide-2343_seed_42"
+}

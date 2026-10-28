@@ -1,0 +1,25 @@
+{
+  "instance_id": "pydicom__pynetdicom-516",
+  "repo": "pydicom/pynetdicom",
+  "experiment_id": "E4_phase_aware",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 1,
+  "retrieved_episode_ids": [
+    "ep_edit_chatcmpl-da6d4a98a2c2547630f5f94e8886eff6_448"
+  ],
+  "prompt_tokens": 1069,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 362,
+  "total_tokens": 5165,
+  "latency_ms": 17185.169290999966,
+  "cost_usd": 0.00048,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E4_phase_aware/pydicom__pynetdicom-516.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E4_phase_aware/pydicom__pynetdicom-516_seed_42"
+}

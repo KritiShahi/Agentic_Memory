@@ -1,0 +1,27 @@
+{
+  "instance_id": "dask__distributed-5822",
+  "repo": "dask/distributed",
+  "experiment_id": "E2_episode_quality",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-ca3182715d40cc8d5fbc438ba704c931_203",
+    "ep_recov_chatcmpl-707ab41a3c65d95c388b4ad33fe19bfb_111",
+    "ep_recov_chatcmpl-2e08346cef93bafdbc2cabefbb916394_434"
+  ],
+  "prompt_tokens": 1893,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 636,
+  "total_tokens": 5989,
+  "latency_ms": 20345.440542000004,
+  "cost_usd": 0.000535,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E2_episode_quality/dask__distributed-5822.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E2_episode_quality/dask__distributed-5822_seed_42"
+}

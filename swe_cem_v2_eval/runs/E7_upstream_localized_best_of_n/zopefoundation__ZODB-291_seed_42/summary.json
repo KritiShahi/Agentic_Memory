@@ -1,0 +1,23 @@
+{
+  "instance_id": "zopefoundation__ZODB-291",
+  "repo": "zopefoundation/ZODB",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/zopefoundation__ZODB-291.log",
+  "localization_success": true,
+  "primary_file": "plugins/lab.py",
+  "target_line": 1,
+  "candidates_evaluated": 4,
+  "passing_candidates_count": 0,
+  "best_candidate_idx": 0,
+  "best_score": -90.5,
+  "prompt_tokens": 2045,
+  "completion_tokens": 9020,
+  "total_tokens": 11065,
+  "cost_usd": 0.0011,
+  "latency_ms": 32581.82
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "chunk_id": "ir_02_migration_version_doc_1_chunk_1",
+    "doc_id": "ir_02_migration_version_doc_1",
+    "text": "SDK v3.0 introduced experimental client.stream_records() with socket buffering.",
+    "tokens": [
+      "sdk",
+      "v3",
+      "0",
+      "introduced",
+      "experimental",
+      "client",
+      "stream_records",
+      "with",
+      "socket",
+      "buffering"
+    ]
+  },
+  {
+    "chunk_id": "ir_02_migration_version_doc_0_chunk_0",
+    "doc_id": "ir_02_migration_version_doc_0",
+    "text": "SDK v3.1 deprecated client.stream_records() in favor of client.iter_records() to enable async chunking.",
+    "tokens": [
+      "sdk",
+      "v3",
+      "1",
+      "deprecated",
+      "client",
+      "stream_records",
+      "in",
+      "favor",
+      "of",
+      "client",
+      "iter_records",
+      "to",
+      "enable",
+      "async",
+      "chunking"
+    ]
+  },
+  {
+    "chunk_id": "ir_02_migration_version_doc_2_chunk_2",
+    "doc_id": "ir_02_migration_version_doc_2",
+    "text": "SDK v4.0 removed client.stream_records() entirely; users must migrate to client.iter_records().",
+    "tokens": [
+      "sdk",
+      "v4",
+      "0",
+      "removed",
+      "client",
+      "stream_records",
+      "entirely",
+      "users",
+      "must",
+      "migrate",
+      "to",
+      "client",
+      "iter_records"
+    ]
+  },
+  {
+    "chunk_id": "ir_02_migration_version_doc_3_chunk_3",
+    "doc_id": "ir_02_migration_version_doc_3",
+    "text": "client.fetch_all() remains unchanged across SDK v2.0 through v4.0.",
+    "tokens": [
+      "client",
+      "fetch_all",
+      "remains",
+      "unchanged",
+      "across",
+      "sdk",
+      "v2",
+      "0",
+      "through",
+      "v4",
+      "0"
+    ]
+  }
+]

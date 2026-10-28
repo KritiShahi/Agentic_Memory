@@ -1,0 +1,17 @@
+{
+  "instance_id": "ReproNim__neurodocker-623",
+  "repo": "ReproNim/neurodocker",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 3,
+  "prompt_tokens": 2564,
+  "completion_tokens": 98,
+  "memory_injected_tokens": 1026,
+  "total_tokens": 2662,
+  "latency_ms": 1189.1365829999927,
+  "cost_usd": 0.000164,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/pi_baseline/runs/swe_rebench/swe_arm_3_contrastive_memory/ReproNim__neurodocker-623_seed_42"
+}

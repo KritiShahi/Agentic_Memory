@@ -1,0 +1,27 @@
+{
+  "instance_id": "tobymao__sqlglot-702",
+  "repo": "tobymao/sqlglot",
+  "experiment_id": "E5_selective_interception",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-9de660764b1cf0e76d7ce93178cbecc0_348",
+    "ep_recov_chatcmpl-0207ed054455a3121474a9ec8aeef756_369",
+    "ep_recov_chatcmpl-0f13548094e7db2a25b354e7b148e5e7_96"
+  ],
+  "prompt_tokens": 1829,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 648,
+  "total_tokens": 5925,
+  "latency_ms": 17853.38904199989,
+  "cost_usd": 0.000528,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E5_selective_interception/tobymao__sqlglot-702.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E5_selective_interception/tobymao__sqlglot-702_seed_42"
+}

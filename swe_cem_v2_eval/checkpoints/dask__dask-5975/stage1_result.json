@@ -1,0 +1,21 @@
+{
+  "instance_id": "dask__dask-5975",
+  "repo": "dask/dask",
+  "resolved": false,
+  "trap_avoided": true,
+  "turns_used": 12,
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "patch_diff": "--- a/dask/array/routines.py\n+++ b/dask/array/routines.py\n@@ -1,5 +1,5 @@\n+    if isinstance(axes, Iterable):\n+        left_axes, right_axes = axes\n+    else:\n+        left_axes = tuple(range(lhs.ndim - 1, lhs.ndim - axes - 1, -1))\n+        right_axes = tuple(range(0, axes))\n+\n+    if isinstance(left_axes, Integral):",
+  "reproducer_code": "",
+  "localized_context": {
+    "target_files": [],
+    "target_functions": []
+  },
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/multi_turn_loop/dask__dask-5975.log"
+}

@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "primary_file": "multiprocessing.py",
+  "target_line": 1,
+  "target_function": "",
+  "localized_snippet": "",
+  "candidate_files": [
+    "multiprocessing.py"
+  ],
+  "scores": {
+    "multiprocessing.py": 4.0
+  },
+  "hypotheses_evidence": {
+    "traceback_frames_found": 0,
+    "symbols_searched": [
+      "multiprocessing",
+      "logging_thread",
+      "child_process",
+      "_releaseLock",
+      "_acquireLock"
+    ],
+    "module_paths_found": 1
+  }
+}

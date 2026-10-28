@@ -1,0 +1,16 @@
+{
+  "instance_id": "Qiskit__qiskit-bot-11",
+  "repo": "Qiskit/qiskit-bot",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "prompt_tokens": 386,
+  "completion_tokens": 3459,
+  "memory_injected_tokens": 84,
+  "total_tokens": 3845,
+  "latency_ms": 25139.62487499998,
+  "cost_usd": 0.000376,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/pi_baseline/runs/swe_rebench/swe_arm_1_flat_rag/Qiskit__qiskit-bot-11_seed_42"
+}

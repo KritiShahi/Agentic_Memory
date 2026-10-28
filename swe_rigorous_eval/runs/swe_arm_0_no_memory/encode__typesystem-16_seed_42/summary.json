@@ -1,0 +1,18 @@
+{
+  "instance_id": "encode__typesystem-16",
+  "repo": "encode/typesystem",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "prompt_tokens": 95,
+  "completion_tokens": 725,
+  "memory_injected_tokens": 0,
+  "total_tokens": 820,
+  "latency_ms": 2756.126542000004,
+  "cost_usd": 8.2e-05,
+  "cumulative_cost_usd": 0.015411000000000003,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_0_no_memory/encode__typesystem-16_seed_42"
+}

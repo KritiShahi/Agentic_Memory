@@ -1,0 +1,18 @@
+{
+  "instance_id": "encode__starlette-1164",
+  "repo": "encode/starlette",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "prompt_tokens": 499,
+  "completion_tokens": 1371,
+  "memory_injected_tokens": 0,
+  "total_tokens": 1870,
+  "latency_ms": 4235.675666999952,
+  "cost_usd": 0.000187,
+  "cumulative_cost_usd": 0.038252000000000015,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_0_no_memory/encode__starlette-1164_seed_42"
+}

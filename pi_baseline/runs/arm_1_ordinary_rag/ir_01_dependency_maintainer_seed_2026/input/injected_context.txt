@@ -1,0 +1,6 @@
+=== RELEVANT CONTEXT ===
+[ir_01_dependency_maintainer_doc_1] fast-proto is maintained by the Core Transport Working Group, chaired by Dr. Elena Vance.
+[ir_01_dependency_maintainer_doc_0] Package: AuthCore v2.4 specifies direct dependency on fast-proto >= 1.8.0 for transport encoding.
+[ir_01_dependency_maintainer_doc_2] AuthCore v1.0 used legacy serializer json-wrap maintained by Marcus Brody.
+[ir_01_dependency_maintainer_doc_3] Dr. Elena Vance transferred maintainership of fast-proto to Liam Chen in November 2025.
+=== END CONTEXT ===

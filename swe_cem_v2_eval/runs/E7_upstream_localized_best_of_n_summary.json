@@ -1,0 +1,12 @@
+{
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "total_tasks": 200,
+  "completed_tasks": 200,
+  "passed_tasks": 126,
+  "pass_rate": 63.0,
+  "localized_tasks": 114,
+  "localization_rate": 57.0,
+  "tar_rate": 100.0,
+  "total_cost_usd": 0.1916,
+  "avg_completion_tokens": 8397.6
+}

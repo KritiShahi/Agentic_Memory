@@ -1,0 +1,29 @@
+{
+  "provider": "particle_ai",
+  "model": "glm-5.3-flash",
+  "api_protocol": "openai-completions",
+  "endpoint_url": "https://api.particle.ai/v1/chat/completions",
+  "base_url": "https://api.particle.ai/v1",
+  "pinned_parameters": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_tokens": 4096,
+    "seed": 42,
+    "reasoning_effort": "none"
+  },
+  "evaluation_seeds": [42, 137, 2026, 31415, 99999],
+  "timeout_seconds": 60,
+  "max_retries": 3,
+  "token_pricing": {
+    "currency": "USD",
+    "input_cost_per_1m_tokens": 0.10,
+    "output_cost_per_1m_tokens": 0.10,
+    "cached_input_cost_per_1m_tokens": 0.05
+  },
+  "context_window_budget": {
+    "total_context_limit": 128000,
+    "max_task_context": 8192,
+    "fixed_memory_budget_tokens": 1000,
+    "max_scratchpad_tokens": 7192
+  }
+}

@@ -1,0 +1,5 @@
+=== RELEVANT CONTEXT ===
+[py_easy_eval_01_spec] Fix sliding_averages in window_stat.py. The loop range boundary drops the final valid trailing window.
+[general_pytest_tips] Ensure all edge cases and boundary slices do not exceed array lengths.
+[py_easy_eval_01_init] def sliding_averages(data, window_size): if not data or window_size <= 0 or len(data) < window_size: return [] res = [] # Bug: omitting + 1 drops the last window slice for i in range(len(data) - window_size): chunk = data[i : i + window_size] res.append(sum(chunk) / window_size) return res
+=== END CONTEXT ===

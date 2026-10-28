@@ -1,0 +1,16 @@
+{
+  "instance_id": "ReproNim__neurodocker-623",
+  "repo": "ReproNim/neurodocker",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 839,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 134,
+  "total_tokens": 4935,
+  "latency_ms": 31103.69883300001,
+  "cost_usd": 0.00048,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/pi_baseline/runs/swe_rebench/swe_arm_1_flat_rag/ReproNim__neurodocker-623_seed_42"
+}

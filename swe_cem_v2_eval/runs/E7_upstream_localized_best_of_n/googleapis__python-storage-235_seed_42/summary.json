@@ -1,0 +1,23 @@
+{
+  "instance_id": "googleapis__python-storage-235",
+  "repo": "googleapis/python-storage",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/googleapis__python-storage-235.log",
+  "localization_success": false,
+  "primary_file": "",
+  "target_line": 1,
+  "candidates_evaluated": 2,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 1,
+  "best_score": 59.53,
+  "prompt_tokens": 592,
+  "completion_tokens": 5243,
+  "total_tokens": 5835,
+  "cost_usd": 0.0006,
+  "latency_ms": 13822.84
+}

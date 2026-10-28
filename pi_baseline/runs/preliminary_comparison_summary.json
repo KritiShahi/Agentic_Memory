@@ -1,0 +1,155 @@
+{
+  "arm_0_no_memory": {
+    "total_tasks": 6,
+    "passed_tasks": 6,
+    "pass_rate_pct": 100.0,
+    "trap_avoidance_rate_pct": 100.0,
+    "turn_1_success_pct": 100.0,
+    "avg_prompt_tokens": 0.0,
+    "avg_memory_tokens": 0.0,
+    "avg_completion_tokens": 0.0,
+    "avg_total_tokens": 0.0,
+    "avg_latency_ms": 78.1,
+    "total_cost_usd": 0.0,
+    "task_breakdown": [
+      {
+        "task_id": "py_easy_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 93.6
+      },
+      {
+        "task_id": "py_med_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 74.6
+      },
+      {
+        "task_id": "py_hard_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 81.6
+      },
+      {
+        "task_id": "sql_easy_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 70.7
+      },
+      {
+        "task_id": "sql_med_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 76.5
+      },
+      {
+        "task_id": "sql_hard_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 71.5
+      }
+    ]
+  },
+  "arm_1_ordinary_rag": {
+    "total_tasks": 6,
+    "passed_tasks": 6,
+    "pass_rate_pct": 100.0,
+    "trap_avoidance_rate_pct": 100.0,
+    "turn_1_success_pct": 100.0,
+    "avg_prompt_tokens": 83.7,
+    "avg_memory_tokens": 83.7,
+    "avg_completion_tokens": 0.0,
+    "avg_total_tokens": 83.7,
+    "avg_latency_ms": 81.8,
+    "total_cost_usd": 0.0,
+    "task_breakdown": [
+      {
+        "task_id": "py_easy_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 71.5
+      },
+      {
+        "task_id": "py_med_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 94.9
+      },
+      {
+        "task_id": "py_hard_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 76.8
+      },
+      {
+        "task_id": "sql_easy_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 81.8
+      },
+      {
+        "task_id": "sql_med_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 81.8
+      },
+      {
+        "task_id": "sql_hard_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 83.8
+      }
+    ]
+  },
+  "arm_3_contrastive_memory": {
+    "total_tasks": 6,
+    "passed_tasks": 6,
+    "pass_rate_pct": 100.0,
+    "trap_avoidance_rate_pct": 100.0,
+    "turn_1_success_pct": 100.0,
+    "avg_prompt_tokens": 0.0,
+    "avg_memory_tokens": 0.0,
+    "avg_completion_tokens": 0.0,
+    "avg_total_tokens": 0.0,
+    "avg_latency_ms": 92.2,
+    "total_cost_usd": 0.0,
+    "task_breakdown": [
+      {
+        "task_id": "py_easy_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 76.4
+      },
+      {
+        "task_id": "py_med_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 85.5
+      },
+      {
+        "task_id": "py_hard_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 73.1
+      },
+      {
+        "task_id": "sql_easy_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 82.6
+      },
+      {
+        "task_id": "sql_med_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 157.5
+      },
+      {
+        "task_id": "sql_hard_eval_01",
+        "passed": true,
+        "exit_code": 0,
+        "latency_ms": 78.0
+      }
+    ]
+  }
+}

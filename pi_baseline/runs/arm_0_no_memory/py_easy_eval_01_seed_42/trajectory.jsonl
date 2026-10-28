@@ -1,0 +1,1 @@
+{"task_id": "py_easy_eval_01", "arm_id": "arm_0_no_memory", "seed": 42, "passed": true, "exit_code": 0, "prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0, "latency_ms": 93.64899998763576, "cost_usd": 0.0, "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/pi_baseline/runs/arm_0_no_memory/py_easy_eval_01_seed_42"}

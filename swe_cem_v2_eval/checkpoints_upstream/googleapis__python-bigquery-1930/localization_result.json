@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "primary_file": "main.py",
+  "target_line": 314,
+  "target_function": "check_eligibility",
+  "localized_snippet": "",
+  "candidate_files": [
+    "main.py",
+    "visionCommon/common.py"
+  ],
+  "scores": {
+    "main.py": 20.0,
+    "visionCommon/common.py": 10.0
+  },
+  "hypotheses_evidence": {
+    "traceback_frames_found": 3,
+    "symbols_searched": [
+      "ConnectionResetError",
+      "_retry_error_helper",
+      "check_eligibility",
+      "ConnectionError",
+      "do_get_result"
+    ],
+    "module_paths_found": 0
+  }
+}

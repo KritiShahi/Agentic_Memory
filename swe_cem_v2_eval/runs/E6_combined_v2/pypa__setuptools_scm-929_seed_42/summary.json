@@ -1,0 +1,13 @@
+{
+  "instance_id": "pypa__setuptools_scm-929",
+  "repo": "pypa/setuptools_scm",
+  "experiment_id": "E6_combined_v2",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": true,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E6_combined_v2/pypa__setuptools_scm-929.log",
+  "completion_tokens": 2044,
+  "cost_usd": 0.0004
+}

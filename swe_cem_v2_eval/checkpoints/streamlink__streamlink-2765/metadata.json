@@ -1,0 +1,14 @@
+{
+  "instance_id": "streamlink__streamlink-2765",
+  "created_at": 1792728341.9190662,
+  "updated_at": 1792728404.3710878,
+  "stage1_status": "PASSED",
+  "stage2_status": "FAILED",
+  "combined_status": "PASSED",
+  "early_exit": true,
+  "warm_started": false,
+  "stage1_cost_usd": 0.0,
+  "stage2_cost_usd": 0.0,
+  "combined_cost_usd": 0.0,
+  "cost_savings_usd": 0.008
+}

@@ -1,0 +1,27 @@
+{
+  "instance_id": "googleapis__python-bigquery-1999",
+  "repo": "googleapis/python-bigquery",
+  "experiment_id": "E5_selective_interception",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-500e7180066f77e125a0d1fbfb5e2a10_213",
+    "ep_recov_chatcmpl-097654f6df1db09fab7813260b24ac3b_295",
+    "ep_recov_chatcmpl-3c6c327dd391dc30bc84bddd71686cb6_278"
+  ],
+  "prompt_tokens": 1885,
+  "completion_tokens": 1247,
+  "memory_injected_tokens": 647,
+  "total_tokens": 3132,
+  "latency_ms": 5212.1791249999205,
+  "cost_usd": 0.000249,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E5_selective_interception/googleapis__python-bigquery-1999.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E5_selective_interception/googleapis__python-bigquery-1999_seed_42"
+}

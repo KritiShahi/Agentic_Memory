@@ -1,0 +1,23 @@
+{
+  "instance_id": "pybamm-team__PyBaMM-748",
+  "repo": "pybamm-team/PyBaMM",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/pybamm-team__PyBaMM-748.log",
+  "localization_success": false,
+  "primary_file": "",
+  "target_line": 1,
+  "candidates_evaluated": 1,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 0,
+  "best_score": 59.762,
+  "prompt_tokens": 203,
+  "completion_tokens": 4096,
+  "total_tokens": 4299,
+  "cost_usd": 0.0004,
+  "latency_ms": 10942.79
+}

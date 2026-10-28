@@ -1,0 +1,18 @@
+{
+  "instance_id": "pypa__wheel-552",
+  "repo": "pypa/wheel",
+  "arm_id": "swe_arm_0_no_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 229,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4325,
+  "latency_ms": 13070.731249999993,
+  "cost_usd": 0.000433,
+  "cumulative_cost_usd": 0.055470000000000026,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_0_no_memory/pypa__wheel-552_seed_42"
+}

@@ -1,0 +1,27 @@
+{
+  "instance_id": "narwhals-dev__narwhals-1613",
+  "repo": "narwhals-dev/narwhals",
+  "experiment_id": "E2_episode_quality",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "MissingBoundaryCheck_OffByOne",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-55192e062f0c928173aa6e7c292a22cd_191",
+    "ep_recov_chatcmpl-9d3b92b66ba7e5c96d66e21147d393c9_430",
+    "ep_recov_chatcmpl-3d3d80fe348f5fc7567bb7093be25421_28"
+  ],
+  "prompt_tokens": 1772,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 635,
+  "total_tokens": 5868,
+  "latency_ms": 19482.315334000006,
+  "cost_usd": 0.000523,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E2_episode_quality/narwhals-dev__narwhals-1613.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E2_episode_quality/narwhals-dev__narwhals-1613_seed_42"
+}

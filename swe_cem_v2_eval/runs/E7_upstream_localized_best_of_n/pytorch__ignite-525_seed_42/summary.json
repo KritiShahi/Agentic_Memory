@@ -1,0 +1,23 @@
+{
+  "instance_id": "pytorch__ignite-525",
+  "repo": "pytorch/ignite",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/pytorch__ignite-525.log",
+  "localization_success": false,
+  "primary_file": "",
+  "target_line": 1,
+  "candidates_evaluated": 2,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 1,
+  "best_score": 60.667,
+  "prompt_tokens": 470,
+  "completion_tokens": 1845,
+  "total_tokens": 2315,
+  "cost_usd": 0.0002,
+  "latency_ms": 5312.66
+}

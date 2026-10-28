@@ -1,0 +1,13 @@
+{
+  "instance_id": "googleapis__python-bigquery-1930",
+  "resolved": true,
+  "resolved_by": "STAGE1_MULTI_TURN",
+  "early_exit": true,
+  "warm_started": false,
+  "turns_used": 12,
+  "patch_diff": "--- a/google/cloud/bigquery/retry.py\n+++ b/google/cloud/bigquery/retry.py\n@@ -1,5 +1,5 @@\n+    if isinstance(exc, exceptions.RetryError):\n+        exc = exc.cause\n+\n+    if not hasattr(exc, \"errors\") or len(exc.errors) == 0:\n+        return False\n+\n+    reason = exc.errors[0][\"reason\"]\n+    return reason in job_retry_reasons\n\n--- a/tests/unit/test_retry.py\n+++ b/tests/unit/test_retry.py\n@@ -1,5 +1,5 @@\n+def test_DEFAULT_JOB_RETRY_predicate():\n+    from google.cloud.bigquery.retry import DEFAULT_JOB_RETRY\n+    from google.api_core.exceptions import ClientError\n+\n+    assert not DEFAULT_JOB_RETRY._predicate(TypeError())\n+    assert not DEFAULT_JOB_RETRY._predicate(ClientError(\"fail\"))\n+    assert DEFAULT_JOB_RETRY._predicate(\n+        ClientError(\"fail\", errors=[dict(reason=\"backendError\")])\n+    )\n+\n+\n+def test_DEFAULT_JOB_RETRY_deadline():",
+  "cost_usd": 0.0,
+  "standalone_sum_cost_usd": 0.008,
+  "savings_usd": 0.008,
+  "savings_pct": 100.0
+}

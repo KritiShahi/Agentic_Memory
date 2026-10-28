@@ -1,0 +1,15 @@
+{
+  "task_id": "py_med_eval_01",
+  "domain": "python",
+  "split": "eval",
+  "complexity": "medium",
+  "category": "thread_pool_sync",
+  "title": "Exception-Propagating Async Thread Pool Digest",
+  "instruction": "Fix compute_payload_hashes in hash_distributor.py to run CPU digests across thread executors while correctly propagating exceptions.",
+  "initial_code": "import asyncio\nimport hashlib\n\ndef _hash_worker(data):\n    if not isinstance(data, (bytes, str)):\n        raise TypeError(\"Invalid payload type\")\n    if isinstance(data, str):\n        data = data.encode(\"utf-8\")\n    return hashlib.sha256(data).hexdigest()\n\nasync def compute_payload_hashes(payloads):\n    loop = asyncio.get_event_loop()\n    # Bug: creating futures without awaiting gather or propagating worker errors properly\n    futures = [loop.run_in_executor(None, _hash_worker, p) for p in payloads]\n    return futures\n",
+  "test_code": "import asyncio\nfrom hash_distributor import compute_payload_hashes\n\ndef test_hash_computation():\n    async def run():\n        hashes = await compute_payload_hashes([\"alpha\", \"beta\"])\n        assert len(hashes) == 2\n        assert isinstance(hashes[0], str) and len(hashes[0]) == 64\n    asyncio.run(run())\n\ndef test_exception_propagation():\n    async def run_err():\n        try:\n            await compute_payload_hashes([12345])\n            assert False, \"Should have raised TypeError\"\n        except TypeError:\n            pass\n    asyncio.run(run_err())\n",
+  "solution_patch": "import asyncio\nimport hashlib\n\ndef _hash_worker(data):\n    if not isinstance(data, (bytes, str)):\n        raise TypeError(\"Invalid payload type\")\n    if isinstance(data, str):\n        data = data.encode(\"utf-8\")\n    return hashlib.sha256(data).hexdigest()\n\nasync def compute_payload_hashes(payloads):\n    loop = asyncio.get_running_loop()\n    tasks = [loop.run_in_executor(None, _hash_worker, p) for p in payloads]\n    return list(await asyncio.gather(*tasks))\n",
+  "trap_indicator": "Suppressing worker exceptions via return_exceptions=True without notifying the caller.",
+  "counterfactual_pivot": "Use asyncio.get_running_loop() and await asyncio.gather(*tasks) to ensure clean exception bubbling.",
+  "module_name": "hash_distributor"
+}

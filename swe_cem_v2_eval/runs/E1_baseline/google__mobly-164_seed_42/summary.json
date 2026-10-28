@@ -1,0 +1,13 @@
+{
+  "instance_id": "google__mobly-164",
+  "repo": "google/mobly",
+  "experiment_id": "E1_baseline",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": true,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E1_baseline/google__mobly-164.log",
+  "completion_tokens": 24,
+  "cost_usd": 0.0003
+}

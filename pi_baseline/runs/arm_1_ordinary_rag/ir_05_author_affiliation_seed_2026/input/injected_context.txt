@@ -1,0 +1,4 @@
+=== RELEVANT CONTEXT ===
+[ir_05_author_affiliation_doc_0] Paper: 'MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Tasks' (2026). First author: Dr. Maya Lin.
+[ir_05_author_affiliation_doc_3] Co-author Kevin Zhang is affiliated with UC Berkeley AI Research Lab.
+=== END CONTEXT ===

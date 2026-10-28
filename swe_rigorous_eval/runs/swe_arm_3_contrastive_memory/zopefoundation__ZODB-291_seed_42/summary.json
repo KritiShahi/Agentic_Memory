@@ -1,0 +1,19 @@
+{
+  "instance_id": "zopefoundation__ZODB-291",
+  "repo": "zopefoundation/ZODB",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 2052,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 740,
+  "total_tokens": 6148,
+  "latency_ms": 16475.588833000016,
+  "cost_usd": 0.000541,
+  "cumulative_cost_usd": 0.19549700000000028,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/zopefoundation__ZODB-291_seed_42"
+}

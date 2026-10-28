@@ -1,0 +1,23 @@
+{
+  "instance_id": "tobymao__sqlglot-2529",
+  "repo": "tobymao/sqlglot",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/tobymao__sqlglot-2529.log",
+  "localization_success": true,
+  "primary_file": "plugins/docs.py",
+  "target_line": 1,
+  "candidates_evaluated": 2,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 1,
+  "best_score": 59.705,
+  "prompt_tokens": 688,
+  "completion_tokens": 6188,
+  "total_tokens": 6876,
+  "cost_usd": 0.0007,
+  "latency_ms": 18607.64
+}

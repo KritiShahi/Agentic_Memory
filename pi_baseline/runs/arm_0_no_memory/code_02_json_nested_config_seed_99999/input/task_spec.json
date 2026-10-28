@@ -1,0 +1,9 @@
+{
+  "task_id": "code_02_json_nested_config",
+  "domain": "coding",
+  "title": "Handle Missing Nested Keys with Fallback",
+  "instruction": "Fix get_nested_key in config_loader.py to return default_val safely when encountering non-dict intermediates instead of raising AttributeError.",
+  "initial_code": "def get_nested_key(data, path, default_val=None):\n    keys = path.split('.')\n    curr = data\n    for k in keys:\n        curr = curr.get(k) # Bug: raises AttributeError if curr is not a dict\n    return curr if curr is not None else default_val\n",
+  "test_code": "from config_loader import get_nested_key\n\ndef test_nested_found():\n    cfg = {'db': {'port': 5432}}\n    assert get_nested_key(cfg, 'db.port') == 5432\n\ndef test_nested_primitive_intermediate():\n    cfg = {'db': 'localhost'}\n    assert get_nested_key(cfg, 'db.port.sub', default_val=8000) == 8000\n",
+  "solution_patch": "def get_nested_key(data, path, default_val=None):\n    keys = path.split('.')\n    curr = data\n    for k in keys:\n        if not isinstance(curr, dict):\n            return default_val\n        curr = curr.get(k)\n        if curr is None:\n            return default_val\n    return curr\n"
+}

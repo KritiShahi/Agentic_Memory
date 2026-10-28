@@ -1,0 +1,12 @@
+{
+  "instance_id": "googleapis__python-bigquery-1930",
+  "repo": "googleapis/python-bigquery",
+  "localization_success": true,
+  "primary_file": "main.py",
+  "baseline_resolved": false,
+  "scoped_resolved": false,
+  "baseline_passing_candidates": 0,
+  "scoped_passing_candidates": 0,
+  "baseline_cost_usd": 0.0,
+  "scoped_cost_usd": 0.0
+}

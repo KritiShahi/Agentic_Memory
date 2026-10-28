@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "primary_file": "plugins/youtube.py",
+  "target_line": 1,
+  "target_function": "",
+  "localized_snippet": "",
+  "candidate_files": [
+    "plugins/youtube.py",
+    "streamlink/plugins/youtube.py"
+  ],
+  "scores": {
+    "plugins/youtube.py": 42.0,
+    "streamlink/plugins/youtube.py": 42.0
+  },
+  "hypotheses_evidence": {
+    "traceback_frames_found": 0,
+    "symbols_searched": [
+      "SebJIjQgdjg",
+      "Websocket",
+      "Requests",
+      "TheCore",
+      "README"
+    ],
+    "module_paths_found": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "instance_id": "pydicom__pynetdicom-516",
+  "repo": "pydicom/pynetdicom",
+  "experiment_id": "E5_selective_interception",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-6e8e9e4c220d6efe7ebe9d46fa49b9fa_460",
+    "ep_recov_chatcmpl-3057a41a4e8b68ac1773f029ad14a99c_493",
+    "ep_recov_chatcmpl-d8c96eb48b31a7bf2206062eda81e54b_24"
+  ],
+  "prompt_tokens": 1607,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 630,
+  "total_tokens": 5703,
+  "latency_ms": 14584.30733399996,
+  "cost_usd": 0.000507,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E5_selective_interception/pydicom__pynetdicom-516.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E5_selective_interception/pydicom__pynetdicom-516_seed_42"
+}

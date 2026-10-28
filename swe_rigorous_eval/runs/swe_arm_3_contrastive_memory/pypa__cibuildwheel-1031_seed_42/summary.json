@@ -1,0 +1,19 @@
+{
+  "instance_id": "pypa__cibuildwheel-1031",
+  "repo": "pypa/cibuildwheel",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": true,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 1774,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 765,
+  "total_tokens": 5870,
+  "latency_ms": 15711.83745800002,
+  "cost_usd": 0.000511,
+  "cumulative_cost_usd": 0.17091300000000015,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/pypa__cibuildwheel-1031_seed_42"
+}

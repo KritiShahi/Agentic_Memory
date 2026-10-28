@@ -1,0 +1,6 @@
+[
+  "Incident INC-8402 (2026-04-12 14:20 UTC): Payments service experienced 504 Gateway Timeouts following Deployment #142.",
+  "Deployment #141 deployed commit a8f12c (refactor headers) at 2026-04-12 09:00 UTC without errors.",
+  "Deployment #142 deployed commit d4e91b (enable connection pooling with 5s timeout) at 2026-04-12 14:10 UTC.",
+  "Rollback commit e5029a deployed at 15:00 UTC resolved the timeouts by restoring default socket timeouts."
+]

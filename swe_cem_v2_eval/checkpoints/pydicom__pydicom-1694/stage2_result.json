@@ -1,0 +1,65 @@
+{
+  "instance_id": "pydicom__pydicom-1694",
+  "repo": "pydicom/pydicom",
+  "resolved": false,
+  "trap_avoided": true,
+  "candidates_evaluated": 5,
+  "passing_candidates_count": 0,
+  "best_candidate_idx": 0,
+  "best_patch": "",
+  "best_score": -1099.0,
+  "best_score_details": {
+    "total_score": -1099.0,
+    "parsimony_score": 0.0,
+    "invariant_score": -999.0,
+    "flags": [
+      "invalid_or_empty",
+      "TEST_ORACLE_FAILED"
+    ],
+    "lines_added": 0,
+    "lines_deleted": 0
+  },
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "candidate_summaries": [
+    {
+      "idx": 0,
+      "test_passed": false,
+      "ast_passed": true,
+      "perspective": "Focus on the standard root-cause fix with minimal file changes.",
+      "cost_usd": 0.0
+    },
+    {
+      "idx": 1,
+      "test_passed": false,
+      "ast_passed": true,
+      "perspective": "Focus on defensive boundary checks, off-by-one prevention, and array dimension validation.",
+      "cost_usd": 0.0
+    },
+    {
+      "idx": 2,
+      "test_passed": false,
+      "ast_passed": true,
+      "perspective": "Focus on type coercion, None guards, and safe fallback dictionary/attribute handling.",
+      "cost_usd": 0.0
+    },
+    {
+      "idx": 3,
+      "test_passed": false,
+      "ast_passed": true,
+      "perspective": "Focus on backward compatibility, preserving legacy function signatures and parameter defaults.",
+      "cost_usd": 0.0
+    },
+    {
+      "idx": 4,
+      "test_passed": false,
+      "ast_passed": true,
+      "perspective": "Focus on robust exception containment, ensuring resources are cleanly released without silent failures.",
+      "cost_usd": 0.0
+    }
+  ]
+}

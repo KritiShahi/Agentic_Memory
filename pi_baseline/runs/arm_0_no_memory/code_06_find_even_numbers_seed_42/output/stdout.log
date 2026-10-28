@@ -1,0 +1,3 @@
+PASS: test_mixed_numbers
+PASS: test_all_odd
+PASS: test_negatives_and_zero

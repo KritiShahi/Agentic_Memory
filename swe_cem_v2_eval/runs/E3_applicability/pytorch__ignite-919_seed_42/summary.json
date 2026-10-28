@@ -1,0 +1,25 @@
+{
+  "instance_id": "pytorch__ignite-919",
+  "repo": "pytorch/ignite",
+  "experiment_id": "E3_applicability",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "TypeError_AttributeError",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 1,
+  "retrieved_episode_ids": [
+    "ep_edit_chatcmpl-a4cea3e223d501cf912c87f3ddc3d6f9_139"
+  ],
+  "prompt_tokens": 1169,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 296,
+  "total_tokens": 5265,
+  "latency_ms": 10969.833084000016,
+  "cost_usd": 0.000497,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E3_applicability/pytorch__ignite-919.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E3_applicability/pytorch__ignite-919_seed_42"
+}

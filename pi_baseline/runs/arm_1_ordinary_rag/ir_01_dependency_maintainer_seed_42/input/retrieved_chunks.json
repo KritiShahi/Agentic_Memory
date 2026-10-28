@@ -1,0 +1,87 @@
+[
+  {
+    "chunk_id": "ir_01_dependency_maintainer_doc_1_chunk_1",
+    "doc_id": "ir_01_dependency_maintainer_doc_1",
+    "text": "fast-proto is maintained by the Core Transport Working Group, chaired by Dr. Elena Vance.",
+    "tokens": [
+      "fast",
+      "proto",
+      "is",
+      "maintained",
+      "by",
+      "the",
+      "core",
+      "transport",
+      "working",
+      "group",
+      "chaired",
+      "by",
+      "dr",
+      "elena",
+      "vance"
+    ]
+  },
+  {
+    "chunk_id": "ir_01_dependency_maintainer_doc_0_chunk_0",
+    "doc_id": "ir_01_dependency_maintainer_doc_0",
+    "text": "Package: AuthCore v2.4 specifies direct dependency on fast-proto >= 1.8.0 for transport encoding.",
+    "tokens": [
+      "package",
+      "authcore",
+      "v2",
+      "4",
+      "specifies",
+      "direct",
+      "dependency",
+      "on",
+      "fast",
+      "proto",
+      "1",
+      "8",
+      "0",
+      "for",
+      "transport",
+      "encoding"
+    ]
+  },
+  {
+    "chunk_id": "ir_01_dependency_maintainer_doc_2_chunk_2",
+    "doc_id": "ir_01_dependency_maintainer_doc_2",
+    "text": "AuthCore v1.0 used legacy serializer json-wrap maintained by Marcus Brody.",
+    "tokens": [
+      "authcore",
+      "v1",
+      "0",
+      "used",
+      "legacy",
+      "serializer",
+      "json",
+      "wrap",
+      "maintained",
+      "by",
+      "marcus",
+      "brody"
+    ]
+  },
+  {
+    "chunk_id": "ir_01_dependency_maintainer_doc_3_chunk_3",
+    "doc_id": "ir_01_dependency_maintainer_doc_3",
+    "text": "Dr. Elena Vance transferred maintainership of fast-proto to Liam Chen in November 2025.",
+    "tokens": [
+      "dr",
+      "elena",
+      "vance",
+      "transferred",
+      "maintainership",
+      "of",
+      "fast",
+      "proto",
+      "to",
+      "liam",
+      "chen",
+      "in",
+      "november",
+      "2025"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "instance_id": "dask__dask-5975",
+  "repo": "dask/dask",
+  "resolved": false,
+  "resolved_by": "UNRESOLVED",
+  "early_exit": false,
+  "warm_started": true,
+  "trap_avoided": true,
+  "turns_used": 17,
+  "patch_diff": "--- a/dask/array/routines.py\n+++ b/dask/array/routines.py\n@@ -1,5 +1,5 @@\n+    if isinstance(axes, Iterable):\n+        left_axes, right_axes = axes\n+    else:\n+        left_axes = tuple(range(lhs.ndim - 1, lhs.ndim - axes - 1, -1))\n+        right_axes = tuple(range(0, axes))\n+\n+    if isinstance(left_axes, Integral):",
+  "cost_usd": 0.0,
+  "standalone_sum_cost_usd": 0.0049,
+  "savings_usd": 0.0049,
+  "savings_pct": 100.0
+}

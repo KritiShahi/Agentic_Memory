@@ -1,0 +1,12 @@
+{
+  "instance_id": "streamlink__streamlink-3677",
+  "repo": "streamlink/streamlink",
+  "localization_success": true,
+  "primary_file": "plugins/youtube.py",
+  "baseline_resolved": false,
+  "scoped_resolved": false,
+  "baseline_passing_candidates": 0,
+  "scoped_passing_candidates": 0,
+  "baseline_cost_usd": 0.0,
+  "scoped_cost_usd": 0.0
+}

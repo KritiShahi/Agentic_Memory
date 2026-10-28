@@ -1,0 +1,27 @@
+{
+  "instance_id": "Textualize__textual-3459",
+  "repo": "Textualize/textual",
+  "experiment_id": "E5_selective_interception",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-2e08346cef93bafdbc2cabefbb916394_434",
+    "ep_recov_chatcmpl-2cb4f679a201b9e8f1159c1585d852fb_354",
+    "ep_recov_chatcmpl-ada8f79e98c0b10fe7886cb482206252_382"
+  ],
+  "prompt_tokens": 1820,
+  "completion_tokens": 3689,
+  "memory_injected_tokens": 633,
+  "total_tokens": 5509,
+  "latency_ms": 11910.378708000053,
+  "cost_usd": 0.000488,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E5_selective_interception/Textualize__textual-3459.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E5_selective_interception/Textualize__textual-3459_seed_42"
+}

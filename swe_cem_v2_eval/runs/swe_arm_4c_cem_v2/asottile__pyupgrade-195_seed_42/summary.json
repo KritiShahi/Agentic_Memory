@@ -1,0 +1,22 @@
+{
+  "instance_id": "asottile__pyupgrade-195",
+  "repo": "asottile/pyupgrade",
+  "arm_id": "swe_arm_4c_cem_v2",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "has_tool_call_syntax": false,
+  "prompt_tokens": 555,
+  "completion_tokens": 1124,
+  "memory_injected_tokens": 0,
+  "total_tokens": 1679,
+  "latency_ms": 2541.6932910000014,
+  "cost_usd": 0.000168,
+  "cumulative_cost_usd": 0.05414000000000001,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/swe_arm_4c_cem_v2/asottile__pyupgrade-195_seed_42"
+}

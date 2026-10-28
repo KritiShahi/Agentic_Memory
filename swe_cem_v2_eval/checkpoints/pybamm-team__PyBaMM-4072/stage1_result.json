@@ -1,0 +1,21 @@
+{
+  "instance_id": "pybamm-team__PyBaMM-4072",
+  "repo": "pybamm-team/PyBaMM",
+  "resolved": false,
+  "trap_avoided": true,
+  "turns_used": 12,
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "patch_diff": "--- a/pybamm/util.py\n+++ b/pybamm/util.py\n@@ -1,5 +1,5 @@\n+                    stacklevel=2,\n+                )\n+                return super().__getitem__(key.replace(\"particle\", \"electrode\"))\n+            if key in [\"Negative electrode SOC\", \"Positive electrode SOC\"]:\n+                domain = key.split(\" \")[0]\n+                raise KeyError(\n+                f\"'{key}' not found. Best matches are {best_matches}\"\n+            ) from error\n+\n+    def search(self, key, print_values=False):\n+        \"\"\"\n+        Search dictionary for keys containing 'key'. If print_values is True, then",
+  "reproducer_code": "",
+  "localized_context": {
+    "target_files": [],
+    "target_functions": []
+  },
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/multi_turn_loop/pybamm-team__PyBaMM-4072.log"
+}

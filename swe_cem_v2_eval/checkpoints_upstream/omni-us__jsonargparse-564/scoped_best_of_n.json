@@ -1,0 +1,59 @@
+{
+  "instance_id": "omni-us__jsonargparse-564",
+  "repo": "omni-us/jsonargparse",
+  "primary_file": "ActionConfigFile.py",
+  "resolved": false,
+  "trap_avoided": true,
+  "candidates_evaluated": 4,
+  "passing_candidates_count": 0,
+  "best_candidate_idx": 0,
+  "best_patch": "--- a/ActionConfigFile.py\n+++ b/ActionConfigFile.py\n@@ -1,10 +1,15 @@\n",
+  "best_score": -90.0,
+  "best_score_details": {
+    "total_score": -90.0,
+    "parsimony_score": 1.0,
+    "invariant_score": 5.0,
+    "flags": [
+      "TEST_ORACLE_FAILED"
+    ],
+    "lines_added": 0,
+    "lines_deleted": 0,
+    "total_lines_changed": 0
+  },
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "candidate_summaries": [
+    {
+      "idx": 0,
+      "test_passed": false,
+      "ast_passed": true,
+      "perspective": "Candidate 1 (Standard Fix): Apply the direct root-cause fix with minimal changed lines.",
+      "cost_usd": 0.0
+    },
+    {
+      "idx": 1,
+      "test_passed": false,
+      "ast_passed": true,
+      "perspective": "Candidate 2 (Defensive Boundary & None Guard): Add defensive boundary checks and None-validation to prevent runtime exceptions.",
+      "cost_usd": 0.0
+    },
+    {
+      "idx": 2,
+      "test_passed": false,
+      "ast_passed": true,
+      "perspective": "Candidate 3 (Type Coercion & Fallback Handling): Implement safe type conversion and fallback dictionary/attribute handling.",
+      "cost_usd": 0.0
+    },
+    {
+      "idx": 3,
+      "test_passed": false,
+      "ast_passed": true,
+      "perspective": "Candidate 4 (Backward Compatibility): Ensure legacy function signatures, parameters, and callers remain functional without regressions.",
+      "cost_usd": 0.0
+    }
+  ]
+}

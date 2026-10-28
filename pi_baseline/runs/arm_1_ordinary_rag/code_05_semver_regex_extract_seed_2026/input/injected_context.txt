@@ -1,0 +1,3 @@
+=== RELEVANT CONTEXT ===
+[code_05_semver_regex_extract_spec] Fix parse_semver in version_parser.py to correctly parse MAJOR.MINOR.PATCH with optional pre-release tag like -alpha.1 or -rc.2.
+=== END CONTEXT ===

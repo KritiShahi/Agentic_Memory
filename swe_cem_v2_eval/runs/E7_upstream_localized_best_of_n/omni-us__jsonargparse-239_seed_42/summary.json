@@ -1,0 +1,23 @@
+{
+  "instance_id": "omni-us__jsonargparse-239",
+  "repo": "omni-us/jsonargparse",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/omni-us__jsonargparse-239.log",
+  "localization_success": true,
+  "primary_file": "home/venky/dev/instant-science/name_generator/test.py",
+  "target_line": 14,
+  "candidates_evaluated": 3,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 2,
+  "best_score": 58.326,
+  "prompt_tokens": 1821,
+  "completion_tokens": 3067,
+  "total_tokens": 4888,
+  "cost_usd": 0.0005,
+  "latency_ms": 11061.48
+}

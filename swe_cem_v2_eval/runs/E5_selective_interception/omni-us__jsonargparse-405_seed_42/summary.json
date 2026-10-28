@@ -1,0 +1,27 @@
+{
+  "instance_id": "omni-us__jsonargparse-405",
+  "repo": "omni-us/jsonargparse",
+  "experiment_id": "E5_selective_interception",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-2cb4f679a201b9e8f1159c1585d852fb_354",
+    "ep_recov_chatcmpl-354aa33eb52f07f1314c392c2c724f4c_180",
+    "ep_recov_chatcmpl-9d3b92b66ba7e5c96d66e21147d393c9_430"
+  ],
+  "prompt_tokens": 1798,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 635,
+  "total_tokens": 5894,
+  "latency_ms": 16036.288624999997,
+  "cost_usd": 0.000526,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E5_selective_interception/omni-us__jsonargparse-405.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E5_selective_interception/omni-us__jsonargparse-405_seed_42"
+}

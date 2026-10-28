@@ -1,0 +1,23 @@
+{
+  "instance_id": "pydicom__pydicom-1194",
+  "repo": "pydicom/pydicom",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/pydicom__pydicom-1194.log",
+  "localization_success": true,
+  "primary_file": "storescu.py",
+  "target_line": 283,
+  "candidates_evaluated": 2,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 1,
+  "best_score": 58.333,
+  "prompt_tokens": 930,
+  "completion_tokens": 8192,
+  "total_tokens": 9122,
+  "cost_usd": 0.0009,
+  "latency_ms": 27244.28
+}

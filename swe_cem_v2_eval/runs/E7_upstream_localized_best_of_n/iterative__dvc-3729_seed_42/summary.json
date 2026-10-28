@@ -1,0 +1,23 @@
+{
+  "instance_id": "iterative__dvc-3729",
+  "repo": "iterative/dvc",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/iterative__dvc-3729.log",
+  "localization_success": false,
+  "primary_file": "",
+  "target_line": 1,
+  "candidates_evaluated": 1,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 0,
+  "best_score": 63.045,
+  "prompt_tokens": 384,
+  "completion_tokens": 4096,
+  "total_tokens": 4480,
+  "cost_usd": 0.0004,
+  "latency_ms": 11401.69
+}

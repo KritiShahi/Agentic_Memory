@@ -1,0 +1,28 @@
+================================================================================
+SWE TASK TEST EXECUTION LOG
+Instance ID: joke2k__faker-1569
+Repository: joke2k/faker
+Experiment: E5_selective_interception
+Candidate Format: python_code_block
+Exit Code: 1
+Result: FAILED (0 passed, 1 failed in 0.00s)
+================================================================================
+--- STDOUT ---
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-7.4.0, pluggy-1.2.0 -- /usr/bin/python3
+rootdir: /workspace/joke2k__faker
+task: joke2k__faker-1569 | experiment: E5_selective_interception
+candidate_format: python_code_block | candidate_length: 6316 chars
+collected 1 item
+
+tests/test_faker.py::test_reproduce FAILED [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_reproduce [joke2k__faker-1569] ___________________________
+AssertionError: Candidate patch failed reproduction test assertions.
+  Overlap ratio with golden specification: 0.14 (Required: >= 0.35)
+  Missing required causal transformations from joke2k/faker.
+=========================== 1 failed in 0.24s ===========================
+--- STDERR ---
+(empty)
+================================================================================

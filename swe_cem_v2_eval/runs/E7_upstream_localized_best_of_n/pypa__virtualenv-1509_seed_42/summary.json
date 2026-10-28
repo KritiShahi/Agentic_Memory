@@ -1,0 +1,23 @@
+{
+  "instance_id": "pypa__virtualenv-1509",
+  "repo": "pypa/virtualenv",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/pypa__virtualenv-1509.log",
+  "localization_success": false,
+  "primary_file": "",
+  "target_line": 1,
+  "candidates_evaluated": 3,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 2,
+  "best_score": 57.941,
+  "prompt_tokens": 891,
+  "completion_tokens": 11242,
+  "total_tokens": 12133,
+  "cost_usd": 0.0012,
+  "latency_ms": 29355.18
+}

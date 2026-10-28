@@ -1,0 +1,22 @@
+{
+  "instance_id": "zopefoundation__zope.security-81",
+  "repo": "zopefoundation/zope.security",
+  "arm_id": "swe_arm_4c_cem_v2",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "has_tool_call_syntax": false,
+  "prompt_tokens": 400,
+  "completion_tokens": 1864,
+  "memory_injected_tokens": 0,
+  "total_tokens": 2264,
+  "latency_ms": 4754.689999999997,
+  "cost_usd": 0.000226,
+  "cumulative_cost_usd": 0.009624,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/swe_arm_4c_cem_v2/zopefoundation__zope.security-81_seed_42"
+}

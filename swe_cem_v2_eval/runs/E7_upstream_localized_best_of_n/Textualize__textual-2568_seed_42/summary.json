@@ -1,0 +1,23 @@
+{
+  "instance_id": "Textualize__textual-2568",
+  "repo": "Textualize/textual",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/Textualize__textual-2568.log",
+  "localization_success": false,
+  "primary_file": "",
+  "target_line": 1,
+  "candidates_evaluated": 1,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 0,
+  "best_score": 59.348,
+  "prompt_tokens": 370,
+  "completion_tokens": 346,
+  "total_tokens": 716,
+  "cost_usd": 0.0001,
+  "latency_ms": 1393.07
+}

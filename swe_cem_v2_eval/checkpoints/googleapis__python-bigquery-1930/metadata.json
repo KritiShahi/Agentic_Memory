@@ -1,0 +1,14 @@
+{
+  "instance_id": "googleapis__python-bigquery-1930",
+  "created_at": 1792728341.893887,
+  "updated_at": 1792728408.347716,
+  "stage1_status": "PASSED",
+  "stage2_status": "FAILED",
+  "combined_status": "PASSED",
+  "early_exit": true,
+  "warm_started": false,
+  "stage1_cost_usd": 0.0,
+  "stage2_cost_usd": 0.0,
+  "combined_cost_usd": 0.0,
+  "cost_savings_usd": 0.008
+}

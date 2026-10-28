@@ -1,0 +1,7 @@
+def migrate_products_and_view(conn):
+    # Bug: Drops old table without recreating or refreshing the view that depends on it
+    conn.execute("DROP TABLE IF EXISTS products_old;")
+    conn.execute("ALTER TABLE products RENAME TO products_old;")
+    conn.execute("CREATE TABLE products (id INTEGER PRIMARY KEY, name TEXT, retail_price REAL, is_available INTEGER);")
+    conn.execute("INSERT INTO products SELECT id, name, price, 1 FROM products_old;")
+    # View active_products_view remains broken pointing to old schema

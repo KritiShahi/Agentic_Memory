@@ -1,0 +1,6 @@
+def get_nested_key(data, path, default_val=None):
+    keys = path.split('.')
+    curr = data
+    for k in keys:
+        curr = curr.get(k) # Bug: raises AttributeError if curr is not a dict
+    return curr if curr is not None else default_val

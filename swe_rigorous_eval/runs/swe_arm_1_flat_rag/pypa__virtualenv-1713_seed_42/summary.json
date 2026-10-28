@@ -1,0 +1,18 @@
+{
+  "instance_id": "pypa__virtualenv-1713",
+  "repo": "pypa/virtualenv",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 1485,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 204,
+  "total_tokens": 5581,
+  "latency_ms": 11171.22175,
+  "cost_usd": 0.000538,
+  "cumulative_cost_usd": 0.12496600000000009,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/pypa__virtualenv-1713_seed_42"
+}

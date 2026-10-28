@@ -1,0 +1,28 @@
+{
+  "repository": "https://github.com/earendil-works/pi",
+  "pinned_commit": "11894012dd461232eb075bc890538b6866860a10",
+  "checkout_date": "2026-09-28T16:06:00Z",
+  "retained_packages": [
+    "packages/coding-agent",
+    "packages/agent",
+    "packages/ai"
+  ],
+  "filtered_noise": [
+    "packages/chord",
+    "packages/durable",
+    "packages/evals",
+    "packages/server",
+    "packages/session-backends",
+    "packages/telemetry",
+    "packages/tui",
+    ".husky",
+    "mini-test.sh",
+    "pi-test.bat",
+    "pi-test.ps1",
+    "pi-test.sh",
+    "test.sh",
+    "vitest.base.ts",
+    "biome.json"
+  ],
+  "isolation_mode": "isolated_research_baseline"
+}

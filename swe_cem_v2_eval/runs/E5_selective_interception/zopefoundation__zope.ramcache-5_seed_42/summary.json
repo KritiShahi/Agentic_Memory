@@ -1,0 +1,27 @@
+{
+  "instance_id": "zopefoundation__zope.ramcache-5",
+  "repo": "zopefoundation/zope.ramcache",
+  "experiment_id": "E5_selective_interception",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-a9afabb1e42e22c97fcbe0adf641af30_497",
+    "ep_recov_chatcmpl-6e8e9e4c220d6efe7ebe9d46fa49b9fa_460",
+    "ep_recov_chatcmpl-bb8b865143bb8ca4aff1a6abb0fcb3a1_167"
+  ],
+  "prompt_tokens": 1908,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 627,
+  "total_tokens": 6004,
+  "latency_ms": 13317.050750000135,
+  "cost_usd": 0.000538,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E5_selective_interception/zopefoundation__zope.ramcache-5.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E5_selective_interception/zopefoundation__zope.ramcache-5_seed_42"
+}

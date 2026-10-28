@@ -1,0 +1,15 @@
+{
+  "instance_id": "pypa__hatch-535",
+  "repo": "pypa/hatch",
+  "resolved": false,
+  "resolved_by": "UNRESOLVED",
+  "early_exit": false,
+  "warm_started": true,
+  "trap_avoided": true,
+  "turns_used": 17,
+  "patch_diff": "--- a/src/hatch/cli/env/run.py\n+++ b/src/hatch/cli/env/run.py\n@@ -1,5 +1,5 @@\n+\n+            if included_variables:\n+                if variable not in included_variables:\n+                    break\n+                else:\n+                    included_values = included_variables[variable]\n+                    if included_values and value not in included_values:",
+  "cost_usd": 0.0,
+  "standalone_sum_cost_usd": 0.0049,
+  "savings_usd": 0.0049,
+  "savings_pct": 100.0
+}

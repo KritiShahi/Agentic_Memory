@@ -1,0 +1,21 @@
+{
+  "instance_id": "streamlink__streamlink-3677",
+  "repo": "streamlink/streamlink",
+  "resolved": false,
+  "trap_avoided": true,
+  "turns_used": 12,
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "patch_diff": "--- a/tests/plugins/test_youtube.py\n+++ b/tests/plugins/test_youtube.py\n@@ -1,5 +1,5 @@\n+        \"https://www.youtube.com/user/EXAMPLE/live\",\n+        \"https://www.youtube.com/v/aqz-KE-bpKQ\",\n+        \"https://www.youtube.com/watch?v=aqz-KE-bpKQ\",\n+    ]\n+\n+    should_not_match = [\n+    def test_regex_video_id_watch(self):\n+        self._test_regex(\"https://www.youtube.com/watch?v=aqz-KE-bpKQ\",\n+                         \"aqz-KE-bpKQ\", \"video_id\")\n\n--- a/src/streamlink/plugins/youtube.py\n+++ b/src/streamlink/plugins/youtube.py\n@@ -1,5 +1,5 @@\n+)\n+\n+_ytdata_re = re.compile(r'ytInitialData\\s*=\\s*({.*?});', re.DOTALL)\n+_url_re = re.compile(r\"\"\"(?x)https?://(?:\\w+\\.)?youtube\\.com\n+    (?:\n+        (?:\n+            /(?:\n+                watch.+v=\n+                |\n+                embed/(?!live_stream)\n+                |\n+                v/\n+            )(?P<video_id>[0-9A-z_-]{11})\n+        )\n+        |\n+        (?:\n+            /(?:\n+                (?:user|c(?:hannel)?)/\n+                |\n+                embed/live_stream\\?channel=",
+  "reproducer_code": "",
+  "localized_context": {
+    "target_files": [],
+    "target_functions": []
+  },
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/multi_turn_loop/streamlink__streamlink-3677.log"
+}

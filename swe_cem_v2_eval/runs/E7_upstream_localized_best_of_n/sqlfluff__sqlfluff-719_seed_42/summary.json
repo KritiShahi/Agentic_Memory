@@ -1,0 +1,23 @@
+{
+  "instance_id": "sqlfluff__sqlfluff-719",
+  "repo": "sqlfluff/sqlfluff",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/sqlfluff__sqlfluff-719.log",
+  "localization_success": false,
+  "primary_file": "",
+  "target_line": 1,
+  "candidates_evaluated": 1,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 0,
+  "best_score": 57.083,
+  "prompt_tokens": 548,
+  "completion_tokens": 3029,
+  "total_tokens": 3577,
+  "cost_usd": 0.0004,
+  "latency_ms": 7122.71
+}

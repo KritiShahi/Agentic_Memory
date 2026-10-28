@@ -1,0 +1,27 @@
+{
+  "instance_id": "google__flax-3731",
+  "repo": "google/flax",
+  "experiment_id": "E2_episode_quality",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-3c6c327dd391dc30bc84bddd71686cb6_278",
+    "ep_recov_chatcmpl-164410cf0ce64c8b0ebd4880798633bb_424",
+    "ep_recov_chatcmpl-caf9496a728aed7c743dba66fb8265b3_100"
+  ],
+  "prompt_tokens": 1502,
+  "completion_tokens": 2084,
+  "memory_injected_tokens": 651,
+  "total_tokens": 3586,
+  "latency_ms": 9029.994375000002,
+  "cost_usd": 0.000294,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E2_episode_quality/google__flax-3731.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E2_episode_quality/google__flax-3731_seed_42"
+}

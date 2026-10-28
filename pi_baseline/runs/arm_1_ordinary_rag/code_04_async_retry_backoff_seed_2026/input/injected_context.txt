@@ -1,0 +1,4 @@
+=== RELEVANT CONTEXT ===
+[code_04_async_retry_backoff_spec] Fix retry_caller.py to compute delay using exponential backoff: delay = base_delay * (2 ** (attempt - 1)) with max_delay cap.
+[code_04_async_retry_backoff_init] def compute_delay(attempt, base_delay=1.0, max_delay=30.0): return base_delay * attempt # Bug: linear delay instead of exponential
+=== END CONTEXT ===

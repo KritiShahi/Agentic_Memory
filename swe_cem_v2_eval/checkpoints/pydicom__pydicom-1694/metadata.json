@@ -1,0 +1,14 @@
+{
+  "instance_id": "pydicom__pydicom-1694",
+  "created_at": 1792728354.091054,
+  "updated_at": 1792728540.5608058,
+  "stage1_status": "FAILED",
+  "stage2_status": "FAILED",
+  "combined_status": "FAILED",
+  "early_exit": false,
+  "warm_started": true,
+  "stage1_cost_usd": 0.0,
+  "stage2_cost_usd": 0.0,
+  "combined_cost_usd": 0.0,
+  "cost_savings_usd": 0.0049
+}

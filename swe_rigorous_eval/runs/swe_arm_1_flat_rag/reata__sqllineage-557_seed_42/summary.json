@@ -1,0 +1,18 @@
+{
+  "instance_id": "reata__sqllineage-557",
+  "repo": "reata/sqllineage",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 387,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 75,
+  "total_tokens": 4483,
+  "latency_ms": 14948.845040999999,
+  "cost_usd": 0.000441,
+  "cumulative_cost_usd": 0.1291660000000001,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/reata__sqllineage-557_seed_42"
+}

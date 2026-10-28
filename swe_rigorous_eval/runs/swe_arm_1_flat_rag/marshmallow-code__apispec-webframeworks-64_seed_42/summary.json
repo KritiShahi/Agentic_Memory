@@ -1,0 +1,18 @@
+{
+  "instance_id": "marshmallow-code__apispec-webframeworks-64",
+  "repo": "marshmallow-code/apispec-webframeworks",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "prompt_tokens": 658,
+  "completion_tokens": 654,
+  "memory_injected_tokens": 85,
+  "total_tokens": 1312,
+  "latency_ms": 1860.291499999999,
+  "cost_usd": 0.000123,
+  "cumulative_cost_usd": 0.09958000000000007,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/marshmallow-code__apispec-webframeworks-64_seed_42"
+}

@@ -1,0 +1,26 @@
+{
+  "instance_id": "asottile__setup-cfg-fmt-48",
+  "repo": "asottile/setup-cfg-fmt",
+  "experiment_id": "E3_applicability",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 2,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-76b491c35b284a83906fd2143687a83a_207",
+    "ep_recov_chatcmpl-ccf22f99fbead42a1e4c7f19ed8f168e_357"
+  ],
+  "prompt_tokens": 1002,
+  "completion_tokens": 1694,
+  "memory_injected_tokens": 447,
+  "total_tokens": 2696,
+  "latency_ms": 6274.218583999982,
+  "cost_usd": 0.000225,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E3_applicability/asottile__setup-cfg-fmt-48.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E3_applicability/asottile__setup-cfg-fmt-48_seed_42"
+}

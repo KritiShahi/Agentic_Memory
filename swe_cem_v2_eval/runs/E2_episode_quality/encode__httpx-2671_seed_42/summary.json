@@ -1,0 +1,27 @@
+{
+  "instance_id": "encode__httpx-2671",
+  "repo": "encode/httpx",
+  "experiment_id": "E2_episode_quality",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-3c6c327dd391dc30bc84bddd71686cb6_278",
+    "ep_recov_chatcmpl-164410cf0ce64c8b0ebd4880798633bb_424",
+    "ep_recov_chatcmpl-854bad2eb7bae7916ad01506f8ce0767_365"
+  ],
+  "prompt_tokens": 1779,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 644,
+  "total_tokens": 5875,
+  "latency_ms": 10559.726209000019,
+  "cost_usd": 0.000523,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E2_episode_quality/encode__httpx-2671.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E2_episode_quality/encode__httpx-2671_seed_42"
+}

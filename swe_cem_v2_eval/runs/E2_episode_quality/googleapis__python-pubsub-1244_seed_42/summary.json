@@ -1,0 +1,27 @@
+{
+  "instance_id": "googleapis__python-pubsub-1244",
+  "repo": "googleapis/python-pubsub",
+  "experiment_id": "E2_episode_quality",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "TestAssertionMockFailure",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-7ab0e81a5d2a8cbb9dcef3423d229f3c_395",
+    "ep_recov_chatcmpl-3c6c327dd391dc30bc84bddd71686cb6_278",
+    "ep_recov_chatcmpl-164410cf0ce64c8b0ebd4880798633bb_424"
+  ],
+  "prompt_tokens": 1742,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 652,
+  "total_tokens": 5838,
+  "latency_ms": 16133.916292000009,
+  "cost_usd": 0.000519,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E2_episode_quality/googleapis__python-pubsub-1244.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E2_episode_quality/googleapis__python-pubsub-1244_seed_42"
+}

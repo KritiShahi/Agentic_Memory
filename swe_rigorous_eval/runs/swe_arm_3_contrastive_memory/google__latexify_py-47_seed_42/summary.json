@@ -1,0 +1,19 @@
+{
+  "instance_id": "google__latexify_py-47",
+  "repo": "google/latexify_py",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 1842,
+  "completion_tokens": 102,
+  "memory_injected_tokens": 759,
+  "total_tokens": 1944,
+  "latency_ms": 843.477790999998,
+  "cost_usd": 0.000119,
+  "cumulative_cost_usd": 0.18827600000000025,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/google__latexify_py-47_seed_42"
+}

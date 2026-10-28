@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/kritishahi/Desktop/Humanitarians AI/test/research/pi_baseline/runs/arm_0_no_memory/code_01_binary_search_partition_seed_42/execution/test_suite.py", line 1, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'

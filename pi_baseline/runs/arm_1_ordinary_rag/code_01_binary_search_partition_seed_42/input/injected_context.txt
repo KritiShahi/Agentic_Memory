@@ -1,0 +1,3 @@
+=== RELEVANT CONTEXT ===
+[code_01_binary_search_partition_spec] Fix the binary range partitioning function in partitioner.py. The upper bound slice calculation includes an extra element causing index out of range when end == len(array). Run pytest to verify.
+=== END CONTEXT ===

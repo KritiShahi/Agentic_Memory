@@ -1,0 +1,26 @@
+{
+  "instance_id": "pypa__pip-11860",
+  "repo": "pypa/pip",
+  "experiment_id": "E4_phase_aware",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 2,
+  "retrieved_episode_ids": [
+    "ep_edit_chatcmpl-69a3e35bbc32a9dd3b15a6509086e80d_70",
+    "ep_edit_chatcmpl-3746b10fb0cd0255ea49018b1d3716a9_240"
+  ],
+  "prompt_tokens": 1339,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 562,
+  "total_tokens": 5435,
+  "latency_ms": 12956.400874999985,
+  "cost_usd": 0.000487,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E4_phase_aware/pypa__pip-11860.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E4_phase_aware/pypa__pip-11860_seed_42"
+}

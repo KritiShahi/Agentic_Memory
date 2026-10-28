@@ -1,0 +1,19 @@
+{
+  "instance_id": "marshmallow-code__marshmallow-1036",
+  "repo": "marshmallow-code/marshmallow",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 1841,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 752,
+  "total_tokens": 5937,
+  "latency_ms": 13488.029333000042,
+  "cost_usd": 0.000519,
+  "cumulative_cost_usd": 0.19710800000000028,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/marshmallow-code__marshmallow-1036_seed_42"
+}

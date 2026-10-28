@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "primary_file": "ActionConfigFile.py",
+  "target_line": 1,
+  "target_function": "",
+  "localized_snippet": "",
+  "candidate_files": [
+    "ActionConfigFile.py",
+    "_util.py",
+    "argparse.py",
+    "yaml_dump.py",
+    "dataclass.py"
+  ],
+  "scores": {
+    "ActionConfigFile.py": 4.0,
+    "_util.py": 4.0,
+    "argparse.py": 4.0,
+    "yaml_dump.py": 4.0,
+    "dataclass.py": 4.0
+  },
+  "hypotheses_evidence": {
+    "traceback_frames_found": 0,
+    "symbols_searched": [
+      "get_class_parser",
+      "ActionConfigFile",
+      "is_constant_spec",
+      "RepresenterError",
+      "ActionTypeHint"
+    ],
+    "module_paths_found": 12
+  }
+}

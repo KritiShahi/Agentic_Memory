@@ -1,0 +1,22 @@
+{
+  "instance_id": "pypa__setuptools_scm-731",
+  "repo": "pypa/setuptools_scm",
+  "arm_id": "swe_arm_4c_cem_v2",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "TypeError_AttributeError",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": true,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "has_tool_call_syntax": false,
+  "prompt_tokens": 478,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4574,
+  "latency_ms": 10943.957124999997,
+  "cost_usd": 0.000457,
+  "cumulative_cost_usd": 0.06808800000000002,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/swe_arm_4c_cem_v2/pypa__setuptools_scm-731_seed_42"
+}

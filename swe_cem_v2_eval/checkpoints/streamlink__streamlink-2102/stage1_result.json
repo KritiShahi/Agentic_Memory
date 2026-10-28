@@ -1,0 +1,21 @@
+{
+  "instance_id": "streamlink__streamlink-2102",
+  "repo": "streamlink/streamlink",
+  "resolved": true,
+  "trap_avoided": true,
+  "turns_used": 12,
+  "token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  },
+  "cost_usd": 0.0,
+  "patch_diff": "--- a/tests/plugins/test_ok_live.py\n+++ b/tests/plugins/test_ok_live.py\n@@ -1,5 +1,5 @@\n+\n+class TestPluginOK_live(unittest.TestCase):\n+    def test_can_handle_url(self):\n+        # should match\n+        self.assertTrue(OK_live.can_handle_url(\"https://ok.ru/live/12345\"))\n+        self.assertTrue(OK_live.can_handle_url(\"http://ok.ru/live/12345\"))\n+        self.assertTrue(OK_live.can_handle_url(\"http://www.ok.ru/live/12345\"))\n+\n+        # shouldn't match\n+        self.assertFalse(OK_live.can_handle_url(\"http://www.tvcatchup.com/\"))\n+        self.assertFalse(OK_live.can_handle_url(\"http://www.youtube.com/\"))\n\n--- a/src/streamlink/logger.py\n+++ b/src/streamlink/logger.py\n@@ -1,5 +1,5 @@\n+\n+class StringFormatter(logging.Formatter):\n+    def __init__(self, fmt, datefmt=None, style='%', remove_base=None):\n+        super(StringFormatter, self).__init__(fmt, datefmt=datefmt)\n+        if style not in (\"{\", \"%\"):\n+            raise ValueError(\"Only {} and % formatting styles are supported\")\n+        self.style = style\n\n--- a/src/streamlink/plugins/ok_live.py\n+++ b/src/streamlink/plugins/ok_live.py\n@@ -1,5 +1,5 @@\n+from streamlink.plugin.api import useragents\n+from streamlink.stream import HLSStream\n+\n+_url_re = re.compile(r\"https?://(www\\.)?ok\\.ru/live/\\d+\")\n+_vod_re = re.compile(r\";(?P<hlsurl>[^;]+video\\.m3u8.+?)\\\\&quot;\")\n+\n+_schema = validate.Schema(\n+\n+class OK_live(Plugin):\n+    \"\"\"\n+    Support for ok.ru live stream: http://www.ok.ru/live/\n+    \"\"\"\n+    @classmethod\n+    def can_handle_url(cls, url):",
+  "reproducer_code": "",
+  "localized_context": {
+    "target_files": [],
+    "target_functions": []
+  },
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/multi_turn_loop/streamlink__streamlink-2102.log"
+}

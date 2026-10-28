@@ -1,0 +1,17 @@
+{
+  "instance_id": "PyPSA__linopy-79",
+  "repo": "PyPSA/linopy",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 3,
+  "prompt_tokens": 2445,
+  "completion_tokens": 182,
+  "memory_injected_tokens": 1026,
+  "total_tokens": 2627,
+  "latency_ms": 1637.5510409999947,
+  "cost_usd": 0.00016,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/pi_baseline/runs/swe_rebench/swe_arm_3_contrastive_memory/PyPSA__linopy-79_seed_42"
+}

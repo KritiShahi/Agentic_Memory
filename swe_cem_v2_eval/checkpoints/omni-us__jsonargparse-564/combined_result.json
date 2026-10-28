@@ -1,0 +1,15 @@
+{
+  "instance_id": "omni-us__jsonargparse-564",
+  "repo": "omni-us/jsonargparse",
+  "resolved": false,
+  "resolved_by": "UNRESOLVED",
+  "early_exit": false,
+  "warm_started": true,
+  "trap_avoided": true,
+  "turns_used": 17,
+  "patch_diff": "--- a/jsonargparse/_typehints.py\n+++ b/jsonargparse/_typehints.py\n@@ -1,5 +1,5 @@\n+        if skip_args:\n+            kwargs.setdefault(\"skip\", set()).add(skip_args)\n+        parser = parent_parser.get()\n+        parser = type(parser)(exit_on_error=False, logger=parser.logger)\n+        remove_actions(parser, (ActionConfigFile, _ActionPrintConfig))\n+        if inspect.isclass(val_class):\n+            parser.add_class_arguments(val_class, **kwargs)",
+  "cost_usd": 0.0,
+  "standalone_sum_cost_usd": 0.0049,
+  "savings_usd": 0.0049,
+  "savings_pct": 100.0
+}

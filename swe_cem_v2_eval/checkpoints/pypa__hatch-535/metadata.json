@@ -1,0 +1,14 @@
+{
+  "instance_id": "pypa__hatch-535",
+  "created_at": 1792728350.404696,
+  "updated_at": 1792728524.857763,
+  "stage1_status": "FAILED",
+  "stage2_status": "FAILED",
+  "combined_status": "FAILED",
+  "early_exit": false,
+  "warm_started": true,
+  "stage1_cost_usd": 0.0,
+  "stage2_cost_usd": 0.0,
+  "combined_cost_usd": 0.0,
+  "cost_savings_usd": 0.0049
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "tobymao__sqlglot-702",
+  "repo": "tobymao/sqlglot",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "prompt_tokens": 1229,
+  "completion_tokens": 1277,
+  "memory_injected_tokens": 217,
+  "total_tokens": 2506,
+  "latency_ms": 3468.4543750000075,
+  "cost_usd": 0.000229,
+  "cumulative_cost_usd": 0.11393400000000008,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/tobymao__sqlglot-702_seed_42"
+}

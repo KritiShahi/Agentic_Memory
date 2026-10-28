@@ -1,0 +1,27 @@
+{
+  "instance_id": "streamlink__streamlink-2765",
+  "repo": "streamlink/streamlink",
+  "experiment_id": "E3_applicability",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-f51c15b16b64a61b91cc8d321306efc0_211",
+    "ep_recov_chatcmpl-86479007b575d29e4929e943707c826d_374",
+    "ep_recov_chatcmpl-d8c96eb48b31a7bf2206062eda81e54b_24"
+  ],
+  "prompt_tokens": 1997,
+  "completion_tokens": 966,
+  "memory_injected_tokens": 640,
+  "total_tokens": 2963,
+  "latency_ms": 4503.580833000001,
+  "cost_usd": 0.000232,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E3_applicability/streamlink__streamlink-2765.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E3_applicability/streamlink__streamlink-2765_seed_42"
+}

@@ -1,0 +1,19 @@
+{
+  "instance_id": "pypa__hatch-535",
+  "repo": "pypa/hatch",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 2006,
+  "completion_tokens": 78,
+  "memory_injected_tokens": 786,
+  "total_tokens": 2084,
+  "latency_ms": 979.1418749999821,
+  "cost_usd": 0.00013,
+  "cumulative_cost_usd": 0.15754800000000022,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/pypa__hatch-535_seed_42"
+}

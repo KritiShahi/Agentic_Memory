@@ -1,0 +1,22 @@
+{
+  "instance_id": "iterative__dvc-3729",
+  "repo": "iterative/dvc",
+  "arm_id": "swe_arm_4c_cem_v2",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "has_tool_call_syntax": false,
+  "prompt_tokens": 318,
+  "completion_tokens": 3425,
+  "memory_injected_tokens": 0,
+  "total_tokens": 3743,
+  "latency_ms": 9304.582917000005,
+  "cost_usd": 0.000374,
+  "cumulative_cost_usd": 0.05451400000000001,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/swe_arm_4c_cem_v2/iterative__dvc-3729_seed_42"
+}

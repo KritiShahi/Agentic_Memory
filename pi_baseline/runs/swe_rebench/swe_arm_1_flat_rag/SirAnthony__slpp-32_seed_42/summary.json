@@ -1,0 +1,16 @@
+{
+  "instance_id": "SirAnthony__slpp-32",
+  "repo": "SirAnthony/slpp",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 237,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 43,
+  "total_tokens": 4333,
+  "latency_ms": 15942.686959000013,
+  "cost_usd": 0.000429,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/pi_baseline/runs/swe_rebench/swe_arm_1_flat_rag/SirAnthony__slpp-32_seed_42"
+}

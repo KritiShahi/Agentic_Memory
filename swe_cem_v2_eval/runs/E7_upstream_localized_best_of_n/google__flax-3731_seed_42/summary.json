@@ -1,0 +1,23 @@
+{
+  "instance_id": "google__flax-3731",
+  "repo": "google/flax",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/google__flax-3731.log",
+  "localization_success": true,
+  "primary_file": "linen.py",
+  "target_line": 1,
+  "candidates_evaluated": 1,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 0,
+  "best_score": 60.571,
+  "prompt_tokens": 313,
+  "completion_tokens": 1245,
+  "total_tokens": 1558,
+  "cost_usd": 0.0002,
+  "latency_ms": 3969.85
+}

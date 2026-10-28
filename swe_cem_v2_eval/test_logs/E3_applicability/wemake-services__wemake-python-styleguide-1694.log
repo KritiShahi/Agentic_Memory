@@ -1,0 +1,28 @@
+================================================================================
+SWE TASK TEST EXECUTION LOG
+Instance ID: wemake-services__wemake-python-styleguide-1694
+Repository: wemake-services/wemake-python-styleguide
+Experiment: E3_applicability
+Candidate Format: python_code_block
+Exit Code: 1
+Result: FAILED (0 passed, 1 failed in 0.01s)
+================================================================================
+--- STDOUT ---
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-7.4.0, pluggy-1.2.0 -- /usr/bin/python3
+rootdir: /workspace/wemake-services__wemake-python-styleguide
+task: wemake-services__wemake-python-styleguide-1694 | experiment: E3_applicability
+candidate_format: python_code_block | candidate_length: 13207 chars
+collected 1 item
+
+tests/test_wemake-python-styleguide.py::test_reproduce FAILED [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_reproduce [wemake-services__wemake-python-styleguide-1694] ___________________________
+AssertionError: Candidate patch failed reproduction test assertions.
+  Overlap ratio with golden specification: 0.11 (Required: >= 0.35)
+  Missing required causal transformations from wemake-services/wemake-python-styleguide.
+=========================== 1 failed in 0.24s ===========================
+--- STDERR ---
+(empty)
+================================================================================

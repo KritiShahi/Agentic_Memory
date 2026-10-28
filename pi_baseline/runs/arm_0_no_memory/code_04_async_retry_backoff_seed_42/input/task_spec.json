@@ -1,0 +1,9 @@
+{
+  "task_id": "code_04_async_retry_backoff",
+  "domain": "coding",
+  "title": "Add Exponential Backoff Delay in Retry Wrapper",
+  "instruction": "Fix retry_caller.py to compute delay using exponential backoff: delay = base_delay * (2 ** (attempt - 1)) with max_delay cap.",
+  "initial_code": "def compute_delay(attempt, base_delay=1.0, max_delay=30.0):\n    return base_delay * attempt # Bug: linear delay instead of exponential\n",
+  "test_code": "from retry_caller import compute_delay\n\ndef test_exponential_backoff():\n    assert compute_delay(1, base_delay=1.0) == 1.0\n    assert compute_delay(2, base_delay=1.0) == 2.0\n    assert compute_delay(3, base_delay=1.0) == 4.0\n    assert compute_delay(10, base_delay=1.0, max_delay=32.0) == 32.0\n",
+  "solution_patch": "def compute_delay(attempt, base_delay=1.0, max_delay=30.0):\n    delay = base_delay * (2 ** (attempt - 1))\n    return min(delay, max_delay)\n"
+}

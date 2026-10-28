@@ -1,0 +1,12 @@
+{
+  "instance_id": "dask__dask-5975",
+  "repo": "dask/dask",
+  "localization_success": true,
+  "primary_file": "test2.py",
+  "baseline_resolved": false,
+  "scoped_resolved": false,
+  "baseline_passing_candidates": 0,
+  "scoped_passing_candidates": 0,
+  "baseline_cost_usd": 0.0,
+  "scoped_cost_usd": 0.0
+}

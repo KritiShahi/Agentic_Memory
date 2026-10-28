@@ -1,0 +1,19 @@
+
+=======================================================
+Starting Upstream Localization & Scoped Best-of-N Suite
+Total Tasks: 10 | Parallel Workers: 4
+Safety Budget Ceiling: $1.0000 USD
+=======================================================
+
+[1/10] googleapis__python-bigquery-1930: LOC_OK | BASE_FAIL vs SCOPED_FAIL (Target: main.py)
+[2/10] omni-us__jsonargparse-564: LOC_OK | BASE_FAIL vs SCOPED_FAIL (Target: ActionConfigFile.py)
+[3/10] pybamm-team__PyBaMM-4072: LOC_OK | BASE_FAIL vs SCOPED_FAIL (Target: pybamm/util.py)
+[4/10] streamlink__streamlink-2765: LOC_OK | BASE_FAIL vs SCOPED_FAIL (Target: plugins/twitch.py)
+[5/10] pydicom__pydicom-1694: LOC_OK | BASE_FAIL vs SCOPED_FAIL (Target: dicom.py)
+[6/10] streamlink__streamlink-2102: LOC_OK | BASE_FAIL vs SCOPED_FAIL (Target: plugins/okru.py)
+[7/10] streamlink__streamlink-3677: LOC_OK | BASE_FAIL vs SCOPED_FAIL (Target: plugins/youtube.py)
+[8/10] pypa__hatch-535: LOC_OK | BASE_FAIL vs SCOPED_FAIL (Target: plugins/hatch.py)
+[9/10] dask__dask-5975: LOC_OK | BASE_FAIL vs SCOPED_FAIL (Target: test2.py)
+[10/10] dask__dask-4003: LOC_OK | BASE_FAIL vs SCOPED_FAIL (Target: multiprocessing.py)
+
+Saved comprehensive comparative summary to /Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/upstream_localization_summary.json

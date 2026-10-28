@@ -1,0 +1,23 @@
+{
+  "instance_id": "wemake-services__wemake-python-styleguide-2411",
+  "repo": "wemake-services/wemake-python-styleguide",
+  "experiment_id": "E3_applicability",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "prompt_tokens": 528,
+  "completion_tokens": 1825,
+  "memory_injected_tokens": 0,
+  "total_tokens": 2353,
+  "latency_ms": 8517.115208000007,
+  "cost_usd": 0.000235,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E3_applicability/wemake-services__wemake-python-styleguide-2411.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E3_applicability/wemake-services__wemake-python-styleguide-2411_seed_42"
+}

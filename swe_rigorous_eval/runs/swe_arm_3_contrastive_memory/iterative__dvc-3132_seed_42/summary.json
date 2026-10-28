@@ -1,0 +1,19 @@
+{
+  "instance_id": "iterative__dvc-3132",
+  "repo": "iterative/dvc",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 1821,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 755,
+  "total_tokens": 5917,
+  "latency_ms": 8655.731042000014,
+  "cost_usd": 0.000516,
+  "cumulative_cost_usd": 0.19177700000000025,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/iterative__dvc-3132_seed_42"
+}

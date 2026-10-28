@@ -1,0 +1,22 @@
+{
+  "instance_id": "pypa__hatch-422",
+  "repo": "pypa/hatch",
+  "arm_id": "swe_arm_4c_cem_v2",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": true,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "has_tool_call_syntax": false,
+  "prompt_tokens": 361,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4457,
+  "latency_ms": 14910.900124999998,
+  "cost_usd": 0.000446,
+  "cumulative_cost_usd": 0.029473000000000006,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/swe_arm_4c_cem_v2/pypa__hatch-422_seed_42"
+}

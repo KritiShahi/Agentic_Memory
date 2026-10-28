@@ -1,0 +1,23 @@
+{
+  "instance_id": "pypa__hatch-422",
+  "repo": "pypa/hatch",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/pypa__hatch-422.log",
+  "localization_success": true,
+  "primary_file": "plugins/interface.py",
+  "target_line": 1,
+  "candidates_evaluated": 1,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 0,
+  "best_score": -949.0,
+  "prompt_tokens": 439,
+  "completion_tokens": 4096,
+  "total_tokens": 4535,
+  "cost_usd": 0.0005,
+  "latency_ms": 12949.4
+}

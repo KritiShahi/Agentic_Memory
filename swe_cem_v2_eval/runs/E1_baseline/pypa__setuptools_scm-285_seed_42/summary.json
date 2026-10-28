@@ -1,0 +1,13 @@
+{
+  "instance_id": "pypa__setuptools_scm-285",
+  "repo": "pypa/setuptools_scm",
+  "experiment_id": "E1_baseline",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E1_baseline/pypa__setuptools_scm-285.log",
+  "completion_tokens": 1976,
+  "cost_usd": 0.0003
+}

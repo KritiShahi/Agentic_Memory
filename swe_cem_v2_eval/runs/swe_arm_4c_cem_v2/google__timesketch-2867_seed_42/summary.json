@@ -1,0 +1,22 @@
+{
+  "instance_id": "google__timesketch-2867",
+  "repo": "google/timesketch",
+  "arm_id": "swe_arm_4c_cem_v2",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": true,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "has_tool_call_syntax": false,
+  "prompt_tokens": 247,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 0,
+  "total_tokens": 4343,
+  "latency_ms": 10662.016334,
+  "cost_usd": 0.000434,
+  "cumulative_cost_usd": 0.013871999999999999,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/swe_arm_4c_cem_v2/google__timesketch-2867_seed_42"
+}

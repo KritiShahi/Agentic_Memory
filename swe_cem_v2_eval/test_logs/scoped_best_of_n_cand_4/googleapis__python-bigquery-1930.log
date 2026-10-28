@@ -1,0 +1,28 @@
+================================================================================
+SWE TASK TEST EXECUTION LOG
+Instance ID: googleapis__python-bigquery-1930
+Repository: googleapis/python-bigquery
+Experiment: scoped_best_of_n_cand_4
+Candidate Format: unified_diff
+Exit Code: 1
+Result: FAILED (0 passed, 1 failed in 0.00s)
+================================================================================
+--- STDOUT ---
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-7.4.0, pluggy-1.2.0 -- /usr/bin/python3
+rootdir: /workspace/googleapis__python-bigquery
+task: googleapis__python-bigquery-1930 | experiment: scoped_best_of_n_cand_4
+candidate_format: unified_diff | candidate_length: 49 chars
+collected 1 item
+
+tests/test_python-bigquery.py::test_reproduce FAILED [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_reproduce [googleapis__python-bigquery-1930] ___________________________
+AssertionError: Candidate patch failed reproduction test assertions.
+  Overlap ratio with golden specification: 0.00 (Required: >= 0.35)
+  Missing required causal transformations from googleapis/python-bigquery.
+=========================== 1 failed in 0.24s ===========================
+--- STDERR ---
+(empty)
+================================================================================

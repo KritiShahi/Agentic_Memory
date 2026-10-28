@@ -1,0 +1,18 @@
+{
+  "instance_id": "zopefoundation__ZODB-260",
+  "repo": "zopefoundation/ZODB",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "prompt_tokens": 1118,
+  "completion_tokens": 645,
+  "memory_injected_tokens": 125,
+  "total_tokens": 1763,
+  "latency_ms": 2808.962333,
+  "cost_usd": 0.000164,
+  "cumulative_cost_usd": 0.09069500000000005,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/zopefoundation__ZODB-260_seed_42"
+}

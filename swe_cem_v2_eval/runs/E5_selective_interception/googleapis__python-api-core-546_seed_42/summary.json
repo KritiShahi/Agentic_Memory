@@ -1,0 +1,27 @@
+{
+  "instance_id": "googleapis__python-api-core-546",
+  "repo": "googleapis/python-api-core",
+  "experiment_id": "E5_selective_interception",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-500e7180066f77e125a0d1fbfb5e2a10_213",
+    "ep_recov_chatcmpl-7ab0e81a5d2a8cbb9dcef3423d229f3c_395",
+    "ep_recov_chatcmpl-1fa8e944d8249a532df8bd1f2e34219d_436"
+  ],
+  "prompt_tokens": 1520,
+  "completion_tokens": 1838,
+  "memory_injected_tokens": 652,
+  "total_tokens": 3358,
+  "latency_ms": 6828.770417000214,
+  "cost_usd": 0.000271,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E5_selective_interception/googleapis__python-api-core-546.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E5_selective_interception/googleapis__python-api-core-546_seed_42"
+}

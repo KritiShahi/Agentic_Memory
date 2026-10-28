@@ -1,0 +1,18 @@
+{
+  "instance_id": "googleapis__python-firestore-280",
+  "repo": "googleapis/python-firestore",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "prompt_tokens": 971,
+  "completion_tokens": 2388,
+  "memory_injected_tokens": 233,
+  "total_tokens": 3359,
+  "latency_ms": 7581.302209,
+  "cost_usd": 0.000313,
+  "cumulative_cost_usd": 0.15058700000000017,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/googleapis__python-firestore-280_seed_42"
+}

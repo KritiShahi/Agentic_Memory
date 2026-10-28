@@ -1,0 +1,23 @@
+{
+  "instance_id": "streamlink__streamlink-3205",
+  "repo": "streamlink/streamlink",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/streamlink__streamlink-3205.log",
+  "localization_success": true,
+  "primary_file": "plugins/bnt.py",
+  "target_line": 1,
+  "candidates_evaluated": 1,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 0,
+  "best_score": 58.772999999999996,
+  "prompt_tokens": 596,
+  "completion_tokens": 2472,
+  "total_tokens": 3068,
+  "cost_usd": 0.0003,
+  "latency_ms": 6104.38
+}

@@ -1,0 +1,22 @@
+{
+  "instance_id": "encode__httpx-861",
+  "repo": "encode/httpx",
+  "arm_id": "swe_arm_4c_cem_v2",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "MissingBoundaryCheck_OffByOne",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 0,
+  "retrieved_episode_ids": [],
+  "has_tool_call_syntax": false,
+  "prompt_tokens": 409,
+  "completion_tokens": 1191,
+  "memory_injected_tokens": 0,
+  "total_tokens": 1600,
+  "latency_ms": 3185.842415999986,
+  "cost_usd": 0.00016,
+  "cumulative_cost_usd": 0.04307900000000001,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/swe_arm_4c_cem_v2/encode__httpx-861_seed_42"
+}

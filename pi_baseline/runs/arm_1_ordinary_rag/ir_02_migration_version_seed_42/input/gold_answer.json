@@ -1,0 +1,6 @@
+{
+  "gold_answer": "client.iter_records() in SDK v3.1",
+  "hop_chain": [
+    "client.stream_records deprecated -> client.iter_records() in SDK v3.1"
+  ]
+}

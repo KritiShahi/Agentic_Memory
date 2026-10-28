@@ -1,0 +1,23 @@
+{
+  "instance_id": "dask__dask-5975",
+  "repo": "dask/dask",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/dask__dask-5975.log",
+  "localization_success": true,
+  "primary_file": "test2.py",
+  "target_line": 10,
+  "candidates_evaluated": 4,
+  "passing_candidates_count": 0,
+  "best_candidate_idx": 0,
+  "best_score": -88.238,
+  "prompt_tokens": 2533,
+  "completion_tokens": 9124,
+  "total_tokens": 11657,
+  "cost_usd": 0.0012,
+  "latency_ms": 27738.83
+}

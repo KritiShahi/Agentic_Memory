@@ -1,0 +1,27 @@
+{
+  "instance_id": "joke2k__faker-1569",
+  "repo": "joke2k/faker",
+  "experiment_id": "E2_episode_quality",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-28177b7e0a83c8419008479558640dcd_251",
+    "ep_recov_chatcmpl-014e406548018b681e361335c010de9e_85",
+    "ep_recov_chatcmpl-643240e1a09c2507f426cb3eb2af7325_431"
+  ],
+  "prompt_tokens": 1545,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 628,
+  "total_tokens": 5641,
+  "latency_ms": 13058.31783299999,
+  "cost_usd": 0.000501,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E2_episode_quality/joke2k__faker-1569.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E2_episode_quality/joke2k__faker-1569_seed_42"
+}

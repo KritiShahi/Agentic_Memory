@@ -1,0 +1,384 @@
+{
+  "experiments": {
+    "E1_baseline": {
+      "total": 200,
+      "passed": 13,
+      "pass_rate": 6.5,
+      "pass_ci": [
+        3.84,
+        10.8
+      ],
+      "tar_count": 200,
+      "tar_rate": 100.0,
+      "tar_ci": [
+        98.12,
+        100.0
+      ],
+      "tool_call_dropouts": 131,
+      "tool_call_dropout_rate": 65.5,
+      "tdd_total": 48,
+      "tdd_passed": 2,
+      "tdd_rate": 4.17,
+      "tdd_ci": [
+        1.15,
+        13.98
+      ],
+      "avg_prompt_tokens": 0.0,
+      "avg_completion_tokens": 497.1,
+      "avg_total_tokens": 497.1,
+      "avg_latency_ms": 0,
+      "total_cost_usd": 0.06
+    },
+    "E2_episode_quality": {
+      "total": 200,
+      "passed": 60,
+      "pass_rate": 30.0,
+      "pass_ci": [
+        24.07,
+        36.68
+      ],
+      "tar_count": 200,
+      "tar_rate": 100.0,
+      "tar_ci": [
+        98.12,
+        100.0
+      ],
+      "tool_call_dropouts": 0,
+      "tool_call_dropout_rate": 0.0,
+      "tdd_total": 48,
+      "tdd_passed": 5,
+      "tdd_rate": 10.42,
+      "tdd_ci": [
+        4.53,
+        22.17
+      ],
+      "avg_prompt_tokens": 1621.0,
+      "avg_completion_tokens": 3545.9,
+      "avg_total_tokens": 5166.9,
+      "avg_latency_ms": 12869.2,
+      "total_cost_usd": 0.091
+    },
+    "E3_applicability": {
+      "total": 200,
+      "passed": 65,
+      "pass_rate": 32.5,
+      "pass_ci": [
+        26.39,
+        39.27
+      ],
+      "tar_count": 200,
+      "tar_rate": 100.0,
+      "tar_ci": [
+        98.12,
+        100.0
+      ],
+      "tool_call_dropouts": 0,
+      "tool_call_dropout_rate": 0.0,
+      "tdd_total": 48,
+      "tdd_passed": 8,
+      "tdd_rate": 16.67,
+      "tdd_ci": [
+        8.7,
+        29.58
+      ],
+      "avg_prompt_tokens": 529.8,
+      "avg_completion_tokens": 3435.8,
+      "avg_total_tokens": 3965.7,
+      "avg_latency_ms": 12254.2,
+      "total_cost_usd": 0.0782
+    },
+    "E4_phase_aware": {
+      "total": 200,
+      "passed": 58,
+      "pass_rate": 29.0,
+      "pass_ci": [
+        23.15,
+        35.64
+      ],
+      "tar_count": 200,
+      "tar_rate": 100.0,
+      "tar_ci": [
+        98.12,
+        100.0
+      ],
+      "tool_call_dropouts": 0,
+      "tool_call_dropout_rate": 0.0,
+      "tdd_total": 48,
+      "tdd_passed": 4,
+      "tdd_rate": 8.33,
+      "tdd_ci": [
+        3.29,
+        19.55
+      ],
+      "avg_prompt_tokens": 654.2,
+      "avg_completion_tokens": 3542.8,
+      "avg_total_tokens": 4197.1,
+      "avg_latency_ms": 15683.1,
+      "total_cost_usd": 0.0815
+    },
+    "E5_selective_interception": {
+      "total": 200,
+      "passed": 67,
+      "pass_rate": 33.5,
+      "pass_ci": [
+        27.32,
+        40.3
+      ],
+      "tar_count": 200,
+      "tar_rate": 100.0,
+      "tar_ci": [
+        98.12,
+        100.0
+      ],
+      "tool_call_dropouts": 0,
+      "tool_call_dropout_rate": 0.0,
+      "tdd_total": 48,
+      "tdd_passed": 11,
+      "tdd_rate": 22.92,
+      "tdd_ci": [
+        13.31,
+        36.54
+      ],
+      "avg_prompt_tokens": 1621.0,
+      "avg_completion_tokens": 3476.9,
+      "avg_total_tokens": 5097.9,
+      "avg_latency_ms": 13075.2,
+      "total_cost_usd": 0.0896
+    },
+    "E6_combined_v2": {
+      "total": 200,
+      "passed": 69,
+      "pass_rate": 34.5,
+      "pass_ci": [
+        28.26,
+        41.32
+      ],
+      "tar_count": 200,
+      "tar_rate": 100.0,
+      "tar_ci": [
+        98.12,
+        100.0
+      ],
+      "tool_call_dropouts": 0,
+      "tool_call_dropout_rate": 0.0,
+      "tdd_total": 48,
+      "tdd_passed": 12,
+      "tdd_rate": 25.0,
+      "tdd_ci": [
+        14.92,
+        38.78
+      ],
+      "avg_prompt_tokens": 0.0,
+      "avg_completion_tokens": 1516.8,
+      "avg_total_tokens": 1516.8,
+      "avg_latency_ms": 0,
+      "total_cost_usd": 0.08
+    },
+    "Arm_0_ZeroShot": {
+      "total": 200,
+      "passed": 56,
+      "pass_rate": 28.0,
+      "pass_ci": [
+        22.24,
+        34.59
+      ],
+      "tar_count": 56,
+      "tar_rate": 28.0,
+      "tar_ci": [
+        22.24,
+        34.59
+      ],
+      "tool_call_dropouts": 0,
+      "tool_call_dropout_rate": 0.0,
+      "tdd_total": 48,
+      "tdd_passed": 12,
+      "tdd_rate": 25.0,
+      "tdd_ci": [
+        14.92,
+        38.78
+      ],
+      "avg_prompt_tokens": 392.3,
+      "avg_completion_tokens": 3405.8,
+      "avg_total_tokens": 3798.0,
+      "avg_latency_ms": 10686.5,
+      "total_cost_usd": 0.076
+    },
+    "Arm_1_FlatRAG": {
+      "total": 200,
+      "passed": 66,
+      "pass_rate": 33.0,
+      "pass_ci": [
+        26.86,
+        39.78
+      ],
+      "tar_count": 67,
+      "tar_rate": 33.5,
+      "tar_ci": [
+        27.32,
+        40.3
+      ],
+      "tool_call_dropouts": 0,
+      "tool_call_dropout_rate": 0.0,
+      "tdd_total": 48,
+      "tdd_passed": 17,
+      "tdd_rate": 35.42,
+      "tdd_ci": [
+        23.43,
+        49.56
+      ],
+      "avg_prompt_tokens": 888.4,
+      "avg_completion_tokens": 3244.3,
+      "avg_total_tokens": 4132.7,
+      "avg_latency_ms": 9541.2,
+      "total_cost_usd": 0.0796
+    },
+    "Arm_3_BaselineCEM": {
+      "total": 200,
+      "passed": 60,
+      "pass_rate": 30.0,
+      "pass_ci": [
+        24.07,
+        36.68
+      ],
+      "tar_count": 200,
+      "tar_rate": 100.0,
+      "tar_ci": [
+        98.12,
+        100.0
+      ],
+      "tool_call_dropouts": 0,
+      "tool_call_dropout_rate": 0.0,
+      "tdd_total": 48,
+      "tdd_passed": 12,
+      "tdd_rate": 25.0,
+      "tdd_ci": [
+        14.92,
+        38.78
+      ],
+      "avg_prompt_tokens": 1996.5,
+      "avg_completion_tokens": 1281.8,
+      "avg_total_tokens": 3278.3,
+      "avg_latency_ms": 4338.4,
+      "total_cost_usd": 0.0504
+    }
+  },
+  "mcnemar_comparisons": {
+    "E1_baseline vs E2_episode_quality": {
+      "label": "Format Guard (Clean Deltas vs Monolithic Tool Strings)",
+      "metrics": {
+        "n_common": 200,
+        "both_passed": 8,
+        "a_only": 5,
+        "b_only": 52,
+        "both_failed": 135,
+        "discordant": 57,
+        "chi2": 37.1228,
+        "p_value": 0.0
+      }
+    },
+    "E2_episode_quality vs E3_applicability": {
+      "label": "Applicability Conditions & Novelty Dampening",
+      "metrics": {
+        "n_common": 200,
+        "both_passed": 47,
+        "a_only": 13,
+        "b_only": 18,
+        "both_failed": 122,
+        "discordant": 31,
+        "chi2": 0.5161,
+        "p_value": 0.4725
+      }
+    },
+    "E3_applicability vs E4_phase_aware": {
+      "label": "Phase-Aware Retrieval (Split Token Budgets)",
+      "metrics": {
+        "n_common": 200,
+        "both_passed": 49,
+        "a_only": 16,
+        "b_only": 9,
+        "both_failed": 126,
+        "discordant": 25,
+        "chi2": 1.44,
+        "p_value": 0.2301
+      }
+    },
+    "E3_applicability vs E5_selective_interception": {
+      "label": "Selective Interception (Decoupled Hard Constraints)",
+      "metrics": {
+        "n_common": 200,
+        "both_passed": 48,
+        "a_only": 17,
+        "b_only": 19,
+        "both_failed": 116,
+        "discordant": 36,
+        "chi2": 0.0278,
+        "p_value": 0.8676
+      }
+    },
+    "E5_selective_interception vs E6_combined_v2": {
+      "label": "Full Combined CEM-v2 System Integration",
+      "metrics": {
+        "n_common": 200,
+        "both_passed": 48,
+        "a_only": 19,
+        "b_only": 21,
+        "both_failed": 112,
+        "discordant": 40,
+        "chi2": 0.025,
+        "p_value": 0.8744
+      }
+    },
+    "E1_baseline vs E6_combined_v2": {
+      "label": "Overall CEM Evolution: E1 Baseline -> E6 Combined v2",
+      "metrics": {
+        "n_common": 200,
+        "both_passed": 9,
+        "a_only": 4,
+        "b_only": 60,
+        "both_failed": 127,
+        "discordant": 64,
+        "chi2": 47.2656,
+        "p_value": 0.0
+      }
+    },
+    "Arm_0_ZeroShot vs E6_combined_v2": {
+      "label": "E6 Combined v2 vs. Zero-Shot Control (Arm 0)",
+      "metrics": {
+        "n_common": 200,
+        "both_passed": 28,
+        "a_only": 28,
+        "b_only": 41,
+        "both_failed": 103,
+        "discordant": 69,
+        "chi2": 2.087,
+        "p_value": 0.1486
+      }
+    },
+    "Arm_1_FlatRAG vs E6_combined_v2": {
+      "label": "E6 Combined v2 vs. Flat RAG (Arm 1)",
+      "metrics": {
+        "n_common": 200,
+        "both_passed": 39,
+        "a_only": 27,
+        "b_only": 30,
+        "both_failed": 104,
+        "discordant": 57,
+        "chi2": 0.0702,
+        "p_value": 0.7911
+      }
+    },
+    "Arm_3_BaselineCEM vs E6_combined_v2": {
+      "label": "E6 Combined v2 vs. Original Arm 3 Baseline",
+      "metrics": {
+        "n_common": 200,
+        "both_passed": 21,
+        "a_only": 39,
+        "b_only": 48,
+        "both_failed": 92,
+        "discordant": 87,
+        "chi2": 0.7356,
+        "p_value": 0.3911
+      }
+    }
+  }
+}

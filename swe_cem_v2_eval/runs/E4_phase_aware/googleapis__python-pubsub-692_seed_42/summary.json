@@ -1,0 +1,26 @@
+{
+  "instance_id": "googleapis__python-pubsub-692",
+  "repo": "googleapis/python-pubsub",
+  "experiment_id": "E4_phase_aware",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 2,
+  "retrieved_episode_ids": [
+    "ep_edit_chatcmpl-7f2e35b5f653863258b3bdc5a3c84e9f_423",
+    "ep_edit_chatcmpl-c1499492aec222ab357d32007330f392_388"
+  ],
+  "prompt_tokens": 1513,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 626,
+  "total_tokens": 5609,
+  "latency_ms": 13900.586833000034,
+  "cost_usd": 0.000498,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E4_phase_aware/googleapis__python-pubsub-692.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E4_phase_aware/googleapis__python-pubsub-692_seed_42"
+}

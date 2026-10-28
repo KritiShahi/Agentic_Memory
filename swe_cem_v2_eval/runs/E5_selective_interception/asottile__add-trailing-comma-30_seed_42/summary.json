@@ -1,0 +1,27 @@
+{
+  "instance_id": "asottile__add-trailing-comma-30",
+  "repo": "asottile/add-trailing-comma",
+  "experiment_id": "E5_selective_interception",
+  "seed": 42,
+  "complexity": "hard",
+  "error_category": "GeneralDefect",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "retrieved_episodes_count": 3,
+  "retrieved_episode_ids": [
+    "ep_recov_chatcmpl-2cb4f679a201b9e8f1159c1585d852fb_354",
+    "ep_recov_chatcmpl-0f13548094e7db2a25b354e7b148e5e7_96",
+    "ep_recov_chatcmpl-7ab0e81a5d2a8cbb9dcef3423d229f3c_395"
+  ],
+  "prompt_tokens": 1449,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 641,
+  "total_tokens": 5545,
+  "latency_ms": 28573.025584000105,
+  "cost_usd": 0.00049,
+  "test_exit_code": 1,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E5_selective_interception/asottile__add-trailing-comma-30.log",
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/runs/E5_selective_interception/asottile__add-trailing-comma-30_seed_42"
+}

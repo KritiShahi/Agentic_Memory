@@ -1,0 +1,31 @@
+[
+  {
+    "chunk_id": "code_05_semver_regex_extract_spec_chunk_0",
+    "doc_id": "code_05_semver_regex_extract_spec",
+    "text": "Fix parse_semver in version_parser.py to correctly parse MAJOR.MINOR.PATCH with optional pre-release tag like -alpha.1 or -rc.2.",
+    "tokens": [
+      "fix",
+      "parse_semver",
+      "in",
+      "version_parser",
+      "py",
+      "to",
+      "correctly",
+      "parse",
+      "major",
+      "minor",
+      "patch",
+      "with",
+      "optional",
+      "pre",
+      "release",
+      "tag",
+      "like",
+      "alpha",
+      "1",
+      "or",
+      "rc",
+      "2"
+    ]
+  }
+]

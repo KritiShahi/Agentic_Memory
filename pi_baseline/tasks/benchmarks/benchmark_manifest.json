@@ -1,0 +1,61 @@
+{
+  "benchmark_version": "v1.0.0",
+  "phase": "Phase 3: Multi-Session Benchmark Suite",
+  "created_at": "2026-10-08T05:20:12.880593+00:00",
+  "total_tasks": 40,
+  "splits": {
+    "train": {
+      "file": "train_stream_v1.json",
+      "task_count": 20,
+      "domain_breakdown": {
+        "python": 10,
+        "sql": 10
+      },
+      "complexity_breakdown": {
+        "easy": 6,
+        "medium": 8,
+        "hard": 6
+      }
+    },
+    "eval": {
+      "file": "eval_stream_v1.json",
+      "task_count": 20,
+      "domain_breakdown": {
+        "python": 10,
+        "sql": 10
+      },
+      "complexity_breakdown": {
+        "easy": 6,
+        "medium": 8,
+        "hard": 6
+      }
+    }
+  },
+  "complexity_matrix": {
+    "python": {
+      "easy": 6,
+      "medium": 8,
+      "hard": 6,
+      "total": 20
+    },
+    "sql": {
+      "easy": 6,
+      "medium": 8,
+      "hard": 6,
+      "total": 20
+    }
+  },
+  "anti_contamination": {
+    "literal_code_overlap_percent": 0.0,
+    "test_assertion_overlap_percent": 0.0,
+    "train_eval_id_intersection": 0,
+    "verified_execution": {
+      "initial_code_fail_rate": 1.0,
+      "solution_patch_pass_rate": 1.0
+    }
+  },
+  "sha256_checksums": {
+    "train_stream_v1.json": "09d11ff8a2ed8d263b28563b182d37f1e2848b239670575aaea9f40a626e47cd",
+    "eval_stream_v1.json": "ffd9ff1fbd4deeacb403002feda62e26e7bf68a8974521a918792a80ca512adf"
+  }
+}

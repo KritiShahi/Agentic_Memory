@@ -1,0 +1,107 @@
+{
+  "E7_upstream_localized_best_of_n": {
+    "n": 200,
+    "passed": 126,
+    "pass_rate": 63.0,
+    "wilson_ci_95": [
+      56.12,
+      69.39
+    ],
+    "tar_rate": 100.0,
+    "dropouts": 0,
+    "cost_usd": 0.1916,
+    "avg_completion_tokens": 8397.6,
+    "comparisons": {
+      "E6 (Combined CEM-v2)": {
+        "n": 200,
+        "both_passed": 63,
+        "a_only": 63,
+        "b_only": 6,
+        "both_failed": 68,
+        "discordant": 69,
+        "chi2_edwards": 45.4493,
+        "p_value": 1.5664347812362473e-11
+      },
+      "E5 (Selective Interception)": {
+        "n": 200,
+        "both_passed": 63,
+        "a_only": 63,
+        "b_only": 4,
+        "both_failed": 70,
+        "discordant": 67,
+        "chi2_edwards": 50.209,
+        "p_value": 1.3821561734014121e-12
+      },
+      "E4 (Budget Pacing)": {
+        "n": 200,
+        "both_passed": 55,
+        "a_only": 71,
+        "b_only": 3,
+        "both_failed": 71,
+        "discordant": 74,
+        "chi2_edwards": 60.6622,
+        "p_value": 6.776013440144996e-15
+      },
+      "E3 (Predicates & Novelty)": {
+        "n": 200,
+        "both_passed": 60,
+        "a_only": 66,
+        "b_only": 5,
+        "both_failed": 69,
+        "discordant": 71,
+        "chi2_edwards": 50.7042,
+        "p_value": 1.0738812179772543e-12
+      },
+      "E2 (Episode Quality)": {
+        "n": 200,
+        "both_passed": 58,
+        "a_only": 68,
+        "b_only": 2,
+        "both_failed": 72,
+        "discordant": 70,
+        "chi2_edwards": 60.3571,
+        "p_value": 7.91169357378917e-15
+      },
+      "E1 (Baseline Replicated)": {
+        "n": 200,
+        "both_passed": 11,
+        "a_only": 115,
+        "b_only": 2,
+        "both_failed": 72,
+        "discordant": 117,
+        "chi2_edwards": 107.2137,
+        "p_value": 3.9966934883742183e-25
+      },
+      "Arm 0 (Zero-Shot)": {
+        "n": 200,
+        "both_passed": 47,
+        "a_only": 79,
+        "b_only": 9,
+        "both_failed": 65,
+        "discordant": 88,
+        "chi2_edwards": 54.1023,
+        "p_value": 1.9032100076683254e-13
+      },
+      "Arm 1 (Flat RAG)": {
+        "n": 200,
+        "both_passed": 55,
+        "a_only": 71,
+        "b_only": 11,
+        "both_failed": 63,
+        "discordant": 82,
+        "chi2_edwards": 42.4512,
+        "p_value": 7.24672146575079e-11
+      },
+      "Arm 3 (Monolithic CEM-v1)": {
+        "n": 200,
+        "both_passed": 41,
+        "a_only": 85,
+        "b_only": 19,
+        "both_failed": 55,
+        "discordant": 104,
+        "chi2_edwards": 40.625,
+        "p_value": 1.844318430585821e-10
+      }
+    }
+  }
+}

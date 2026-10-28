@@ -1,0 +1,18 @@
+{
+  "instance_id": "pytorch__ignite-385",
+  "repo": "pytorch/ignite",
+  "arm_id": "swe_arm_1_flat_rag",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": false,
+  "trap_intercepted": false,
+  "prompt_tokens": 866,
+  "completion_tokens": 4096,
+  "memory_injected_tokens": 101,
+  "total_tokens": 4962,
+  "latency_ms": 14586.274832999949,
+  "cost_usd": 0.000486,
+  "cumulative_cost_usd": 0.08444500000000003,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_1_flat_rag/pytorch__ignite-385_seed_42"
+}

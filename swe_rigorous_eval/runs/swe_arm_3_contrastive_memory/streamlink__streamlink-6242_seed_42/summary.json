@@ -1,0 +1,19 @@
+{
+  "instance_id": "streamlink__streamlink-6242",
+  "repo": "streamlink/streamlink",
+  "arm_id": "swe_arm_3_contrastive_memory",
+  "seed": 42,
+  "complexity": "hard",
+  "passed": false,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "retrieved_episodes_count": 2,
+  "prompt_tokens": 2054,
+  "completion_tokens": 58,
+  "memory_injected_tokens": 756,
+  "total_tokens": 2112,
+  "latency_ms": 781.4141249999977,
+  "cost_usd": 0.000136,
+  "cumulative_cost_usd": 0.16759800000000016,
+  "run_dir": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_rigorous_eval/runs/swe_arm_3_contrastive_memory/streamlink__streamlink-6242_seed_42"
+}

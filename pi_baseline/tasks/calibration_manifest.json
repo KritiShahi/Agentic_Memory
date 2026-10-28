@@ -1,0 +1,140 @@
+{
+  "description": "Phase 0 Step 5 Diagnostic Calibration Battery (10 Tasks)",
+  "coding_tasks": [
+    {
+      "task_id": "code_01_binary_search_partition",
+      "domain": "coding",
+      "title": "Fix Off-By-One in Binary Range Partitioner",
+      "instruction": "Fix the binary range partitioning function in partitioner.py. The upper bound slice calculation includes an extra element causing index out of range when end == len(array). Run pytest to verify.",
+      "initial_code": "def partition_range(arr, start, end):\n    if start > end:\n        return []\n    mid = (start + end) // 2\n    # Bug: end + 1 slices past the intended partition\n    return arr[start:mid], arr[mid:end + 1]\n",
+      "test_code": "import pytest\nfrom partitioner import partition_range\n\ndef test_partition_even():\n    arr = [0, 1, 2, 3, 4, 5]\n    left, right = partition_range(arr, 0, 5)\n    assert left == [0, 1] and right == [2, 3, 4, 5]\n\ndef test_partition_boundary():\n    arr = [10, 20, 30]\n    left, right = partition_range(arr, 0, 2)\n    assert len(left) + len(right) == 3\n    assert right[-1] == 30\n",
+      "solution_patch": "def partition_range(arr, start, end):\n    if start > end:\n        return []\n    mid = (start + end) // 2\n    return arr[start:mid], arr[mid:end + 1 if end + 1 <= len(arr) else len(arr)]\n"
+    },
+    {
+      "task_id": "code_02_json_nested_config",
+      "domain": "coding",
+      "title": "Handle Missing Nested Keys with Fallback",
+      "instruction": "Fix get_nested_key in config_loader.py to return default_val safely when encountering non-dict intermediates instead of raising AttributeError.",
+      "initial_code": "def get_nested_key(data, path, default_val=None):\n    keys = path.split('.')\n    curr = data\n    for k in keys:\n        curr = curr.get(k) # Bug: raises AttributeError if curr is not a dict\n    return curr if curr is not None else default_val\n",
+      "test_code": "from config_loader import get_nested_key\n\ndef test_nested_found():\n    cfg = {'db': {'port': 5432}}\n    assert get_nested_key(cfg, 'db.port') == 5432\n\ndef test_nested_primitive_intermediate():\n    cfg = {'db': 'localhost'}\n    assert get_nested_key(cfg, 'db.port.sub', default_val=8000) == 8000\n",
+      "solution_patch": "def get_nested_key(data, path, default_val=None):\n    keys = path.split('.')\n    curr = data\n    for k in keys:\n        if not isinstance(curr, dict):\n            return default_val\n        curr = curr.get(k)\n        if curr is None:\n            return default_val\n    return curr\n"
+    },
+    {
+      "task_id": "code_03_sql_param_substitute",
+      "domain": "coding",
+      "title": "Fix SQL Parameter Substitution in Query Builder",
+      "instruction": "Fix query_builder.py to properly handle integer and boolean parameter substitution without enclosing integers in quotes.",
+      "initial_code": "def build_query(template, params):\n    q = template\n    for k, v in params.items():\n        q = q.replace(f':{k}', f'\"{v}\"') # Bug: quotes all values indiscriminately\n    return q\n",
+      "test_code": "from query_builder import build_query\n\ndef test_int_param():\n    q = build_query('SELECT * FROM users WHERE age > :min_age', {'min_age': 21})\n    assert q == 'SELECT * FROM users WHERE age > 21'\n\ndef test_str_param():\n    q = build_query('SELECT * FROM users WHERE role = :role', {'role': 'admin'})\n    assert q == 'SELECT * FROM users WHERE role = \"admin\"'\n",
+      "solution_patch": "def build_query(template, params):\n    q = template\n    for k, v in params.items():\n        if isinstance(v, (int, float)):\n            q = q.replace(f':{k}', str(v))\n        elif isinstance(v, bool):\n            q = q.replace(f':{k}', 'TRUE' if v else 'FALSE')\n        else:\n            q = q.replace(f':{k}', f'\"{v}\"')\n    return q\n"
+    },
+    {
+      "task_id": "code_04_async_retry_backoff",
+      "domain": "coding",
+      "title": "Add Exponential Backoff Delay in Retry Wrapper",
+      "instruction": "Fix retry_caller.py to compute delay using exponential backoff: delay = base_delay * (2 ** (attempt - 1)) with max_delay cap.",
+      "initial_code": "def compute_delay(attempt, base_delay=1.0, max_delay=30.0):\n    return base_delay * attempt # Bug: linear delay instead of exponential\n",
+      "test_code": "from retry_caller import compute_delay\n\ndef test_exponential_backoff():\n    assert compute_delay(1, base_delay=1.0) == 1.0\n    assert compute_delay(2, base_delay=1.0) == 2.0\n    assert compute_delay(3, base_delay=1.0) == 4.0\n    assert compute_delay(10, base_delay=1.0, max_delay=32.0) == 32.0\n",
+      "solution_patch": "def compute_delay(attempt, base_delay=1.0, max_delay=30.0):\n    delay = base_delay * (2 ** (attempt - 1))\n    return min(delay, max_delay)\n"
+    },
+    {
+      "task_id": "code_05_semver_regex_extract",
+      "domain": "coding",
+      "title": "Fix Semantic Version Regex Extractor",
+      "instruction": "Fix parse_semver in version_parser.py to correctly parse MAJOR.MINOR.PATCH with optional pre-release tag like -alpha.1 or -rc.2.",
+      "initial_code": "import re\ndef parse_semver(v_str):\n    m = re.match(r'^(\\d+)\\.(\\d+)\\.(\\d+)$', v_str) # Bug: fails on pre-release tags\n    if not m:\n        return None\n    return {'major': int(m.group(1)), 'minor': int(m.group(2)), 'patch': int(m.group(3)), 'tag': None}\n",
+      "test_code": "from version_parser import parse_semver\n\ndef test_basic_semver():\n    assert parse_semver('1.2.3') == {'major': 1, 'minor': 2, 'patch': 3, 'tag': None}\n\ndef test_prerelease_semver():\n    res = parse_semver('2.0.1-rc.1')\n    assert res == {'major': 2, 'minor': 0, 'patch': 1, 'tag': 'rc.1'}\n",
+      "solution_patch": "import re\ndef parse_semver(v_str):\n    m = re.match(r'^(\\d+)\\.(\\d+)\\.(\\d+)(?:-([a-zA-Z0-9_.-]+))?$', v_str)\n    if not m:\n        return None\n    return {'major': int(m.group(1)), 'minor': int(m.group(2)), 'patch': int(m.group(3)), 'tag': m.group(4)}\n"
+    },
+    {
+      "task_id": "code_06_find_even_numbers",
+      "domain": "coding",
+      "title": "Filter Even Numbers from Integer List",
+      "instruction": "Write a Python function find_even_numbers(numbers) in even_filter.py that returns a list containing only the even integers in their original order.",
+      "initial_code": "def find_even_numbers(numbers):\n    # Bug: filters odd numbers instead of even\n    return [x for x in numbers if x % 2 != 0]\n",
+      "test_code": "from even_filter import find_even_numbers\n\ndef test_mixed_numbers():\n    assert find_even_numbers([1, 2, 3, 4, 5, 6]) == [2, 4, 6]\n\ndef test_all_odd():\n    assert find_even_numbers([1, 3, 5, 7]) == []\n\ndef test_negatives_and_zero():\n    assert find_even_numbers([0, -2, -3, 8]) == [0, -2, 8]\n",
+      "solution_patch": "def find_even_numbers(numbers):\n    return [x for x in numbers if x % 2 == 0]\n"
+    },
+    {
+      "task_id": "code_07_binary_search_index",
+      "domain": "coding",
+      "title": "Find Target Index via Binary Search",
+      "instruction": "Write a Python function binary_search(arr, target) in binary_search.py that performs binary search on a sorted list and returns the 0-based index of target, or -1 if not found.",
+      "initial_code": "def binary_search(arr, target):\n    left, right = 0, len(arr) - 1\n    while left < right: # Bug: misses single element or right boundary\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid\n    return -1\n",
+      "test_code": "from binary_search import binary_search\n\ndef test_found_mid():\n    assert binary_search([1, 3, 5, 7, 9, 11], 7) == 3\n\ndef test_found_bounds():\n    assert binary_search([1, 3, 5, 7, 9, 11], 1) == 0\n    assert binary_search([1, 3, 5, 7, 9, 11], 11) == 5\n\ndef test_not_found():\n    assert binary_search([1, 3, 5, 7, 9, 11], 4) == -1\n    assert binary_search([], 5) == -1\n",
+      "solution_patch": "def binary_search(arr, target):\n    left, right = 0, len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n"
+    }
+  ],
+  "ir_tasks": [
+    {
+      "task_id": "ir_01_dependency_maintainer",
+      "domain": "ir",
+      "title": "Transitive Dependency Maintainer Lookup",
+      "query": "Who is the primary maintainer of the serialization engine required by AuthCore v2.4?",
+      "corpus": [
+        "Package: AuthCore v2.4 specifies direct dependency on fast-proto >= 1.8.0 for transport encoding.",
+        "fast-proto is maintained by the Core Transport Working Group, chaired by Dr. Elena Vance.",
+        "AuthCore v1.0 used legacy serializer json-wrap maintained by Marcus Brody.",
+        "Dr. Elena Vance transferred maintainership of fast-proto to Liam Chen in November 2025."
+      ],
+      "gold_answer": "Liam Chen",
+      "gold_hop_chain": ["AuthCore v2.4 -> fast-proto", "fast-proto maintainer transfer -> Liam Chen"]
+    },
+    {
+      "task_id": "ir_02_migration_version",
+      "domain": "ir",
+      "title": "Deprecated API Migration Path",
+      "query": "Which method superseded client.stream_records() and in which SDK release was it introduced?",
+      "corpus": [
+        "SDK v3.1 deprecated client.stream_records() in favor of client.iter_records() to enable async chunking.",
+        "SDK v3.0 introduced experimental client.stream_records() with socket buffering.",
+        "SDK v4.0 removed client.stream_records() entirely; users must migrate to client.iter_records().",
+        "client.fetch_all() remains unchanged across SDK v2.0 through v4.0."
+      ],
+      "gold_answer": "client.iter_records() in SDK v3.1",
+      "gold_hop_chain": ["client.stream_records deprecated -> client.iter_records() in SDK v3.1"]
+    },
+    {
+      "task_id": "ir_03_temporal_incident",
+      "domain": "ir",
+      "title": "Incident Root Cause Deployment Commit",
+      "query": "Which git commit deployed on 2026-04-12 caused the 504 Gateway Timeout incident in the payments service?",
+      "corpus": [
+        "Incident INC-8402 (2026-04-12 14:20 UTC): Payments service experienced 504 Gateway Timeouts following Deployment #142.",
+        "Deployment #141 deployed commit a8f12c (refactor headers) at 2026-04-12 09:00 UTC without errors.",
+        "Deployment #142 deployed commit d4e91b (enable connection pooling with 5s timeout) at 2026-04-12 14:10 UTC.",
+        "Rollback commit e5029a deployed at 15:00 UTC resolved the timeouts by restoring default socket timeouts."
+      ],
+      "gold_answer": "d4e91b",
+      "gold_hop_chain": ["INC-8402 caused by Deployment #142 -> Deployment #142 deployed commit d4e91b"]
+    },
+    {
+      "task_id": "ir_04_port_conflict",
+      "domain": "ir",
+      "title": "Service Port Collision Investigation",
+      "query": "Which two microservices have colliding internal listening port configurations in the staging environment?",
+      "corpus": [
+        "service-telemetry config: listen_port = 9092, protocol = gRPC in staging.",
+        "service-kafka-proxy config: listen_port = 9092, host = 0.0.0.0 in staging.",
+        "service-metrics config: listen_port = 9100, metrics_path = /metrics in staging.",
+        "service-gateway config: listen_port = 8080, upstream_services = [telemetry, kafka-proxy]."
+      ],
+      "gold_answer": "service-telemetry and service-kafka-proxy (port 9092)",
+      "gold_hop_chain": ["telemetry uses 9092", "kafka-proxy uses 9092 -> collision"]
+    },
+    {
+      "task_id": "ir_05_author_affiliation",
+      "domain": "ir",
+      "title": "Author Current Affiliation Resolution",
+      "query": "What is the current academic or industry affiliation of the first author of the MemoryArena benchmark paper?",
+      "corpus": [
+        "Paper: 'MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Tasks' (2026). First author: Dr. Maya Lin.",
+        "In 2024, Dr. Maya Lin was a post-doctoral researcher at Stanford NLP Group working on long-context agents.",
+        "In January 2026, Dr. Maya Lin joined DeepMind Robotics & Memory Research Lab as a Staff Research Scientist.",
+        "Co-author Kevin Zhang is affiliated with UC Berkeley AI Research Lab."
+      ],
+      "gold_answer": "DeepMind Robotics & Memory Research Lab",
+      "gold_hop_chain": ["First author: Dr. Maya Lin -> In Jan 2026 joined DeepMind"]
+    }
+  ]
+}

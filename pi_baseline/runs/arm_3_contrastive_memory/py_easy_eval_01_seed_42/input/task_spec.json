@@ -1,0 +1,15 @@
+{
+  "task_id": "py_easy_eval_01",
+  "domain": "python",
+  "split": "eval",
+  "complexity": "easy",
+  "category": "window_slicing",
+  "title": "Sliding Window Average Boundary Calculation",
+  "instruction": "Fix sliding_averages in window_stat.py. The loop range boundary drops the final valid trailing window.",
+  "initial_code": "def sliding_averages(data, window_size):\n    if not data or window_size <= 0 or len(data) < window_size:\n        return []\n    res = []\n    # Bug: omitting + 1 drops the last window slice\n    for i in range(len(data) - window_size):\n        chunk = data[i : i + window_size]\n        res.append(sum(chunk) / window_size)\n    return res\n",
+  "test_code": "from window_stat import sliding_averages\n\ndef test_sliding_window_complete():\n    nums = [1.0, 2.0, 3.0, 4.0, 5.0]\n    avgs = sliding_averages(nums, 3)\n    # Windows: [1,2,3]->2.0, [2,3,4]->3.0, [3,4,5]->4.0. Total 3 windows.\n    assert len(avgs) == 3, f\"Expected 3 windows, got {len(avgs)}\"\n    assert avgs == [2.0, 3.0, 4.0]\n\ndef test_sliding_window_exact_size():\n    nums = [10.0, 20.0]\n    assert sliding_averages(nums, 2) == [15.0]\n",
+  "solution_patch": "def sliding_averages(data, window_size):\n    if not data or window_size <= 0 or len(data) < window_size:\n        return []\n    res = []\n    for i in range(len(data) - window_size + 1):\n        chunk = data[i : i + window_size]\n        res.append(sum(chunk) / window_size)\n    return res\n",
+  "trap_indicator": "Padding input data with None or zeroes instead of correcting loop termination bound.",
+  "counterfactual_pivot": "Set range bound to len(data) - window_size + 1 to include the terminal slice.",
+  "module_name": "window_stat"
+}

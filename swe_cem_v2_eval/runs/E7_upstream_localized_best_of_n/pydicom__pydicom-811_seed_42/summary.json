@@ -1,0 +1,23 @@
+{
+  "instance_id": "pydicom__pydicom-811",
+  "repo": "pydicom/pydicom",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/pydicom__pydicom-811.log",
+  "localization_success": true,
+  "primary_file": "filereader.py",
+  "target_line": 692,
+  "candidates_evaluated": 4,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 3,
+  "best_score": 61.262,
+  "prompt_tokens": 2541,
+  "completion_tokens": 9124,
+  "total_tokens": 11665,
+  "cost_usd": 0.0012,
+  "latency_ms": 22828.74
+}

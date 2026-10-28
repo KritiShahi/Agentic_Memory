@@ -1,0 +1,28 @@
+================================================================================
+SWE TASK TEST EXECUTION LOG
+Instance ID: zopefoundation__zope.security-81
+Repository: zopefoundation/zope.security
+Experiment: E4_phase_aware
+Candidate Format: python_code_block
+Exit Code: 1
+Result: FAILED (0 passed, 1 failed in 0.00s)
+================================================================================
+--- STDOUT ---
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-7.4.0, pluggy-1.2.0 -- /usr/bin/python3
+rootdir: /workspace/zopefoundation__zope.security
+task: zopefoundation__zope.security-81 | experiment: E4_phase_aware
+candidate_format: python_code_block | candidate_length: 2093 chars
+collected 1 item
+
+tests/test_zope.security.py::test_reproduce FAILED [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_reproduce [zopefoundation__zope.security-81] ___________________________
+AssertionError: Candidate patch failed reproduction test assertions.
+  Overlap ratio with golden specification: 0.18 (Required: >= 0.35)
+  Missing required causal transformations from zopefoundation/zope.security.
+=========================== 1 failed in 0.24s ===========================
+--- STDERR ---
+(empty)
+================================================================================

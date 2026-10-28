@@ -1,0 +1,23 @@
+{
+  "instance_id": "google__mobly-164",
+  "repo": "google/mobly",
+  "experiment_id": "E7_upstream_localized_best_of_n",
+  "passed": true,
+  "trap_avoided": true,
+  "trap_intercepted": false,
+  "has_tool_call_syntax": false,
+  "test_exit_code": 0,
+  "test_log_path": "/Users/kritishahi/Desktop/Humanitarians AI/test/research/swe_cem_v2_eval/test_logs/E7_upstream_localized_best_of_n/google__mobly-164.log",
+  "localization_success": true,
+  "primary_file": "utils_test.py",
+  "target_line": 32,
+  "candidates_evaluated": 1,
+  "passing_candidates_count": 1,
+  "best_candidate_idx": 0,
+  "best_score": 60.0,
+  "prompt_tokens": 316,
+  "completion_tokens": 873,
+  "total_tokens": 1189,
+  "cost_usd": 0.0001,
+  "latency_ms": 3023.21
+}

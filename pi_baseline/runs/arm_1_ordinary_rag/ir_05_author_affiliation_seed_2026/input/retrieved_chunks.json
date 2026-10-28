@@ -1,0 +1,44 @@
+[
+  {
+    "chunk_id": "ir_05_author_affiliation_doc_0_chunk_0",
+    "doc_id": "ir_05_author_affiliation_doc_0",
+    "text": "Paper: 'MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Tasks' (2026). First author: Dr. Maya Lin.",
+    "tokens": [
+      "paper",
+      "memoryarena",
+      "benchmarking",
+      "agent",
+      "memory",
+      "in",
+      "interdependent",
+      "multi",
+      "session",
+      "tasks",
+      "2026",
+      "first",
+      "author",
+      "dr",
+      "maya",
+      "lin"
+    ]
+  },
+  {
+    "chunk_id": "ir_05_author_affiliation_doc_3_chunk_3",
+    "doc_id": "ir_05_author_affiliation_doc_3",
+    "text": "Co-author Kevin Zhang is affiliated with UC Berkeley AI Research Lab.",
+    "tokens": [
+      "co",
+      "author",
+      "kevin",
+      "zhang",
+      "is",
+      "affiliated",
+      "with",
+      "uc",
+      "berkeley",
+      "ai",
+      "research",
+      "lab"
+    ]
+  }
+]

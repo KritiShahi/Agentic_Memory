@@ -1,0 +1,12 @@
+{
+  "instance_id": "pypa__hatch-535",
+  "repo": "pypa/hatch",
+  "localization_success": true,
+  "primary_file": "plugins/hatch.py",
+  "baseline_resolved": false,
+  "scoped_resolved": false,
+  "baseline_passing_candidates": 0,
+  "scoped_passing_candidates": 0,
+  "baseline_cost_usd": 0.0,
+  "scoped_cost_usd": 0.0
+}
