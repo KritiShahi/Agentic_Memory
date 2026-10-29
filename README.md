@@ -1,4 +1,4 @@
-# Cognitive & Contrastive Episodic Memory for Frozen Coding Agents
+# Contrastive Episodic Memory for Frozen Coding Agents
 
 [![Research Program: RL Environment & Memory Architectures](https://img.shields.io/badge/Research_Program-RL_Environment-blue.svg)](#)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-fellows%2Fkriti--s-181717.svg?logo=github)](https://github.com/KritiShahi/humanitarians-youtube/tree/add-kriti-s-fellow-folder/fellows/kriti-s)
