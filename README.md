@@ -197,7 +197,7 @@ python swe_cem_v2_eval/harness/compute_comprehensive_statistics.py
 
 ## 6. Project Timeline & Documentation Map
 
-This research was conducted across five weekly sprints. Comprehensive documentation, weekly hours audits, frictional logs, topic explainer videos, and submission artifacts are published in the official GitHub repository under [`fellows/kriti-s`](https://github.com/KritiShahi/humanitarians-youtube/tree/add-kriti-s-fellow-folder/fellows/kriti-s):
+This research was conducted across five weekly sprints. Comprehensive documentation, weekly hours audits, frictional logs, topic explainer videos, and submission artifacts are published in the official GitHub repository under [`fellows/kriti-s`](https://github.com/nikbearbrown/humanitarians-youtube/tree/main/fellows/kriti-s):
 
 | Phase | Milestone Title | Key Deliverable | GitHub Documentation Link |
 |---|---|---|---|
