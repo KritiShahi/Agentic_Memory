@@ -225,7 +225,7 @@ If using or referencing this architecture, benchmark harness, or empirical findi
 }
 ```
 
-**Lead Researcher:** Kriti Shahi ([GitHub: @KritiShahi](https://github.com/KritiShahi))  
+**AI Engineer:** Kriti Shahi ([GitHub: @KritiShahi](https://github.com/KritiShahi))  
 **Organization:** Humanitarians AI Inc. — RL Environment Research Group  
 **Project:** Cognitive Memory Architectures for Pi Agent  
-**GitHub Branch:** [`KritiShahi/humanitarians-youtube (add-kriti-s-fellow-folder)`](https://github.com/KritiShahi/humanitarians-youtube/tree/add-kriti-s-fellow-folder/fellows/kriti-s)
+**GitHub Weekly Reports:** [`humanitarians-github`](https://github.com/nikbearbrown/humanitarians-youtube/tree/main/fellows/kriti-s)
